@@ -1,0 +1,69 @@
+@base <http://a.org/users/> .
+<Ann>	<livesIn> <Paris> .
+<Ann>	<hasGender>	<Female> .
+<Ann>	<hasHobby>	<Photography> .
+<Ann>	<hasHobby>	<Bird_Watching> .
+<Ann>	<graduatedFrom>	<NYU> .
+<Bill>	<livesIn>	<Sydney> .
+<Bill>	<hasGender>	<Male> .
+<Bill>	<hasHobby>	<Photography> .
+<Bill>	<graduatedFrom>	<University_of_Melbourne> .
+<Carol>	<livesIn>	<Sydney> .
+<Carol>	<hasGender>	<Female> .
+<Carol>	<hasHobby>	<Art> .
+<Ariel>	<livesIn>	<Paris> .
+<Ariel>	<hasGender>	<Female> .
+<Ariel>	<hasHobby>	<Sculpture> .
+<Ariel>	<hasHobby>	<Fishing> .
+<David>	<livesIn>	<London> .
+<David>	<hasGender>	<Male> .
+<David>	<hasHobby>	<Art> .
+<David>	<graduatedFrom>	<Oxford> .
+<Dan>	<livesIn>	<Paris> .
+<Dan>	<hasGender>	<Male> .
+<Dan>	<hasHobby>	<Art> .
+<Dan>	<graduatedFrom>	<University_of_Melbourne> .
+
+
+
+
+<Drawing> <subClassOf> <Art> .
+<Photography> <subClassOf> <Art> .
+<Sculpture> <subClassOf> <Art> .
+
+<Long_Reef> <instanceOf> <Australia> .
+<Santa_Cruise> <instanceOf> <Australia> .
+<Wanda_beach> <instanceOf> <Australia> .
+<Long_Reef> <instanceOf> <Place> .
+<Santa_Cruise> <instanceOf> <Place> .
+<Wanda_beach> <instanceOf> <Place> .
+<Long_Reef> <near> <Sydney> .
+<Santa_Cruise> <near> <Sydney> .
+<Wanda_beach> <near> <Sydney> .
+<Sydney> <instanceOf> <Australia> .
+<Paris>	<instanceOf> <France> .
+<London> <instanceOf> <England> .
+<Australia> <instanceOf> <Place> .
+<England> <instanceOf> <Place> .
+<France> <instanceOf> <Place> .
+<Surfing> <subClassOf> <Sport> .
+<Volleyball> <subClassOf> <Sport> .
+<Ann> <instanceOf> <Person> .
+<Bill> <instanceOf> <Person> .
+<Carol> <instanceOf> <Person> .
+<Ariel>	<instanceOf> <Person> .
+<David>	<instanceOf> <Person> .
+<Dan> <instanceOf> <Person> .
+
+
+<Female> <instanceOf> <Gender>.
+<Male> <instanceOf> <Gender>.
+<Art> <instanceOf> <Hobby> .
+<Bird_Watching> <instanceOf> <Hobby> .
+<Fishing> <instanceOf> <Hobby> .
+<NYU> <instanceOf> <University> .
+<University_of_Melbourne> <instanceOf> <University> .
+<Oxford> <instanceOf> <University> .
+
+
+

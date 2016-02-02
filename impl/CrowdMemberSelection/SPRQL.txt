@@ -1,0 +1,35 @@
+	"SELECT  ?name " +
+				"WHERE {" +
+				"      ?name <http://a.org/users/hasGender> <http://a.org/users/Female> ." +
+				"      ?name <http://a.org/users/hasHobby> <http://a.org/users/Art> ." +
+				"      }" ;
+				
+		"SELECT  ?name " +
+				"WHERE {" +
+				"      ?name <http://a.org/users/hasGender> <http://a.org/users/Female> ." +
+				"      }" +
+				"ORDER BY ?name";
+				
+	  	//"PREFIX : <>" +
+				"SELECT  ?name " +
+				"WHERE {" +
+				//"      ?name <http://a.org/users/hasGender> <http://a.org/users/Female> ." +
+				"      ?name <http://a.org/users/hasHobby> <http://a.org/users/Art> ." +
+				"      }" +
+				"LIMIT 2";
+				
+				
+				
+S	String queryString = 
+			//"PREFIX : <>" +
+			"SELECT  ?name " +
+			"WHERE {" +
+			"      ?tran <http://a.org/transactions/By> ?name ." +
+			"      ?tran <http://a.org/transactions/hasFact> ?fact ."+
+			"      ?fact <http://a.org/transactions/hasSubject> <http://a.org/transactions/Sport> ."+
+			"      ?tran <http://a.org/transactions/WithSupport> ?value ."+
+			"      FILTER ( ?value >= 0.8 ) ."+
+			"      }"; 
+		
+		
+		

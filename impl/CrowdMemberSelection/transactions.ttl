@@ -1,0 +1,120 @@
+@base <http://a.org/transactions/> .
+
+<tran1>
+	<By> <Bill> ;
+	<WithSupport> 0.8 ;
+	<hasFact> <fact1> .
+
+<tran2>
+	<By> <Bill> ;
+	<WithSupport> 0.08 ;
+	<hasFact> <fact2> .
+	
+<tran3>
+	<By> <Bill> ;
+	<WithSupport> 0.012 ;
+	<hasFact> <fact3> .
+
+<tran4>
+	<By> <Bill> ;
+	<WithSupport> 0 ;
+	<hasFact> <fact4> .
+	
+<tran5>
+	<By> <Ann> ;
+	<WithSupport> 0.85 ;
+	<hasFact> <fact1> .
+
+<tran6>
+	<By> <Ann> ;
+	<WithSupport> 0.1 ;
+	<hasFact> <fact2> .
+	
+<tran7>
+	<By> <Ann> ;
+	<WithSupport> 0.005 ;
+	<hasFact> <fact3> .
+
+<tran8>
+	<By> <Ann> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact4> .
+
+<tran9>
+	<By> <Carol> ;
+	<WithSupport> 0.2 ;
+	<hasFact> <fact1> .
+
+<tran10>
+	<By> <Carol> ;
+	<WithSupport> 0.026 ;
+	<hasFact> <fact2> .
+	
+<tran11>
+	<By> <Carol> ;
+	<WithSupport> 0.013 ;
+	<hasFact> <fact6> .
+
+<tran12>
+	<By> <Carol> ;
+	<WithSupport> 0.15 ;
+	<hasFact> <fact7> .
+
+
+<fact1>
+	<hasSubject>	<Sport> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Place> .
+
+<fact2>	
+	<hasSubject>	<Surfing> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Place> .
+
+<fact3>		
+	<hasSubject>	<Surfing> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Wanda_beach> ;
+	<hasObject> <In_January> .
+	
+<fact4>
+    <hasSubject>  <Volleyball> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Place> .
+	
+<fact5>		
+	<hasSubject>	<Surfing> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Santa_Cruise> .
+	
+<fact6>		
+	<hasSubject>	<Surfing> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Long_Reef> ;
+	<hasObject> <In_January> .
+	
+<fact7>
+	<hasSubject>	<Drawing> ;
+	<hasProperty>	<doAt> ;
+	<hasObject> <Place> .
+	
+<Drawing> <subClassOff> <Art> .
+<Long_Reef> <subClassOff> <Australia> .
+<Santa_Cruise> <subClassOff> <Australia> .
+<Wanda_beach> <subClassOff> <Australia> .
+<Sydney> <subClassOff> <Australia> .
+<Australia> <subClassOff> <Place> .
+<Surfing> <subClassOff> <Sport> .
+<Volleyball> <subClassOff> <Sport> .
+<Ann> <subClassOff> <Person> .
+<Bill> <subClassOff> <Person> .
+<Carol> <subClassOff> <Person> .
+<Ariel>	<subClassOff> <Person> .
+<David>	<subClassOff> <Person> .
+<Dan> <subClassOff> <Person> .
+
+
+<Bill>	<livesIn>	<Sydney> .
+<Carol>	<livesIn>	<Sydney> .
+	
+
