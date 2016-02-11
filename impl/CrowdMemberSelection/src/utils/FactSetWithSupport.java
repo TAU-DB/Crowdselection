@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class FactSetWithSupport implements Iterable<FactWithSupport> {
 	
-	private static ArrayList<FactWithSupport> facts;
+	private ArrayList<FactWithSupport> facts;
 	
 	public FactSetWithSupport(ArrayList<FactWithSupport> f){
 		facts = f;
@@ -45,6 +45,26 @@ public class FactSetWithSupport implements Iterable<FactWithSupport> {
 
 	public void add(FactWithSupport factSupport) {
 		facts.add(factSupport);
+		
+	}
+
+	public String toSrting() {
+		String ans = "";
+		for(FactWithSupport fact: facts)
+		{
+			ans = ans + ((FactWithSupport)fact).toString()+"\n";
+		}
+		return ans;
+	}
+
+	public FactSetWithSupport copy() {
+		FactSetWithSupport ans = new FactSetWithSupport();
+		for(FactWithSupport fact: facts)
+		{
+			FactWithSupport copyFact = fact.copy();
+			ans.add(copyFact);
+		}
+		return ans;
 		
 	}
 

@@ -5,11 +5,17 @@ public class User {
 	private Term user;
 	private double profileSim;
 	private double tranSim;
+	private double querySim;
 	
-	public User(Term t, double pro, double tran){
+	public User(Term t, double pro, double tran, double query){
 		user = t;
 		profileSim = pro;
 		tranSim = tran;
+		querySim = query;
+		
+	}
+	
+	public User(){
 		
 	}
 
@@ -38,7 +44,17 @@ public class User {
 	}
 	
 	public String toString(){
-		return user.toSrting() + " profile similarity: "+profileSim + " tarnsaction similarity: "+ tranSim;
+		return user.toSrting() + " profile similarity: "+profileSim + " tarnsaction similarity: "+ tranSim + " query similarity: "+ querySim;
+	}
+
+	public double getQuerySim() {
+	
+		return querySim;
+	}
+	
+	public void setQuerySim(double sim) {
+		
+		this.querySim = sim;
 	}
 
 }

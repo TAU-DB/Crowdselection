@@ -1,0 +1,111 @@
+String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/h_index> $h ."+
+			"	  FILTER ( $h  > 0.0002 ) ." +
+			"      }"+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> WITH SUPPORT > 0.0002 ." +
+			"      }";
+			
+
+
+
+String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/h_index> $h ."+
+			"	  FILTER ( $h  > 0.0002 ) ." +
+			"      }"+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> WITH SUPPORT > 0.0002 ." +
+			"     $u <http://a.org/ontology/collaborate> <http://a.org/ontology/Tova_Milo> WITH SUPPORT > 0.0002 ." +
+			"      }";			
+			
+SELECT ?u WHERE {
+      ?u <http://a.org/ontology/h_index> ?h .
+      	  FILTER ( ?h  > 0.0002 ) .
+      ?tran1 <http://a.org/ontology/By> ?u .
+      ?tran1 <http://a.org/ontology/hasFact> ?fact2 .
+      ?fact2 <http://a.org/ontology/hasSubject> ?u .
+      ?fact2 <http://a.org/ontology/hasProperty> <http://a.org/ontology/publishedAt> .
+      ?fact2 <http://a.org/ontology/hasObject> <http://a.org/ontology/SIGMOD> .
+      ?tran1 <http://a.org/ontology/WithSupport> ?value3 .
+       FILTER ( ?value3 > 0.0002  ) .
+       ?tran4 <http://a.org/ontology/By> ?u .
+       ?tran4 <http://a.org/ontology/hasFact> ?fact5 .
+       ?fact5 <http://a.org/ontology/hasSubject> ?u .
+       ?fact5 <http://a.org/ontology/hasProperty> <http://a.org/ontology/collaborate> .
+       ?fact5 <http://a.org/ontology/hasObject> <http://a.org/ontology/Tova_Milo> .
+       ?tran4 <http://a.org/ontology/WithSupport> ?value6 .
+       FILTER ( ?value6 > 0.0002  ) .}
+       
+
+
+String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/h_index> $h ."+
+			"	  FILTER ( $h  > 2 ) ." +
+			"     $u <http://a.org/ontology/pc> $pc ."+
+			"	  FILTER ( $pc  > 5 ) ." +
+			"      }"+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> WITH SUPPORT > 0.0002 ." +
+			"     $u <http://a.org/ontology/collaborate> <http://a.org/ontology/Tova_Milo> WITH SUPPORT > 0.0002 ." +
+			"      }";       
+       
+SELECT ?u WHERE {
+      ?u <http://a.org/ontology/h_index> ?h .
+      FILTER ( ?h  > 2 ) .
+      ?u <http://a.org/ontology/pc> ?pc .
+      FILTER ( ?pc  > 5 ) .
+      ?tran1 <http://a.org/ontology/By> ?u .
+      ?tran1 <http://a.org/ontology/hasFact> ?fact2 .
+      ?fact2 <http://a.org/ontology/hasSubject> ?u .
+      ?fact2 <http://a.org/ontology/hasProperty> <http://a.org/ontology/publishedAt> .
+      ?fact2 <http://a.org/ontology/hasObject> <http://a.org/ontology/SIGMOD> .
+      ?tran1 <http://a.org/ontology/WithSupport> ?value3 .
+      FILTER ( ?value3 > 0.0002  ) .
+      ?tran4 <http://a.org/ontology/By> ?u .
+      ?tran4 <http://a.org/ontology/hasFact> ?fact5 .
+      ?fact5 <http://a.org/ontology/hasSubject> ?u .
+      ?fact5 <http://a.org/ontology/hasProperty> <http://a.org/ontology/collaborate> .
+      ?fact5 <http://a.org/ontology/hasObject> <http://a.org/ontology/Tova_Milo> .
+      ?tran4 <http://a.org/ontology/WithSupport> ?value6 .
+      FILTER ( ?value6 > 0.0002  ) .}
+      
+      
+ String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/h_index> $h ."+
+			"	  FILTER ( $h  > 20 ) ." +
+			"     $u <http://a.org/ontology/pc> $pc ."+
+			"	  FILTER ( $pc  > 15 ) ." +
+			"      } "+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> WITH SUPPORT > 0.0002 ." +
+			"     $u <http://a.org/ontology/collaborate> <http://a.org/ontology/Tova_Milo> WITH SUPPORT > 0.0002 ." +
+			"      } "+
+			"SIMILAR profile($u) TO profile(Tova_Milo) "+
+			"WITH SIMILARITY >= 0.5 "+
+			"SIMILAR tran($u) TO tran(Tova_Milo) "+
+			"WITH SIMILARITY >= 0.5 "+
+			"LIMIT 5 ";
+			
+String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/h_index> $h ."+
+			"	  FILTER ( $h  > 20 ) ." +
+			"     $u <http://a.org/ontology/pc> $pc ."+
+			"	  FILTER ( $pc  > 15 ) ." +
+			"      } "+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> WITH SUPPORT > 0.0002 ." +
+			"     $u <http://a.org/ontology/collaborate> <http://a.org/ontology/Tova_Milo> WITH SUPPORT > 0.0002 ." +
+			"      } "+
+			"SIMILAR profile($u) TO profile(Tova_Milo) "+
+			"WITH SIMILARITY >= 0.5 "+
+			"SIMILAR tran($u) TO tran(Tova_Milo) "+
+			"WITH SIMILARITY >= 0.5 "+
+			"ORDERED BY HistorySim "+
+			"LIMIT 5 ";
+		
+		

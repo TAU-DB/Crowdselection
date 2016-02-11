@@ -26,18 +26,26 @@ public static void main(String[] args) {
 	
 	Init();
 	Multimap<Term, Term> ontologyGraph = Ontology.getGraph();
-	String query = "ASSIGN BY Ann to $u" +
+	String query = "ASSIGN BY Tova_Milo to $u" +
 			"FROM profile($u) WHERE{" +
-			"      $u <http://a.org/ontology/hasHobby> $y ." +
-			"      }"+
+			"     $u <http://a.org/ontology/keyTerm> $term  ." +
+			"     $u <http://a.org/ontology/affiliation> $uni  ." +
+			"	  $u <http://a.org/ontology/h_index> $h ."+
+			"     FILTER ( $h > 3 ) ."+
+			"     $u <http://a.org/ontology/pc> $pc ."+
+			"     FILTER ( $pc > 15 ) . "+
+			"      } "+
 			"FROM ontology WHERE{" +
-			"     $y <http://a.org/ontology/subClassOf> <http://a.org/ontology/Art> ." +
-			"      }"+ 
-	        "SIMILAR profile($u) TO profile(Ann) "+
-	    	"WITH SIMILARITY >= 0.95 "+
-	        "SIMILAR tran($u) TO tran(Ann) "+
-			"WITH SIMILARITY >= 0.95 "+
-			"LIMIT 2 ";
+			"     $term <http://a.org/ontology/instanceof> <http://a.org/ontology/Database> ." +
+			"     $uni <http://a.org/ontology/in> <http://a.org/ontology/US> ." +
+			"      } "+
+			"SIMILAR tran($u) TO {$u <http://a.org/ontology/publishedAt> <http://a.org/ontology/VLDB> . "+
+			"$u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> . } "+
+			"WITH SIMILARITY > 0 "+
+			"SIMILAR profile($u) TO profile(Tova_Milo) "+
+			"WITH SIMILARITY > 0 "+
+			"ORDERED BY ProfileSim "+
+			"LIMIT 5 ";
 	
 
 

@@ -17,4 +17,13 @@ public class FactWithSupport {
 	public Fact getFact(){
 		return fact;
 	}
+	
+	public String toString(){
+		return fact.toSrting()+" "+support;
+	}
+
+	public FactWithSupport copy() {
+		FactWithSupport f = new FactWithSupport(support,fact.copy());
+		return f;
+	}
 }

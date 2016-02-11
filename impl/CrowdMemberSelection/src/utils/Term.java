@@ -17,6 +17,11 @@ public class Term implements SemanticUnit{
 	}
 
 
+	public Term copy() {
+		return new Term(new String(term));
+	}
+
+
 	
 
 }

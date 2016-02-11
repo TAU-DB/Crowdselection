@@ -12,6 +12,7 @@ public class Parser {
 	private String queryToExecute;
 	private ArrayList<SimilarityStatment> similarityStatments;
 	private ArrayList<Filter> filters;
+	private static int num = 1;
 	
 	public Parser(String q){
 		query = q;
@@ -106,28 +107,16 @@ public class Parser {
 		i = transactionsQuery.indexOf("}");
 		transactionsQuery = transactionsQuery.substring(0,i+1);
 		
-		String support = null;
-		//add Filters
-		if(query.contains("WITH SUPPORT")){
-			i = query.indexOf("WITH SUPPORT"); 
-			String supportFilter = query.substring(i);
-			Scanner s = new Scanner(supportFilter);
-			s.next();
-			s.next();
-			support = 	s.next()+" "+s.next()+" "; 
-			s.close();
-			
-		}
 		
 		//construct new SPARQL query
-		return buildSPARQLTransactionsQuery(support,transactionsQuery);
+		return buildSPARQLTransactionsQuery(transactionsQuery);
 		
 	}
 	return null;
 	}
 
 	private void parseFilters() {
-		int i = query.indexOf("ORDER");
+		int i = query.indexOf("ORDERED");
 		if (i != -1){
 			String s = query.substring(i);
 			Scanner scan = new Scanner(s);
@@ -156,6 +145,7 @@ public class Parser {
 		
 		//get the Similarity statements part
 		int i = query.indexOf("SIMILAR");
+		if(i != -1){
 		String similarityStatment = query.substring(i);
 		String [] s = similarityStatment.split("SIMILAR ");
 		//create all similarity statements
@@ -205,12 +195,13 @@ public class Parser {
 			similarityStatments.add(ss);
 			
 		}
+		}
 		
 		
 	}
 
 
-	private String buildSPARQLTransactionsQuery(String support, String transactionsQuery) {
+	private String buildSPARQLTransactionsQuery(String transactionsQuery) {
 
 		transactionsQuery = transactionsQuery.replace("$", "?");
 		int i = transactionsQuery.indexOf("?");
@@ -225,36 +216,50 @@ public class Parser {
 	
 		
 		//build according to transaction Model
-		return buildTransactions('u',support,transactionsQuery );
+		return buildTransactions('u',transactionsQuery );
 		
 	}
 
-	private String buildTransactions(char var, String support, String transactionsQuery) {
+	private String buildTransactions(char var, String transactionsQuery) {
 		int j = transactionsQuery.indexOf("{");
 		int k = transactionsQuery.indexOf("}");
 		String trans = transactionsQuery.substring(j+1, k);
-		String [] t = trans.split(" \\.");
-		StringBuilder newTrans = new  StringBuilder();
-		newTrans.append("	?tran <http://a.org/ontology/By> ?"+var+" .");
-	
 		
-		//System.out.println(trans);
-		for(int m = 0; m < t.length; m++)
+		//String del = "?u";
+		//String [] transactions = trans.split(del);
+		//int count = transactions.length;
+		
+		String [] t = trans.split(" \\.");
+		
+		
+	
+		StringBuilder newTrans = new  StringBuilder();
+		//Build new trans
+		for(int m = 0; m < t.length-1; m++)
 		{
-			String [] terms = t[m].split(" ");
+		
+			int tranNum = num;
+			num++;
+			newTrans.append("	?tran"+tranNum+" <http://a.org/ontology/By> ?"+var+" .");
+			String tran = t[m];
+			String [] terms = t[m].split("\\s+");
 			int x = firstWord(terms);
-			if(x>0 && x+2 <= terms.length){
-				newTrans.append("	?tran <http://a.org/ontology/hasFact> ?fact .");
-				newTrans.append("	?fact <http://a.org/ontology/hasSubject> "+terms[x]+" .");
-				newTrans.append("	?fact <http://a.org/ontology/hasProperty> "+terms[x+1]+" .");
-				newTrans.append("	?fact <http://a.org/ontology/hasObject> "+terms[x+2]+" .");
+		
+			if(x>0 && x+6 <= terms.length){
+				newTrans.append("	?tran"+tranNum+" <http://a.org/ontology/hasFact> ?fact"+num+" .");
+				newTrans.append("	?fact"+num+" <http://a.org/ontology/hasSubject> "+terms[x]+" .");
+				newTrans.append("	?fact"+num+" <http://a.org/ontology/hasProperty> "+terms[x+1]+" .");
+				newTrans.append("	?fact"+num+" <http://a.org/ontology/hasObject> "+terms[x+2]+" .");
+				num++;
+			//	String support = getSupportString(terms[x+4]);
+				newTrans.append("	?tran"+tranNum+" <http://a.org/ontology/WithSupport> ?value"+num+" .");
+				newTrans.append("      FILTER ( ?value"+num+" "+terms[x+5]+" "+terms[x+6]+"  ) .");
+				num++;
+				String temp = newTrans.toString();
 			}
 			
 		}
-		if(support != null){
-			newTrans.append("	?tran <http://a.org/ontology/WithSupport> ?value .");
-			newTrans.append("      FILTER ( ?value "+support+" ) .");
-		}
+		
 		transactionsQuery = transactionsQuery.replace(trans, newTrans.toString());
 		transactionsQuery = transactionsQuery.replace("WHERE", "");
 		transactionsQuery = transactionsQuery.replace("{", "");
@@ -262,6 +267,11 @@ public class Parser {
 		return transactionsQuery;
 		
 		
+	}
+
+	private String getSupportString(String string) {
+		String ans = string;
+		return null;
 	}
 
 	private int firstWord(String[] terms) {

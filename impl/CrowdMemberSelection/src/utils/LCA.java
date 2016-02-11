@@ -48,16 +48,20 @@ public class LCA {
 	 * @return - all of the given nodes ancestors
 	 */
 	private static Set<Term> BFS(Multimap<Term, Term> ontologyGraph, SemanticUnit x) {
+		
 		x = Ontology.getTerm(((Term)x).toSrting());
+		//System.out.println(((Term)x).toSrting());
 	    Queue<Term> queue = new LinkedList<Term>();
 	    Set<Term> result = new LinkedHashSet<Term>();
 	    queue.add((Term)x);
 	    while(!queue.isEmpty()) {
 	    	Term current = queue.remove();
 	    	current = Ontology.getTerm(current.toSrting());
+	    	// System.out.println(((Term)s).toSrting());
 	        result.add(current);
 	        if(Ontology.getValues(current) != null)
 	           for(Term s: Ontology.getValues(current)) {
+	        	  
 	                queue.add(s);
 	            }
 	    }
@@ -88,6 +92,7 @@ public class LCA {
 
 	public static ArrayList<SemanticUnit> getLCAs(Fact x, Fact y, Multimap<Term, Term> ontologyGraph) {
 		
+	
 		Set<Term> listSubject1 = BFS(ontologyGraph, (Term) x.getSubject()); 
 		Set<Term> listSubject2 = BFS(ontologyGraph, (Term) y.getSubject());
 		
@@ -174,7 +179,6 @@ public class LCA {
 	public static ArrayList<SemanticUnit> getLCAs(FactSet x, FactSet y, Multimap<Term, Term> ontologyGraph) {
 		
 		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-
 		for(Fact fact1: x)
 		{
 			for(Fact fact2: y)

@@ -84,6 +84,7 @@ public class Frequency{
 			if(dictionary.containsKey(key1) && dictionary.containsKey(key2))
 				return dictionary.get(key1)*dictionary.get(key2);
 		}
+		
 		else if (unit instanceof FactSet)
 		{
 			FactSet facts = (FactSet)unit;
@@ -96,8 +97,21 @@ public class Frequency{
 				Term sub = fact.getSubject();
 				String key1 = getKey(obj.toSrting());
 				String key2 = getKey(sub.toSrting());
-				if(dictionary.containsKey(key1) && dictionary.containsKey(key2))
-					ans *= dictionary.get(obj.toSrting())*dictionary.get(sub.toSrting());
+				
+				//return the min IC
+				double temp = 0;
+				boolean flag = false;
+				if(dictionary.containsKey(key1) && dictionary.containsKey(key2)){
+					temp= dictionary.get(obj.toSrting())*dictionary.get(sub.toSrting());
+					flag = true;
+				}
+				if(temp<ans && flag)
+					temp = ans;
+				
+				
+				//old
+				/*if(dictionary.containsKey(key1) && dictionary.containsKey(key2))
+					ans *= dictionary.get(obj.toSrting())*dictionary.get(sub.toSrting());*/
 			}
 			return ans;
 			

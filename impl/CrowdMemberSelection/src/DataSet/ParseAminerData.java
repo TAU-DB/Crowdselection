@@ -96,7 +96,7 @@ public class ParseAminerData {
 	 	      
 	 	         String line;
 	 	         
-	 	        File file = new File("AMiner-Author-test.ttl");
+	 	        File file = new File("AMiner-keyterms.ttl");
 
 				// if file doesnt exists, then create it
 				if (!file.exists()) {
@@ -106,7 +106,7 @@ public class ParseAminerData {
 				FileWriter fw = new FileWriter(file.getAbsoluteFile());
 				bw = new BufferedWriter(fw);
 				String content = "@base <http://a.org/author/> .\n\n";
-				bw.write(content);
+				//bw.write(content);
 
 				StringBuilder author = new StringBuilder();
 				line = br.readLine();
@@ -122,7 +122,7 @@ public class ParseAminerData {
 	 	        		 addNewAuthor(file,author.toString(),bw);
 	 	        		 author.delete(0, author.length());
 	 	        		 author.append(line);
-	 	        		 if(authorCounter == 10)
+	 	        		 if(authorCounter == 50)
 	 	        			 break;
 	 	        	 }
 	 	        	 else if (line.equals("")){
@@ -193,12 +193,15 @@ public class ParseAminerData {
 	    	name = name.replace(".","");
 	    	if(name.startsWith("_")){
 	    		name = name.substring(1);
+	    		
 	    	}
 	    	
 	    	
 	    	
 	    	id = id.replace("index ", "");
 	    	int idd = Integer.parseInt(id);
+	    
+	    	
 	    	StringBuilder author = new StringBuilder();
 	    	author.append("<"+name+"> <instanceOf> <Author> .\n");
 	    	author.append("<"+name+"> <id> <"+idd+"> .\n");
@@ -226,6 +229,13 @@ public class ParseAminerData {
 	    	for (int i = 0; i<terms.length;i++){
 	    		String term = terms[i];
 	    		term = term.replace(" ", "_");
+	    		//term = term + "\n";
+	    		/*try {
+					bw.write(term);
+				} catch (IOException e) {
+				
+					e.printStackTrace();
+				}*/
 	    		author.append("<"+term+"> <instanceOf> <Term> .\n");
 	    		author.append("<"+name+"> <has_term> <"+term+"> .\n");
 	    	}

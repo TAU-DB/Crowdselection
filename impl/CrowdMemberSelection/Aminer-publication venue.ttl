@@ -1,0 +1,2064 @@
+<tran7576>
+	<By> <Tal_Zur> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7577> .
+<fact7577>
+	<hasSubject> <Tal_Zur> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7578>
+	<By> <Ioana_Manolescu> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7579> .
+<fact7579>
+	<hasSubject> <Ioana_Manolescu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7580>
+	<By> <Gershon_Elber> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7581> .
+<fact7581>
+	<hasSubject> <Gershon_Elber> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7582>
+	<By> <Rudolf_Ahlswede> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7583> .
+<fact7583>
+	<hasSubject> <Rudolf_Ahlswede> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7584>
+	<By> <Marek_Karpinski> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7585> .
+<fact7585>
+	<hasSubject> <Marek_Karpinski> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7586>
+	<By> <Martin_Farach-Colton> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7587> .
+<fact7587>
+	<hasSubject> <Martin_Farach-Colton> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7588>
+	<By> <Martin_Farach-Colton> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7589> .
+<fact7589>
+	<hasSubject> <Martin_Farach-Colton> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7590>
+	<By> <Oded_Schwartz> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7591> .
+<fact7591>
+	<hasSubject> <Oded_Schwartz> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7592>
+	<By> <Chen_Avin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7593> .
+<fact7593>
+	<hasSubject> <Chen_Avin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7594>
+	<By> <Michael_Krivelevich> ;
+	<WithSupport> 0.0709823963657013 ;
+	<hasFact> <fact7595> .
+<fact7595>
+	<hasSubject> <Michael_Krivelevich> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7596>
+	<By> <Alexander_Shpunt> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7597> .
+<fact7597>
+	<hasSubject> <Alexander_Shpunt> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7598>
+	<By> <Rani_Hod> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7599> .
+<fact7599>
+	<hasSubject> <Rani_Hod> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7600>
+	<By> <Debmalya_Panigrahi> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7601> .
+<fact7601>
+	<hasSubject> <Debmalya_Panigrahi> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7602>
+	<By> <Itay_Dar> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7603> .
+<fact7603>
+	<hasSubject> <Itay_Dar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7604>
+	<By> <Jignesh_M_Patel> ;
+	<WithSupport> 0.041025641025641026 ;
+	<hasFact> <fact7605> .
+<fact7605>
+	<hasSubject> <Jignesh_M_Patel> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7606>
+	<By> <Jignesh_M_Patel> ;
+	<WithSupport> 0.052237001209189844 ;
+	<hasFact> <fact7607> .
+<fact7607>
+	<hasSubject> <Jignesh_M_Patel> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7608>
+	<By> <George_A_Mihaila> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7609> .
+<fact7609>
+	<hasSubject> <George_A_Mihaila> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7610>
+	<By> <János_Pach> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7611> .
+<fact7611>
+	<hasSubject> <János_Pach> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7612>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7613> .
+<fact7613>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7614>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7615> .
+<fact7615>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7616>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.12265758091993186 ;
+	<hasFact> <fact7617> .
+<fact7617>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7618>
+	<By> <Volker_Markl> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7619> .
+<fact7619>
+	<hasSubject> <Volker_Markl> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7620>
+	<By> <Volker_Markl> ;
+	<WithSupport> 0.052237001209189844 ;
+	<hasFact> <fact7621> .
+<fact7621>
+	<hasSubject> <Volker_Markl> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7622>
+	<By> <Alon_Pilberg> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7623> .
+<fact7623>
+	<hasSubject> <Alon_Pilberg> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7624>
+	<By> <Alon_Pilberg> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7625> .
+<fact7625>
+	<hasSubject> <Alon_Pilberg> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7626>
+	<By> <Robin_Thomas> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7627> .
+<fact7627>
+	<hasSubject> <Robin_Thomas> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7628>
+	<By> <Yehoshua_Sagiv> ;
+	<WithSupport> 0.1899335232668566 ;
+	<hasFact> <fact7629> .
+<fact7629>
+	<hasSubject> <Yehoshua_Sagiv> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7630>
+	<By> <Yehoshua_Sagiv> ;
+	<WithSupport> 0.030229746070133012 ;
+	<hasFact> <fact7631> .
+<fact7631>
+	<hasSubject> <Yehoshua_Sagiv> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7632>
+	<By> <Yehoshua_Sagiv> ;
+	<WithSupport> 0.009685230024213076 ;
+	<hasFact> <fact7633> .
+<fact7633>
+	<hasSubject> <Yehoshua_Sagiv> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7634>
+	<By> <Eun_Jung_Kim> ;
+	<WithSupport> 0.0019037703577006024 ;
+	<hasFact> <fact7635> .
+<fact7635>
+	<hasSubject> <Eun_Jung_Kim> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7636>
+	<By> <Eun_Jung_Kim> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7637> .
+<fact7637>
+	<hasSubject> <Eun_Jung_Kim> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7638>
+	<By> <Ziv_Bar-Joseph> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7639> .
+<fact7639>
+	<hasSubject> <Ziv_Bar-Joseph> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7640>
+	<By> <Boaz_Patt-Shamir> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7641> .
+<fact7641>
+	<hasSubject> <Boaz_Patt-Shamir> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7642>
+	<By> <Boaz_Patt-Shamir> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7643> .
+<fact7643>
+	<hasSubject> <Boaz_Patt-Shamir> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7644>
+	<By> <Eldar_Fischer> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7645> .
+<fact7645>
+	<hasSubject> <Eldar_Fischer> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7646>
+	<By> <Felix_Fischer> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7647> .
+<fact7647>
+	<hasSubject> <Felix_Fischer> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7648>
+	<By> <David_Konopnicki> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7649> .
+<fact7649>
+	<hasSubject> <David_Konopnicki> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7650>
+	<By> <Rafail_Ostrovsky> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7651> .
+<fact7651>
+	<hasSubject> <Rafail_Ostrovsky> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7652>
+	<By> <Rafail_Ostrovsky> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7653> .
+<fact7653>
+	<hasSubject> <Rafail_Ostrovsky> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7654>
+	<By> <Fabio_Pardi> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7655> .
+<fact7655>
+	<hasSubject> <Fabio_Pardi> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7656>
+	<By> <Eyal_Lubetzky> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7657> .
+<fact7657>
+	<hasSubject> <Eyal_Lubetzky> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7658>
+	<By> <Fabian_Kuhn> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7659> .
+<fact7659>
+	<hasSubject> <Fabian_Kuhn> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7660>
+	<By> <Fabian_Kuhn> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7661> .
+<fact7661>
+	<hasSubject> <Fabian_Kuhn> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7662>
+	<By> <Guillaume_Fertin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7663> .
+<fact7663>
+	<hasSubject> <Guillaume_Fertin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7664>
+	<By> <Mihyun_Kang> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7665> .
+<fact7665>
+	<hasSubject> <Mihyun_Kang> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7666>
+	<By> <Elad_Verbin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7667> .
+<fact7667>
+	<hasSubject> <Elad_Verbin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7668>
+	<By> <Elad_Verbin> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7669> .
+<fact7669>
+	<hasSubject> <Elad_Verbin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7670>
+	<By> <Elad_Verbin> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7671> .
+<fact7671>
+	<hasSubject> <Elad_Verbin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7672>
+	<By> <Sampath_Kannan> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7673> .
+<fact7673>
+	<hasSubject> <Sampath_Kannan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7674>
+	<By> <László_Babai> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7675> .
+<fact7675>
+	<hasSubject> <László_Babai> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7676>
+	<By> <Ravi_Kannan> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7677> .
+<fact7677>
+	<hasSubject> <Ravi_Kannan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7678>
+	<By> <Ravi_Kannan> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7679> .
+<fact7679>
+	<hasSubject> <Ravi_Kannan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7680>
+	<By> <Michael_Saks> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7681> .
+<fact7681>
+	<hasSubject> <Michael_Saks> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7682>
+	<By> <Michael_Saks> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7683> .
+<fact7683>
+	<hasSubject> <Michael_Saks> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7684>
+	<By> <Assaf_Naor> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7685> .
+<fact7685>
+	<hasSubject> <Assaf_Naor> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7686>
+	<By> <Assaf_Naor> ;
+	<WithSupport> 0.0709823963657013 ;
+	<hasFact> <fact7687> .
+<fact7687>
+	<hasSubject> <Assaf_Naor> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7688>
+	<By> <Ariel_D_Procaccia> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7689> .
+<fact7689>
+	<hasSubject> <Ariel_D_Procaccia> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7690>
+	<By> <Maike_Buchin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7691> .
+<fact7691>
+	<hasSubject> <Maike_Buchin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7692>
+	<By> <Micha_Sharir> ;
+	<WithSupport> 0.1947756956274844 ;
+	<hasFact> <fact7693> .
+<fact7693>
+	<hasSubject> <Micha_Sharir> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7694>
+	<By> <Zhuowei_Bao> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7695> .
+<fact7695>
+	<hasSubject> <Zhuowei_Bao> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7696>
+	<By> <Zhuowei_Bao> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7697> .
+<fact7697>
+	<hasSubject> <Zhuowei_Bao> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7698>
+	<By> <Prasad_Tetali> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7699> .
+<fact7699>
+	<hasSubject> <Prasad_Tetali> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7700>
+	<By> <Prasad_Tetali> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7701> .
+<fact7701>
+	<hasSubject> <Prasad_Tetali> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7702>
+	<By> <Nir_Ailon> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7703> .
+<fact7703>
+	<hasSubject> <Nir_Ailon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7704>
+	<By> <Nir_Ailon> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7705> .
+<fact7705>
+	<hasSubject> <Nir_Ailon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7706>
+	<By> <Sihem_Amer-Yahia> ;
+	<WithSupport> 0.13846153846153847 ;
+	<hasFact> <fact7707> .
+<fact7707>
+	<hasSubject> <Sihem_Amer-Yahia> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7708>
+	<By> <Sihem_Amer-Yahia> ;
+	<WithSupport> 0.030229746070133012 ;
+	<hasFact> <fact7709> .
+<fact7709>
+	<hasSubject> <Sihem_Amer-Yahia> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7710>
+	<By> <Dan_Vodislav> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7711> .
+<fact7711>
+	<hasSubject> <Dan_Vodislav> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7712>
+	<By> <Kevin_Buchin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7713> .
+<fact7713>
+	<hasSubject> <Kevin_Buchin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7714>
+	<By> <Robin_Thomas> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7715> .
+<fact7715>
+	<hasSubject> <Robin_Thomas> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7716>
+	<By> <Benny_Chor> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7717> .
+<fact7717>
+	<hasSubject> <Benny_Chor> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7718>
+	<By> <Rebecca_N_Wright> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7719> .
+<fact7719>
+	<hasSubject> <Rebecca_N_Wright> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7720>
+	<By> <Rebecca_N_Wright> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7721> .
+<fact7721>
+	<hasSubject> <Rebecca_N_Wright> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7722>
+	<By> <Sergey_Yekhanin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7723> .
+<fact7723>
+	<hasSubject> <Sergey_Yekhanin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7724>
+	<By> <Neoklis_Polyzotis> ;
+	<WithSupport> 0.023741690408357077 ;
+	<hasFact> <fact7725> .
+<fact7725>
+	<hasSubject> <Neoklis_Polyzotis> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7726>
+	<By> <Neoklis_Polyzotis> ;
+	<WithSupport> 0.12382103990326482 ;
+	<hasFact> <fact7727> .
+<fact7727>
+	<hasSubject> <Neoklis_Polyzotis> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7728>
+	<By> <Jehoshua_Bruck> ;
+	<WithSupport> 0.012549267494608463 ;
+	<hasFact> <fact7729> .
+<fact7729>
+	<hasSubject> <Jehoshua_Bruck> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7730>
+	<By> <Ayal_Zaks> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7731> .
+<fact7731>
+	<hasSubject> <Ayal_Zaks> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7732>
+	<By> <Jan_Vondrák> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7733> .
+<fact7733>
+	<hasSubject> <Jan_Vondrák> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7734>
+	<By> <Benny_Sudakov> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7735> .
+<fact7735>
+	<hasSubject> <Benny_Sudakov> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7736>
+	<By> <Saket_Saurabh> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7737> .
+<fact7737>
+	<hasSubject> <Saket_Saurabh> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7738>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7739> .
+<fact7739>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7740>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7741> .
+<fact7741>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7742>
+	<By> <Haim_Kaplan> ;
+	<WithSupport> 0.12265758091993186 ;
+	<hasFact> <fact7743> .
+<fact7743>
+	<hasSubject> <Haim_Kaplan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7744>
+	<By> <Yossi_Matias> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7745> .
+<fact7745>
+	<hasSubject> <Yossi_Matias> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7746>
+	<By> <Angela_Bonifati> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7747> .
+<fact7747>
+	<hasSubject> <Angela_Bonifati> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7748>
+	<By> <Angela_Bonifati> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7749> .
+<fact7749>
+	<hasSubject> <Angela_Bonifati> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7750>
+	<By> <Serge_Abiteboul> ;
+	<WithSupport> 0.13846153846153847 ;
+	<hasFact> <fact7751> .
+<fact7751>
+	<hasSubject> <Serge_Abiteboul> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7752>
+	<By> <Serge_Abiteboul> ;
+	<WithSupport> 0.015477629987908102 ;
+	<hasFact> <fact7753> .
+<fact7753>
+	<hasSubject> <Serge_Abiteboul> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7754>
+	<By> <Julia_Stoyanovich> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7755> .
+<fact7755>
+	<hasSubject> <Julia_Stoyanovich> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7756>
+	<By> <Julia_Stoyanovich> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7757> .
+<fact7757>
+	<hasSubject> <Julia_Stoyanovich> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7758>
+	<By> <Yury_Makarychev> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7759> .
+<fact7759>
+	<hasSubject> <Yury_Makarychev> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7760>
+	<By> <Konstantin_Makarychev> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7761> .
+<fact7761>
+	<hasSubject> <Konstantin_Makarychev> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7762>
+	<By> <Konstantin_Makarychev> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7763> .
+<fact7763>
+	<hasSubject> <Konstantin_Makarychev> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7764>
+	<By> <Gábor_Tardos> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7765> .
+<fact7765>
+	<hasSubject> <Gábor_Tardos> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7766>
+	<By> <Uri_Zwick> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7767> .
+<fact7767>
+	<hasSubject> <Uri_Zwick> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7768>
+	<By> <Uri_Zwick> ;
+	<WithSupport> 0.41396933560477 ;
+	<hasFact> <fact7769> .
+<fact7769>
+	<hasSubject> <Uri_Zwick> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7770>
+	<By> <Amotz_Bar-Noy> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7771> .
+<fact7771>
+	<hasSubject> <Amotz_Bar-Noy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7772>
+	<By> <Roger_Weber> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7773> .
+<fact7773>
+	<hasSubject> <Roger_Weber> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7774>
+	<By> <Michael_Rys> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7775> .
+<fact7775>
+	<hasSubject> <Michael_Rys> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7776>
+	<By> <Michael_Rys> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7777> .
+<fact7777>
+	<hasSubject> <Michael_Rys> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7778>
+	<By> <Asaf_Shapira> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7779> .
+<fact7779>
+	<hasSubject> <Asaf_Shapira> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7780>
+	<By> <Asaf_Shapira> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7781> .
+<fact7781>
+	<hasSubject> <Asaf_Shapira> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7782>
+	<By> <Michael_Benedikt> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7783> .
+<fact7783>
+	<hasSubject> <Michael_Benedikt> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7784>
+	<By> <Michael_Benedikt> ;
+	<WithSupport> 0.030229746070133012 ;
+	<hasFact> <fact7785> .
+<fact7785>
+	<hasSubject> <Michael_Benedikt> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7786>
+	<By> <Frank_Neven> ;
+	<WithSupport> 0.041025641025641026 ;
+	<hasFact> <fact7787> .
+<fact7787>
+	<hasSubject> <Frank_Neven> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7788>
+	<By> <Frank_Neven> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7789> .
+<fact7789>
+	<hasSubject> <Frank_Neven> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7790>
+	<By> <Frank_Neven> ;
+	<WithSupport> 0.009685230024213076 ;
+	<hasFact> <fact7791> .
+<fact7791>
+	<hasSubject> <Frank_Neven> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7792>
+	<By> <Tova_Milo> ;
+	<WithSupport> 0.25280151946818613 ;
+	<hasFact> <fact7793> .
+<fact7793>
+	<hasSubject> <Tova_Milo> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7794>
+	<By> <Tova_Milo> ;
+	<WithSupport> 0.3218863361547763 ;
+	<hasFact> <fact7795> .
+<fact7795>
+	<hasSubject> <Tova_Milo> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7796>
+	<By> <Tova_Milo> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7797> .
+<fact7797>
+	<hasSubject> <Tova_Milo> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7798>
+	<By> <Catriel_Beeri> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7799> .
+<fact7799>
+	<hasSubject> <Catriel_Beeri> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7800>
+	<By> <Catriel_Beeri> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7801> .
+<fact7801>
+	<hasSubject> <Catriel_Beeri> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7802>
+	<By> <Venkatesan_Guruswami> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7803> .
+<fact7803>
+	<hasSubject> <Venkatesan_Guruswami> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7804>
+	<By> <Venkatesan_Guruswami> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7805> .
+<fact7805>
+	<hasSubject> <Venkatesan_Guruswami> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7806>
+	<By> <Ning_Xie> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7807> .
+<fact7807>
+	<hasSubject> <Ning_Xie> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7808>
+	<By> <Rubi_Boim> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7809> .
+<fact7809>
+	<hasSubject> <Rubi_Boim> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7810>
+	<By> <Gabriel_Nivasch> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7811> .
+<fact7811>
+	<hasSubject> <Gabriel_Nivasch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7812>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.1899335232668566 ;
+	<hasFact> <fact7813> .
+<fact7813>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7814>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.41789600967351875 ;
+	<hasFact> <fact7815> .
+<fact7815>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7816>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7817> .
+<fact7817>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7818>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7819> .
+<fact7819>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7820>
+	<By> <Laurent_Mignet> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7821> .
+<fact7821>
+	<hasSubject> <Laurent_Mignet> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7822>
+	<By> <Avi_Wigderson> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7823> .
+<fact7823>
+	<hasSubject> <Avi_Wigderson> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7824>
+	<By> <Susan_B_Davidson> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7825> .
+<fact7825>
+	<hasSubject> <Susan_B_Davidson> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7826>
+	<By> <Susan_B_Davidson> ;
+	<WithSupport> 0.015477629987908102 ;
+	<hasFact> <fact7827> .
+<fact7827>
+	<hasSubject> <Susan_B_Davidson> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7828>
+	<By> <Rudolf_Fleischer> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7829> .
+<fact7829>
+	<hasSubject> <Rudolf_Fleischer> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7830>
+	<By> <Mathias_Schacht> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7831> .
+<fact7831>
+	<hasSubject> <Mathias_Schacht> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7832>
+	<By> <Amos_Fiat> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7833> .
+<fact7833>
+	<hasSubject> <Amos_Fiat> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7834>
+	<By> <Eli_Berger> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7835> .
+<fact7835>
+	<hasSubject> <Eli_Berger> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7836>
+	<By> <Amélie_Marian> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7837> .
+<fact7837>
+	<hasSubject> <Amélie_Marian> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7838>
+	<By> <Bogdan_Alexe> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7839> .
+<fact7839>
+	<hasSubject> <Bogdan_Alexe> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7840>
+	<By> <Bogdan_Alexe> ;
+	<WithSupport> 0.015477629987908102 ;
+	<hasFact> <fact7841> .
+<fact7841>
+	<hasSubject> <Bogdan_Alexe> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7842>
+	<By> <Karl_Schnaitter> ;
+	<WithSupport> 0.012155745489078822 ;
+	<hasFact> <fact7843> .
+<fact7843>
+	<hasSubject> <Karl_Schnaitter> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7844>
+	<By> <Karl_Schnaitter> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7845> .
+<fact7845>
+	<hasSubject> <Karl_Schnaitter> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7846>
+	<By> <Tom_Yam> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7847> .
+<fact7847>
+	<hasSubject> <Tom_Yam> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7848>
+	<By> <Baruch_Awerbuch> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7849> .
+<fact7849>
+	<hasSubject> <Baruch_Awerbuch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7850>
+	<By> <Baruch_Awerbuch> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7851> .
+<fact7851>
+	<hasSubject> <Baruch_Awerbuch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7852>
+	<By> <Stefan_Szeider> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7853> .
+<fact7853>
+	<hasSubject> <Stefan_Szeider> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7854>
+	<By> <Irini_Fundulaki> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7855> .
+<fact7855>
+	<hasSubject> <Irini_Fundulaki> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7856>
+	<By> <Phillip_B_Gibbons> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7857> .
+<fact7857>
+	<hasSubject> <Phillip_B_Gibbons> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7858>
+	<By> <Phillip_B_Gibbons> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact7859> .
+<fact7859>
+	<hasSubject> <Phillip_B_Gibbons> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7860>
+	<By> <Phillip_B_Gibbons> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7861> .
+<fact7861>
+	<hasSubject> <Phillip_B_Gibbons> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7862>
+	<By> <Shai_Ben-David> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7863> .
+<fact7863>
+	<hasSubject> <Shai_Ben-David> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7864>
+	<By> <David_Peleg> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7865> .
+<fact7865>
+	<hasSubject> <David_Peleg> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7866>
+	<By> <Anders_Yeo> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7867> .
+<fact7867>
+	<hasSubject> <Anders_Yeo> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7868>
+	<By> <Alberto_O_Mendelzon> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7869> .
+<fact7869>
+	<hasSubject> <Alberto_O_Mendelzon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7870>
+	<By> <Alberto_O_Mendelzon> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7871> .
+<fact7871>
+	<hasSubject> <Alberto_O_Mendelzon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7872>
+	<By> <Alberto_O_Mendelzon> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7873> .
+<fact7873>
+	<hasSubject> <Alberto_O_Mendelzon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7874>
+	<By> <Michael_Molloy> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7875> .
+<fact7875>
+	<hasSubject> <Michael_Molloy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7876>
+	<By> <Zohra_Bellahsene> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7877> .
+<fact7877>
+	<hasSubject> <Zohra_Bellahsene> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7878>
+	<By> <Mikkel_Thorup> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7879> .
+<fact7879>
+	<hasSubject> <Mikkel_Thorup> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7880>
+	<By> <Mikkel_Thorup> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7881> .
+<fact7881>
+	<hasSubject> <Mikkel_Thorup> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7882>
+	<By> <Mikkel_Thorup> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7883> .
+<fact7883>
+	<hasSubject> <Mikkel_Thorup> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7884>
+	<By> <Mikkel_Thorup> ;
+	<WithSupport> 0.12265758091993186 ;
+	<hasFact> <fact7885> .
+<fact7885>
+	<hasSubject> <Mikkel_Thorup> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7886>
+	<By> <Oded_Shmueli> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7887> .
+<fact7887>
+	<hasSubject> <Oded_Shmueli> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7888>
+	<By> <Oded_Shmueli> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7889> .
+<fact7889>
+	<hasSubject> <Oded_Shmueli> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7890>
+	<By> <Oded_Shmueli> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7891> .
+<fact7891>
+	<hasSubject> <Oded_Shmueli> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7892>
+	<By> <Uri_Stav> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7893> .
+<fact7893>
+	<hasSubject> <Uri_Stav> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7894>
+	<By> <Moses_Charikar> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7895> .
+<fact7895>
+	<hasSubject> <Moses_Charikar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7896>
+	<By> <Moses_Charikar> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7897> .
+<fact7897>
+	<hasSubject> <Moses_Charikar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7898>
+	<By> <Moses_Charikar> ;
+	<WithSupport> 0.1947756956274844 ;
+	<hasFact> <fact7899> .
+<fact7899>
+	<hasSubject> <Moses_Charikar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7900>
+	<By> <Rina_Panigrahy> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7901> .
+<fact7901>
+	<hasSubject> <Rina_Panigrahy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7902>
+	<By> <Rina_Panigrahy> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7903> .
+<fact7903>
+	<hasSubject> <Rina_Panigrahy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7904>
+	<By> <Rina_Panigrahy> ;
+	<WithSupport> 0.009685230024213076 ;
+	<hasFact> <fact7905> .
+<fact7905>
+	<hasSubject> <Rina_Panigrahy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7906>
+	<By> <Rina_Panigrahy> ;
+	<WithSupport> 0.03634298693923907 ;
+	<hasFact> <fact7907> .
+<fact7907>
+	<hasSubject> <Rina_Panigrahy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7908>
+	<By> <Cosmin_Cremarenco> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7909> .
+<fact7909>
+	<hasSubject> <Cosmin_Cremarenco> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7910>
+	<By> <Nicoleta_Preda> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7911> .
+<fact7911>
+	<hasSubject> <Nicoleta_Preda> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7912>
+	<By> <Nicoleta_Preda> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7913> .
+<fact7913>
+	<hasSubject> <Nicoleta_Preda> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7914>
+	<By> <Benny_Sudakov> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7915> .
+<fact7915>
+	<hasSubject> <Benny_Sudakov> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7916>
+	<By> <Ohad_Greenshpan> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7917> .
+<fact7917>
+	<hasSubject> <Ohad_Greenshpan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7918>
+	<By> <Yuval_Emek> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7919> .
+<fact7919>
+	<hasSubject> <Yuval_Emek> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7920>
+	<By> <Y_Kohayakawa> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7921> .
+<fact7921>
+	<hasSubject> <Y_Kohayakawa> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7922>
+	<By> <Gregory_Gutin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7923> .
+<fact7923>
+	<hasSubject> <Gregory_Gutin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7924>
+	<By> <Stefan_Haar> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7925> .
+<fact7925>
+	<hasSubject> <Stefan_Haar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7926>
+	<By> <Divesh_Srivastava> ;
+	<WithSupport> 0.7779677113010446 ;
+	<hasFact> <fact7927> .
+<fact7927>
+	<hasSubject> <Divesh_Srivastava> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7928>
+	<By> <Divesh_Srivastava> ;
+	<WithSupport> 3.34316807738815 ;
+	<hasFact> <fact7929> .
+<fact7929>
+	<hasSubject> <Divesh_Srivastava> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7930>
+	<By> <Divesh_Srivastava> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7931> .
+<fact7931>
+	<hasSubject> <Divesh_Srivastava> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7932>
+	<By> <Ilan_Newman> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7933> .
+<fact7933>
+	<hasSubject> <Ilan_Newman> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7934>
+	<By> <Sudeepa_Roy> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7935> .
+<fact7935>
+	<hasSubject> <Sudeepa_Roy> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7936>
+	<By> <Simon_Kamenkovich> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7937> .
+<fact7937>
+	<hasSubject> <Simon_Kamenkovich> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7938>
+	<By> <Michal_Feldman> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7939> .
+<fact7939>
+	<hasSubject> <Michal_Feldman> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7940>
+	<By> <Amin_Coja-Oghlan> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7941> .
+<fact7941>
+	<hasSubject> <Amin_Coja-Oghlan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7942>
+	<By> <Omar_Benjelloun> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7943> .
+<fact7943>
+	<hasSubject> <Omar_Benjelloun> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7944>
+	<By> <Omar_Benjelloun> ;
+	<WithSupport> 0.052237001209189844 ;
+	<hasFact> <fact7945> .
+<fact7945>
+	<hasSubject> <Omar_Benjelloun> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7946>
+	<By> <Bernhard_Haeupler> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7947> .
+<fact7947>
+	<hasSubject> <Bernhard_Haeupler> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7948>
+	<By> <Assaf_Sagi> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7949> .
+<fact7949>
+	<hasSubject> <Assaf_Sagi> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7950>
+	<By> <Sébastien_Tixeuil> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7951> .
+<fact7951>
+	<hasSubject> <Sébastien_Tixeuil> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7952>
+	<By> <Daniel_Lokshtanov> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7953> .
+<fact7953>
+	<hasSubject> <Daniel_Lokshtanov> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7954>
+	<By> <Kevin_Matulef> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7955> .
+<fact7955>
+	<hasSubject> <Kevin_Matulef> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7956>
+	<By> <Erik_D_Demaine> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7957> .
+<fact7957>
+	<hasSubject> <Erik_D_Demaine> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7958>
+	<By> <Erik_D_Demaine> ;
+	<WithSupport> 0.9812606473594548 ;
+	<hasFact> <fact7959> .
+<fact7959>
+	<hasSubject> <Erik_D_Demaine> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7960>
+	<By> <Niv_Buchbinder> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7961> .
+<fact7961>
+	<hasSubject> <Niv_Buchbinder> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7962>
+	<By> <Bojan_Mohar> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact7963> .
+<fact7963>
+	<hasSubject> <Bojan_Mohar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7964>
+	<By> <Vojtěch_Rödl> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7965> .
+<fact7965>
+	<hasSubject> <Vojtěch_Rödl> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7966>
+	<By> <Amit_Agarwal> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7967> .
+<fact7967>
+	<hasSubject> <Amit_Agarwal> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7968>
+	<By> <Mohammad_Taghi_Hajiaghayi> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7969> .
+<fact7969>
+	<hasSubject> <Mohammad_Taghi_Hajiaghayi> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7970>
+	<By> <Mohammad_Taghi_Hajiaghayi> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7971> .
+<fact7971>
+	<hasSubject> <Mohammad_Taghi_Hajiaghayi> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7972>
+	<By> <Madhu_Sudan> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7973> .
+<fact7973>
+	<hasSubject> <Madhu_Sudan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7974>
+	<By> <Val_Tannen> ;
+	<WithSupport> 0.041025641025641026 ;
+	<hasFact> <fact7975> .
+<fact7975>
+	<hasSubject> <Val_Tannen> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7976>
+	<By> <Val_Tannen> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7977> .
+<fact7977>
+	<hasSubject> <Val_Tannen> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7978>
+	<By> <Anastasios_Sidiropoulos> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact7979> .
+<fact7979>
+	<hasSubject> <Anastasios_Sidiropoulos> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7980>
+	<By> <Tali_Kaufman> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7981> .
+<fact7981>
+	<hasSubject> <Tali_Kaufman> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7982>
+	<By> <Tali_Kaufman> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7983> .
+<fact7983>
+	<hasSubject> <Tali_Kaufman> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7984>
+	<By> <Carsten_Lund> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact7985> .
+<fact7985>
+	<hasSubject> <Carsten_Lund> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7986>
+	<By> <Carsten_Lund> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7987> .
+<fact7987>
+	<hasSubject> <Carsten_Lund> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7988>
+	<By> <Carsten_Lund> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7989> .
+<fact7989>
+	<hasSubject> <Carsten_Lund> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran7990>
+	<By> <Carsten_Lund> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7991> .
+<fact7991>
+	<hasSubject> <Carsten_Lund> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran7992>
+	<By> <Pierre_Senellart> ;
+	<WithSupport> 0.005128205128205128 ;
+	<hasFact> <fact7993> .
+<fact7993>
+	<hasSubject> <Pierre_Senellart> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran7994>
+	<By> <Pierre_Senellart> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact7995> .
+<fact7995>
+	<hasSubject> <Pierre_Senellart> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran7996>
+	<By> <Pierre_Senellart> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact7997> .
+<fact7997>
+	<hasSubject> <Pierre_Senellart> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran7998>
+	<By> <Anat_Rapoport> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact7999> .
+<fact7999>
+	<hasSubject> <Anat_Rapoport> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8000>
+	<By> <Fred_Dang_Ngoc> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8001> .
+<fact8001>
+	<hasSubject> <Fred_Dang_Ngoc> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8002>
+	<By> <Daniel_Deutch> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact8003> .
+<fact8003>
+	<hasSubject> <Daniel_Deutch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8004>
+	<By> <Daniel_Deutch> ;
+	<WithSupport> 0.052237001209189844 ;
+	<hasFact> <fact8005> .
+<fact8005>
+	<hasSubject> <Daniel_Deutch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8006>
+	<By> <Richard_M_Karp> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact8007> .
+<fact8007>
+	<hasSubject> <Richard_M_Karp> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8008>
+	<By> <Paul_Seymour> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact8009> .
+<fact8009>
+	<hasSubject> <Paul_Seymour> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8010>
+	<By> <Zvi_Lotker> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8011> .
+<fact8011>
+	<hasSubject> <Zvi_Lotker> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8012>
+	<By> <Dana_Ron> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact8013> .
+<fact8013>
+	<hasSubject> <Dana_Ron> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8014>
+	<By> <Yossi_Azar> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8015> .
+<fact8015>
+	<hasSubject> <Yossi_Azar> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8016>
+	<By> <Dan_Suciu> ;
+	<WithSupport> 0.1899335232668566 ;
+	<hasFact> <fact8017> .
+<fact8017>
+	<hasSubject> <Dan_Suciu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8018>
+	<By> <Dan_Suciu> ;
+	<WithSupport> 0.8162031438935913 ;
+	<hasFact> <fact8019> .
+<fact8019>
+	<hasSubject> <Dan_Suciu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8020>
+	<By> <Dan_Suciu> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8021> .
+<fact8021>
+	<hasSubject> <Dan_Suciu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8022>
+	<By> <Dan_Suciu> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact8023> .
+<fact8023>
+	<hasSubject> <Dan_Suciu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran8024>
+	<By> <Peter_Bro_Miltersen> ;
+	<WithSupport> 0.004542873367404884 ;
+	<hasFact> <fact8025> .
+<fact8025>
+	<hasSubject> <Peter_Bro_Miltersen> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8026>
+	<By> <Zoë_Abrams> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8027> .
+<fact8027>
+	<hasSubject> <Zoë_Abrams> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8028>
+	<By> <Zoë_Abrams> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8029> .
+<fact8029>
+	<hasSubject> <Zoë_Abrams> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8030>
+	<By> <Daniel_Cohen-Or> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8031> .
+<fact8031>
+	<hasSubject> <Daniel_Cohen-Or> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8032>
+	<By> <Wang-Chiew_Tan> ;
+	<WithSupport> 0.1899335232668566 ;
+	<hasFact> <fact8033> .
+<fact8033>
+	<hasSubject> <Wang-Chiew_Tan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8034>
+	<By> <Wang-Chiew_Tan> ;
+	<WithSupport> 0.12382103990326482 ;
+	<hasFact> <fact8035> .
+<fact8035>
+	<hasSubject> <Wang-Chiew_Tan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8036>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.1899335232668566 ;
+	<hasFact> <fact8037> .
+<fact8037>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8038>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.41789600967351875 ;
+	<hasFact> <fact8039> .
+<fact8039>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8040>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8041> .
+<fact8041>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8042>
+	<By> <H_V_Jagadish> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact8043> .
+<fact8043>
+	<hasSubject> <H_V_Jagadish> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran8044>
+	<By> <Laks_V_S_Lakshmanan> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8045> .
+<fact8045>
+	<hasSubject> <Laks_V_S_Lakshmanan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8046>
+	<By> <Laks_V_S_Lakshmanan> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact8047> .
+<fact8047>
+	<hasSubject> <Laks_V_S_Lakshmanan> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8048>
+	<By> <Bernd_Amann> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8049> .
+<fact8049>
+	<hasSubject> <Bernd_Amann> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8050>
+	<By> <Victor_Vianu> ;
+	<WithSupport> 0.023741690408357077 ;
+	<hasFact> <fact8051> .
+<fact8051>
+	<hasSubject> <Victor_Vianu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8052>
+	<By> <Victor_Vianu> ;
+	<WithSupport> 0.009685230024213076 ;
+	<hasFact> <fact8053> .
+<fact8053>
+	<hasSubject> <Victor_Vianu> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran8054>
+	<By> <Christoph_Koch> ;
+	<WithSupport> 0.41728395061728396 ;
+	<hasFact> <fact8055> .
+<fact8055>
+	<hasSubject> <Christoph_Koch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8056>
+	<By> <Christoph_Koch> ;
+	<WithSupport> 0.12382103990326482 ;
+	<hasFact> <fact8057> .
+<fact8057>
+	<hasSubject> <Christoph_Koch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8058>
+	<By> <Christoph_Koch> ;
+	<WithSupport> 0.0012106537530266344 ;
+	<hasFact> <fact8059> .
+<fact8059>
+	<hasSubject> <Christoph_Koch> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <ICDT> .
+<tran8060>
+	<By> <Anat_Eyal> ;
+	<WithSupport> 0.0015194681861348527 ;
+	<hasFact> <fact8061> .
+<fact8061>
+	<hasSubject> <Anat_Eyal> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8062>
+	<By> <Anat_Eyal> ;
+	<WithSupport> 0.0065296251511487305 ;
+	<hasFact> <fact8063> .
+<fact8063>
+	<hasSubject> <Anat_Eyal> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8064>
+	<By> <Santosh_Vempala> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8065> .
+<fact8065>
+	<hasSubject> <Santosh_Vempala> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8066>
+	<By> <Santosh_Vempala> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8067> .
+<fact8067>
+	<hasSubject> <Santosh_Vempala> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8068>
+	<By> <Santosh_Vempala> ;
+	<WithSupport> 0.03634298693923907 ;
+	<hasFact> <fact8069> .
+<fact8069>
+	<hasSubject> <Santosh_Vempala> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8070>
+	<By> <Eran_Halperin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8071> .
+<fact8071>
+	<hasSubject> <Eran_Halperin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8072>
+	<By> <Eran_Halperin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8073> .
+<fact8073>
+	<hasSubject> <Eran_Halperin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8074>
+	<By> <Shakhar_Smorodinsky> ;
+	<WithSupport> 0.015332197614991482 ;
+	<hasFact> <fact8075> .
+<fact8075>
+	<hasSubject> <Shakhar_Smorodinsky> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8076>
+	<By> <Noga_Alon> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8077> .
+<fact8077>
+	<hasSubject> <Noga_Alon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8078>
+	<By> <Noga_Alon> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8079> .
+<fact8079>
+	<hasSubject> <Noga_Alon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8080>
+	<By> <Noga_Alon> ;
+	<WithSupport> 0.12265758091993186 ;
+	<hasFact> <fact8081> .
+<fact8081>
+	<hasSubject> <Noga_Alon> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8082>
+	<By> <Graham_Brightwell> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8083> .
+<fact8083>
+	<hasSubject> <Graham_Brightwell> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SODA> .
+<tran8084>
+	<By> <Shlomi_Dolev> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8085> .
+<fact8085>
+	<hasSubject> <Shlomi_Dolev> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .
+<tran8086>
+	<By> <Bogdan_Cautis> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8087> .
+<fact8087>
+	<hasSubject> <Bogdan_Cautis> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <SIGMOD> .
+<tran8088>
+	<By> <Bogdan_Cautis> ;
+	<WithSupport> 0.0019347037484885128 ;
+	<hasFact> <fact8089> .
+<fact8089>
+	<hasSubject> <Bogdan_Cautis> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <VLDB> .
+<tran8090>
+	<By> <Uzi_Vishkin> ;
+	<WithSupport> 0.001 ;
+	<hasFact> <fact8091> .
+<fact8091>
+	<hasSubject> <Uzi_Vishkin> ;
+	<hasProperty> <publishedAt> ;
+	<hasObject> <IEEE> .

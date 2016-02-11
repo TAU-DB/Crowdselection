@@ -1,0 +1,3476 @@
+<O_Willum> <instanceOf> <Author> .
+<O_Willum> <id> <1> .
+<O_Willum> <pc> 1 .
+<O_Willum> <cn> 0 .
+<O_Willum> <h_index> 0 .
+<O_Willum> <p_index> 0.0000 .
+
+
+<Moti_Yung> <instanceOf> <Author> .
+<Moti_Yung> <id> <7561> .
+<Moti_Yung> <pc> 271 .
+<Moti_Yung> <cn> 3746 .
+<Moti_Yung> <h_index> 31 .
+<Moti_Yung> <p_index> 1373.9714 .
+
+
+<Imre_Z_Ruzsa> <instanceOf> <Author> .
+<Imre_Z_Ruzsa> <id> <10872> .
+<Imre_Z_Ruzsa> <pc> 14 .
+<Imre_Z_Ruzsa> <cn> 25 .
+<Imre_Z_Ruzsa> <h_index> 3 .
+<Imre_Z_Ruzsa> <p_index> 7.3333 .
+
+
+<M_Molloy> <instanceOf> <Author> .
+<M_Molloy> <id> <10999> .
+<M_Molloy> <pc> 1 .
+<M_Molloy> <cn> 0 .
+<M_Molloy> <h_index> 0 .
+<M_Molloy> <p_index> 0.0000 .
+
+
+<E_Fachini> <instanceOf> <Author> .
+<E_Fachini> <id> <13671> .
+<E_Fachini> <pc> 23 .
+<E_Fachini> <cn> 18 .
+<E_Fachini> <h_index> 2 .
+<E_Fachini> <p_index> 6.3690 .
+
+
+<Y_Roditty> <instanceOf> <Author> .
+<Y_Roditty> <id> <14235> .
+<Y_Roditty> <keyTerm> <Graph Theory> .
+<Y_Roditty> <pc> 19 .
+<Y_Roditty> <cn> 26 .
+<Y_Roditty> <h_index> 3 .
+<Y_Roditty> <p_index> 8.3833 .
+
+
+<Tal_Zur> <instanceOf> <Author> .
+<Tal_Zur> <id> <14315> .
+<Tal_Zur> <pc> 1 .
+<Tal_Zur> <cn> 13 .
+<Tal_Zur> <h_index> 1 .
+<Tal_Zur> <p_index> 4.3333 .
+
+
+<F_V_Fomin> <instanceOf> <Author> .
+<F_V_Fomin> <id> <27300> .
+<F_V_Fomin> <pc> 174 .
+<F_V_Fomin> <cn> 1245 .
+<F_V_Fomin> <h_index> 17 .
+<F_V_Fomin> <p_index> 397.3452 .
+
+
+<Ioana_Manolescu> <instanceOf> <Author> .
+<Ioana_Manolescu> <id> <28591> .
+<Ioana_Manolescu> <pc> 51 .
+<Ioana_Manolescu> <cn> 1154 .
+<Ioana_Manolescu> <h_index> 15 .
+<Ioana_Manolescu> <p_index> 257.8103 .
+
+
+<János_Körner> <instanceOf> <Author> .
+<János_Körner> <id> <29762> .
+<János_Körner> <pc> 32 .
+<János_Körner> <cn> 314 .
+<János_Körner> <h_index> 6 .
+<János_Körner> <p_index> 160.7857 .
+
+
+<Dominic_Welsh> <instanceOf> <Author> .
+<Dominic_Welsh> <id> <46884> .
+<Dominic_Welsh> <pc> 24 .
+<Dominic_Welsh> <cn> 226 .
+<Dominic_Welsh> <h_index> 7 .
+<Dominic_Welsh> <p_index> 164.4167 .
+
+
+<Gershon_Elber> <instanceOf> <Author> .
+<Gershon_Elber> <id> <52883> .
+<Gershon_Elber> <pc> 96 .
+<Gershon_Elber> <cn> 566 .
+<Gershon_Elber> <h_index> 12 .
+<Gershon_Elber> <p_index> 264.8167 .
+
+
+<Rudolf_Ahlswede> <instanceOf> <Author> .
+<Rudolf_Ahlswede> <id> <59737> .
+<Rudolf_Ahlswede> <pc> 50 .
+<Rudolf_Ahlswede> <cn> 199 .
+<Rudolf_Ahlswede> <h_index> 7 .
+<Rudolf_Ahlswede> <p_index> 102.4952 .
+
+
+<Nabil_Kahale> <instanceOf> <Author> .
+<Nabil_Kahale> <id> <61650> .
+<Nabil_Kahale> <pc> 23 .
+<Nabil_Kahale> <cn> 170 .
+<Nabil_Kahale> <h_index> 7 .
+<Nabil_Kahale> <p_index> 102.3333 .
+
+
+<Marek_Karpinski> <instanceOf> <Author> .
+<Marek_Karpinski> <id> <69714> .
+<Marek_Karpinski> <pc> 291 .
+<Marek_Karpinski> <cn> 1245 .
+<Marek_Karpinski> <h_index> 16 .
+<Marek_Karpinski> <p_index> 476.8179 .
+
+
+<D_J_Kleitman> <instanceOf> <Author> .
+<D_J_Kleitman> <id> <71393> .
+<D_J_Kleitman> <pc> 46 .
+<D_J_Kleitman> <cn> 148 .
+<D_J_Kleitman> <h_index> 6 .
+<D_J_Kleitman> <p_index> 69.0095 .
+
+
+<Martin_Farach-Colton> <instanceOf> <Author> .
+<Martin_Farach-Colton> <id> <73758> .
+<Martin_Farach-Colton> <pc> 56 .
+<Martin_Farach-Colton> <cn> 935 .
+<Martin_Farach-Colton> <h_index> 14 .
+<Martin_Farach-Colton> <p_index> 327.8889 .
+
+
+<Oded_Schwartz> <instanceOf> <Author> .
+<Oded_Schwartz> <id> <79351> .
+<Oded_Schwartz> <pc> 25 .
+<Oded_Schwartz> <cn> 108 .
+<Oded_Schwartz> <h_index> 6 .
+<Oded_Schwartz> <p_index> 32.0730 .
+
+
+<Chen_Avin> <instanceOf> <Author> .
+<Chen_Avin> <id> <85312> .
+<Chen_Avin> <pc> 29 .
+<Chen_Avin> <cn> 182 .
+<Chen_Avin> <h_index> 7 .
+<Chen_Avin> <p_index> 65.1679 .
+
+
+<Ronen_Shabo> <instanceOf> <Author> .
+<Ronen_Shabo> <id> <90884> .
+<Ronen_Shabo> <pc> 3 .
+<Ronen_Shabo> <cn> 74 .
+<Ronen_Shabo> <h_index> 2 .
+<Ronen_Shabo> <p_index> 21.7333 .
+
+
+<Manuel_Blum> <instanceOf> <Author> .
+<Manuel_Blum> <id> <96923> .
+<Manuel_Blum> <pc> 58 .
+<Manuel_Blum> <cn> 2486 .
+<Manuel_Blum> <h_index> 22 .
+<Manuel_Blum> <p_index> 1124.6333 .
+
+
+<Michael_Krivelevich> <instanceOf> <Author> .
+<Michael_Krivelevich> <id> <101656> .
+<Michael_Krivelevich> <pc> 118 .
+<Michael_Krivelevich> <cn> 580 .
+<Michael_Krivelevich> <h_index> 12 .
+<Michael_Krivelevich> <p_index> 218.6500 .
+
+
+<Alexander_Shpunt> <instanceOf> <Author> .
+<Alexander_Shpunt> <id> <116763> .
+<Alexander_Shpunt> <pc> 3 .
+<Alexander_Shpunt> <cn> 4 .
+<Alexander_Shpunt> <h_index> 1 .
+<Alexander_Shpunt> <p_index> 1.6429 .
+
+
+<Jeong_Han_Kim> <instanceOf> <Author> .
+<Jeong_Han_Kim> <id> <120604> .
+<Jeong_Han_Kim> <pc> 2 .
+<Jeong_Han_Kim> <cn> 5 .
+<Jeong_Han_Kim> <h_index> 0 .
+<Jeong_Han_Kim> <p_index> 4.0000 .
+
+
+<Y_Kornatzky> <instanceOf> <Author> .
+<Y_Kornatzky> <id> <127793> .
+<Y_Kornatzky> <pc> 16 .
+<Y_Kornatzky> <cn> 110 .
+<Y_Kornatzky> <h_index> 6 .
+<Y_Kornatzky> <p_index> 52.6667 .
+
+
+<H_Lefmann> <instanceOf> <Author> .
+<H_Lefmann> <id> <128599> .
+<H_Lefmann> <pc> 3 .
+<H_Lefmann> <cn> 72 .
+<H_Lefmann> <h_index> 1 .
+<H_Lefmann> <p_index> 14.4000 .
+
+
+<Rani_Hod> <instanceOf> <Author> .
+<Rani_Hod> <id> <129177> .
+<Rani_Hod> <pc> 6 .
+<Rani_Hod> <cn> 3 .
+<Rani_Hod> <h_index> 1 .
+<Rani_Hod> <p_index> 1.3333 .
+
+
+<Debmalya_Panigrahi> <instanceOf> <Author> .
+<Debmalya_Panigrahi> <id> <132829> .
+<Debmalya_Panigrahi> <pc> 17 .
+<Debmalya_Panigrahi> <cn> 42 .
+<Debmalya_Panigrahi> <h_index> 4 .
+<Debmalya_Panigrahi> <p_index> 14.7000 .
+
+
+<Itay_Dar> <instanceOf> <Author> .
+<Itay_Dar> <id> <140030> .
+<Itay_Dar> <pc> 2 .
+<Itay_Dar> <cn> 5 .
+<Itay_Dar> <h_index> 1 .
+<Itay_Dar> <p_index> 1.0000 .
+
+
+<Jignesh_M_Patel> <instanceOf> <Author> .
+<Jignesh_M_Patel> <id> <140966> .
+<Jignesh_M_Patel> <pc> 88 .
+<Jignesh_M_Patel> <cn> 1196 .
+<Jignesh_M_Patel> <h_index> 19 .
+<Jignesh_M_Patel> <p_index> 364.8858 .
+
+
+<George_A_Mihaila> <instanceOf> <Author> .
+<George_A_Mihaila> <id> <143384> .
+<George_A_Mihaila> <pc> 26 .
+<George_A_Mihaila> <cn> 199 .
+<George_A_Mihaila> <h_index> 7 .
+<George_A_Mihaila> <p_index> 60.6317 .
+
+
+<János_Pach> <instanceOf> <Author> .
+<János_Pach> <id> <143480> .
+<János_Pach> <pc> 156 .
+<János_Pach> <cn> 723 .
+<János_Pach> <h_index> 13 .
+<János_Pach> <p_index> 257.4013 .
+
+
+<Haim_Kaplan> <instanceOf> <Author> .
+<Haim_Kaplan> <id> <152272> .
+<Haim_Kaplan> <pc> 165 .
+<Haim_Kaplan> <cn> 1435 .
+<Haim_Kaplan> <h_index> 19 .
+<Haim_Kaplan> <p_index> 484.4223 .
+
+
+<Jarosław_Grytczuk> <instanceOf> <Author> .
+<Jarosław_Grytczuk> <id> <155338> .
+<Jarosław_Grytczuk> <pc> 13 .
+<Jarosław_Grytczuk> <cn> 23 .
+<Jarosław_Grytczuk> <h_index> 3 .
+<Jarosław_Grytczuk> <p_index> 7.4167 .
+
+
+<R_Unland> <instanceOf> <Author> .
+<R_Unland> <id> <157530> .
+<R_Unland> <keyTerm> <Database Systems> .
+<R_Unland> <pc> 68 .
+<R_Unland> <cn> 265 .
+<R_Unland> <h_index> 10 .
+<R_Unland> <p_index> 93.5690 .
+
+
+<Robert_Morris> <instanceOf> <Author> .
+<Robert_Morris> <id> <161340> .
+<Robert_Morris> <pc> 9 .
+<Robert_Morris> <cn> 24 .
+<Robert_Morris> <h_index> 4 .
+<Robert_Morris> <p_index> 9.5833 .
+
+
+<Volker_Markl> <instanceOf> <Author> .
+<Volker_Markl> <id> <162370> .
+<Volker_Markl> <pc> 44 .
+<Volker_Markl> <cn> 579 .
+<Volker_Markl> <h_index> 13 .
+<Volker_Markl> <p_index> 117.1492 .
+
+
+<Alon_Pilberg> <instanceOf> <Author> .
+<Alon_Pilberg> <id> <163779> .
+<Alon_Pilberg> <pc> 3 .
+<Alon_Pilberg> <cn> 32 .
+<Alon_Pilberg> <h_index> 2 .
+<Alon_Pilberg> <p_index> 8.0000 .
+
+
+<Tatsuya_Nagatani> <instanceOf> <Author> .
+<Tatsuya_Nagatani> <id> <172933> .
+<Tatsuya_Nagatani> <pc> 1 .
+<Tatsuya_Nagatani> <cn> 1 .
+<Tatsuya_Nagatani> <h_index> 1 .
+<Tatsuya_Nagatani> <p_index> 0.3333 .
+
+
+<Robin_Thomas> <instanceOf> <Author> .
+<Robin_Thomas> <id> <184544> .
+<Robin_Thomas> <pc> 2 .
+<Robin_Thomas> <cn> 7 .
+<Robin_Thomas> <h_index> 0 .
+<Robin_Thomas> <p_index> 2.8333 .
+
+
+<Adi_Shraibman> <instanceOf> <Author> .
+<Adi_Shraibman> <id> <186209> .
+<Adi_Shraibman> <pc> 14 .
+<Adi_Shraibman> <cn> 90 .
+<Adi_Shraibman> <h_index> 6 .
+<Adi_Shraibman> <p_index> 39.1667 .
+
+
+<A_Lingas> <instanceOf> <Author> .
+<A_Lingas> <id> <191748> .
+<A_Lingas> <pc> 147 .
+<A_Lingas> <cn> 408 .
+<A_Lingas> <h_index> 10 .
+<A_Lingas> <p_index> 210.8333 .
+
+
+<M_Szegedy> <instanceOf> <Author> .
+<M_Szegedy> <id> <193164> .
+<M_Szegedy> <pc> 73 .
+<M_Szegedy> <cn> 1655 .
+<M_Szegedy> <h_index> 16 .
+<M_Szegedy> <p_index> 536.3833 .
+
+
+<Yael_Grossman> <instanceOf> <Author> .
+<Yael_Grossman> <id> <215266> .
+<Yael_Grossman> <pc> 2 .
+<Yael_Grossman> <cn> 1 .
+<Yael_Grossman> <h_index> 1 .
+<Yael_Grossman> <p_index> 0.2500 .
+
+
+<Yehoshua_Sagiv> <instanceOf> <Author> .
+<Yehoshua_Sagiv> <id> <221131> .
+<Yehoshua_Sagiv> <pc> 135 .
+<Yehoshua_Sagiv> <cn> 3258 .
+<Yehoshua_Sagiv> <h_index> 29 .
+<Yehoshua_Sagiv> <p_index> 1262.7028 .
+
+
+<N_G_Duffield> <instanceOf> <Author> .
+<N_G_Duffield> <id> <221716> .
+<N_G_Duffield> <pc> 73 .
+<N_G_Duffield> <cn> 1394 .
+<N_G_Duffield> <h_index> 22 .
+<N_G_Duffield> <p_index> 468.3786 .
+
+
+<P_Seymour> <instanceOf> <Author> .
+<P_Seymour> <id> <224189> .
+<P_Seymour> <pc> 113 .
+<P_Seymour> <cn> 2106 .
+<P_Seymour> <h_index> 22 .
+<P_Seymour> <p_index> 901.8929 .
+
+
+<Iftah_Gamzu> <instanceOf> <Author> .
+<Iftah_Gamzu> <id> <225260> .
+<Iftah_Gamzu> <pc> 21 .
+<Iftah_Gamzu> <cn> 58 .
+<Iftah_Gamzu> <h_index> 5 .
+<Iftah_Gamzu> <p_index> 25.6333 .
+
+
+<Eun_Jung_Kim> <instanceOf> <Author> .
+<Eun_Jung_Kim> <id> <233500> .
+<Eun_Jung_Kim> <pc> 20 .
+<Eun_Jung_Kim> <cn> 115 .
+<Eun_Jung_Kim> <h_index> 7 .
+<Eun_Jung_Kim> <p_index> 28.9000 .
+
+
+<Ziv_Bar-Joseph> <instanceOf> <Author> .
+<Ziv_Bar-Joseph> <id> <234280> .
+<Ziv_Bar-Joseph> <pc> 30 .
+<Ziv_Bar-Joseph> <cn> 212 .
+<Ziv_Bar-Joseph> <h_index> 7 .
+<Ziv_Bar-Joseph> <p_index> 92.8167 .
+
+
+<D_Halperin> <instanceOf> <Author> .
+<D_Halperin> <id> <236395> .
+<D_Halperin> <pc> 95 .
+<D_Halperin> <cn> 654 .
+<D_Halperin> <h_index> 14 .
+<D_Halperin> <p_index> 222.5492 .
+
+
+<Ilia_Lotosh> <instanceOf> <Author> .
+<Ilia_Lotosh> <id> <260574> .
+<Ilia_Lotosh> <pc> 2 .
+<Ilia_Lotosh> <cn> 1 .
+<Ilia_Lotosh> <h_index> 1 .
+<Ilia_Lotosh> <p_index> 0.3333 .
+
+
+<Boaz_Patt-Shamir> <instanceOf> <Author> .
+<Boaz_Patt-Shamir> <id> <268059> .
+<Boaz_Patt-Shamir> <pc> 92 .
+<Boaz_Patt-Shamir> <cn> 721 .
+<Boaz_Patt-Shamir> <h_index> 14 .
+<Boaz_Patt-Shamir> <p_index> 253.2500 .
+
+
+<Tomasz_Luczak> <instanceOf> <Author> .
+<Tomasz_Luczak> <id> <268420> .
+<Tomasz_Luczak> <pc> 66 .
+<Tomasz_Luczak> <cn> 179 .
+<Tomasz_Luczak> <h_index> 7 .
+<Tomasz_Luczak> <p_index> 95.8929 .
+
+
+<M_A_Perles> <instanceOf> <Author> .
+<M_A_Perles> <id> <268502> .
+<M_A_Perles> <pc> 7 .
+<M_A_Perles> <cn> 4 .
+<M_A_Perles> <h_index> 1 .
+<M_A_Perles> <p_index> 1.8333 .
+
+
+<Peter_Hamburger> <instanceOf> <Author> .
+<Peter_Hamburger> <id> <276403> .
+<Peter_Hamburger> <pc> 13 .
+<Peter_Hamburger> <cn> 8 .
+<Peter_Hamburger> <h_index> 1 .
+<Peter_Hamburger> <p_index> 3.5000 .
+
+
+<A_P_A_Vestjens> <instanceOf> <Author> .
+<A_P_A_Vestjens> <id> <277074> .
+<A_P_A_Vestjens> <pc> 6 .
+<A_P_A_Vestjens> <cn> 76 .
+<A_P_A_Vestjens> <h_index> 4 .
+<A_P_A_Vestjens> <p_index> 37.7000 .
+
+
+<Eldar_Fischer> <instanceOf> <Author> .
+<Eldar_Fischer> <id> <287950> .
+<Eldar_Fischer> <pc> 50 .
+<Eldar_Fischer> <cn> 475 .
+<Eldar_Fischer> <h_index> 13 .
+<Eldar_Fischer> <p_index> 182.3000 .
+
+
+<Felix_Fischer> <instanceOf> <Author> .
+<Felix_Fischer> <id> <287954> .
+<Felix_Fischer> <pc> 42 .
+<Felix_Fischer> <cn> 141 .
+<Felix_Fischer> <h_index> 7 .
+<Felix_Fischer> <p_index> 45.6667 .
+
+
+<Rom_Pinchasi> <instanceOf> <Author> .
+<Rom_Pinchasi> <id> <292413> .
+<Rom_Pinchasi> <pc> 36 .
+<Rom_Pinchasi> <cn> 83 .
+<Rom_Pinchasi> <h_index> 5 .
+<Rom_Pinchasi> <p_index> 26.4500 .
+
+
+<David_Konopnicki> <instanceOf> <Author> .
+<David_Konopnicki> <id> <292704> .
+<David_Konopnicki> <pc> 14 .
+<David_Konopnicki> <cn> 161 .
+<David_Konopnicki> <h_index> 5 .
+<David_Konopnicki> <p_index> 70.1167 .
+
+
+<Phuong_Dao> <instanceOf> <Author> .
+<Phuong_Dao> <id> <293519> .
+<Phuong_Dao> <pc> 8 .
+<Phuong_Dao> <cn> 19 .
+<Phuong_Dao> <h_index> 2 .
+<Phuong_Dao> <p_index> 3.2600 .
+
+
+<Rafail_Ostrovsky> <instanceOf> <Author> .
+<Rafail_Ostrovsky> <id> <299149> .
+<Rafail_Ostrovsky> <pc> 179 .
+<Rafail_Ostrovsky> <cn> 2910 .
+<Rafail_Ostrovsky> <h_index> 29 .
+<Rafail_Ostrovsky> <p_index> 1061.1762 .
+
+
+<Stephen_Alstrup> <instanceOf> <Author> .
+<Stephen_Alstrup> <id> <300380> .
+<Stephen_Alstrup> <pc> 29 .
+<Stephen_Alstrup> <cn> 383 .
+<Stephen_Alstrup> <h_index> 11 .
+<Stephen_Alstrup> <p_index> 126.1167 .
+
+
+<Hiêp_Hàn> <instanceOf> <Author> .
+<Hiêp_Hàn> <id> <304356> .
+<Hiêp_Hàn> <pc> 2 .
+<Hiêp_Hàn> <cn> 8 .
+<Hiêp_Hàn> <h_index> 0 .
+<Hiêp_Hàn> <p_index> 3.3333 .
+
+
+<Fabio_Pardi> <instanceOf> <Author> .
+<Fabio_Pardi> <id> <316179> .
+<Fabio_Pardi> <pc> 5 .
+<Fabio_Pardi> <cn> 2 .
+<Fabio_Pardi> <h_index> 1 .
+<Fabio_Pardi> <p_index> 0.5000 .
+
+
+<Eyal_Lubetzky†> <instanceOf> <Author> .
+<Eyal_Lubetzky†> <id> <316943> .
+<Eyal_Lubetzky†> <pc> 1 .
+<Eyal_Lubetzky†> <cn> 0 .
+<Eyal_Lubetzky†> <h_index> 0 .
+<Eyal_Lubetzky†> <p_index> 0.0000 .
+
+
+<Michal_Parnas> <instanceOf> <Author> .
+<Michal_Parnas> <id> <317603> .
+<Michal_Parnas> <pc> 22 .
+<Michal_Parnas> <cn> 256 .
+<Michal_Parnas> <h_index> 9 .
+<Michal_Parnas> <p_index> 95.6833 .
+
+
+<Asaf_Shapira†> <instanceOf> <Author> .
+<Asaf_Shapira†> <id> <321134> .
+<Asaf_Shapira†> <pc> 1 .
+<Asaf_Shapira†> <cn> 2 .
+<Asaf_Shapira†> <h_index> 1 .
+<Asaf_Shapira†> <p_index> 1.0000 .
+
+
+<Eyal_Lubetzky> <instanceOf> <Author> .
+<Eyal_Lubetzky> <id> <322315> .
+<Eyal_Lubetzky> <pc> 19 .
+<Eyal_Lubetzky> <cn> 40 .
+<Eyal_Lubetzky> <h_index> 4 .
+<Eyal_Lubetzky> <p_index> 13.8167 .
+
+
+<Moshe_Tenneholtz> <instanceOf> <Author> .
+<Moshe_Tenneholtz> <id> <342408> .
+<Moshe_Tenneholtz> <pc> 2 .
+<Moshe_Tenneholtz> <cn> 1 .
+<Moshe_Tenneholtz> <h_index> 1 .
+<Moshe_Tenneholtz> <p_index> 0.3333 .
+
+
+<Tomasz_Schoen> <instanceOf> <Author> .
+<Tomasz_Schoen> <id> <348475> .
+<Tomasz_Schoen> <pc> 10 .
+<Tomasz_Schoen> <cn> 14 .
+<Tomasz_Schoen> <h_index> 3 .
+<Tomasz_Schoen> <p_index> 6.5833 .
+
+
+<Fabian_Kuhn> <instanceOf> <Author> .
+<Fabian_Kuhn> <id> <349419> .
+<Fabian_Kuhn> <pc> 63 .
+<Fabian_Kuhn> <cn> 1230 .
+<Fabian_Kuhn> <h_index> 18 .
+<Fabian_Kuhn> <p_index> 416.8833 .
+
+
+<Guillaume_Fertin> <instanceOf> <Author> .
+<Guillaume_Fertin> <id> <352572> .
+<Guillaume_Fertin> <pc> 50 .
+<Guillaume_Fertin> <cn> 178 .
+<Guillaume_Fertin> <h_index> 6 .
+<Guillaume_Fertin> <p_index> 51.9167 .
+
+
+<M_R_Fellows> <instanceOf> <Author> .
+<M_R_Fellows> <id> <355864> .
+<M_R_Fellows> <pc> 149 .
+<M_R_Fellows> <cn> 1516 .
+<M_R_Fellows> <h_index> 20 .
+<M_R_Fellows> <p_index> 514.2857 .
+
+
+<Mihyun_Kang> <instanceOf> <Author> .
+<Mihyun_Kang> <id> <357047> .
+<Mihyun_Kang> <pc> 20 .
+<Mihyun_Kang> <cn> 45 .
+<Mihyun_Kang> <h_index> 4 .
+<Mihyun_Kang> <p_index> 14.1000 .
+
+
+<Zsolt_Tuza> <instanceOf> <Author> .
+<Zsolt_Tuza> <id> <357960> .
+<Zsolt_Tuza> <pc> 147 .
+<Zsolt_Tuza> <cn> 508 .
+<Zsolt_Tuza> <h_index> 12 .
+<Zsolt_Tuza> <p_index> 191.4619 .
+
+
+<Elad_Verbin> <instanceOf> <Author> .
+<Elad_Verbin> <id> <363715> .
+<Elad_Verbin> <pc> 26 .
+<Elad_Verbin> <cn> 131 .
+<Elad_Verbin> <h_index> 7 .
+<Elad_Verbin> <p_index> 45.6500 .
+
+
+<M_Bóna> <instanceOf> <Author> .
+<M_Bóna> <id> <369868> .
+<M_Bóna> <pc> 33 .
+<M_Bóna> <cn> 87 .
+<M_Bóna> <h_index> 4 .
+<M_Bóna> <p_index> 81.6667 .
+
+
+<Michael_Merritt> <instanceOf> <Author> .
+<Michael_Merritt> <id> <370652> .
+<Michael_Merritt> <pc> 73 .
+<Michael_Merritt> <cn> 1239 .
+<Michael_Merritt> <h_index> 18 .
+<Michael_Merritt> <p_index> 504.3833 .
+
+
+<David_Haussler> <instanceOf> <Author> .
+<David_Haussler> <id> <371951> .
+<David_Haussler> <pc> 107 .
+<David_Haussler> <cn> 2155 .
+<David_Haussler> <h_index> 20 .
+<David_Haussler> <p_index> 874.0726 .
+
+
+<M_P_Consens> <instanceOf> <Author> .
+<M_P_Consens> <id> <377634> .
+<M_P_Consens> <pc> 52 .
+<M_P_Consens> <cn> 551 .
+<M_P_Consens> <h_index> 13 .
+<M_P_Consens> <p_index> 228.9119 .
+
+
+<Sampath_Kannan> <instanceOf> <Author> .
+<Sampath_Kannan> <id> <387095> .
+<Sampath_Kannan> <pc> 95 .
+<Sampath_Kannan> <cn> 1083 .
+<Sampath_Kannan> <h_index> 18 .
+<Sampath_Kannan> <p_index> 324.8452 .
+
+
+<László_Babai> <instanceOf> <Author> .
+<László_Babai> <id> <387693> .
+<László_Babai> <pc> 114 .
+<László_Babai> <cn> 1162 .
+<László_Babai> <h_index> 15 .
+<László_Babai> <p_index> 578.8333 .
+
+
+<Ravi_Kannan> <instanceOf> <Author> .
+<Ravi_Kannan> <id> <389211> .
+<Ravi_Kannan> <pc> 61 .
+<Ravi_Kannan> <cn> 1236 .
+<Ravi_Kannan> <h_index> 21 .
+<Ravi_Kannan> <p_index> 445.8250 .
+
+
+<Y_Mansour> <instanceOf> <Author> .
+<Y_Mansour> <id> <389928> .
+<Y_Mansour> <pc> 203 .
+<Y_Mansour> <cn> 2503 .
+<Y_Mansour> <h_index> 26 .
+<Y_Mansour> <p_index> 904.4881 .
+
+
+<A_Monti> <instanceOf> <Author> .
+<A_Monti> <id> <394529> .
+<A_Monti> <pc> 44 .
+<A_Monti> <cn> 285 .
+<A_Monti> <h_index> 9 .
+<A_Monti> <p_index> 85.0833 .
+
+
+<Michael_Saks> <instanceOf> <Author> .
+<Michael_Saks> <id> <400332> .
+<Michael_Saks> <pc> 109 .
+<Michael_Saks> <cn> 1121 .
+<Michael_Saks> <h_index> 19 .
+<Michael_Saks> <p_index> 443.1833 .
+
+
+<Omer_Reingold> <instanceOf> <Author> .
+<Omer_Reingold> <id> <401644> .
+<Omer_Reingold> <pc> 76 .
+<Omer_Reingold> <cn> 1323 .
+<Omer_Reingold> <h_index> 22 .
+<Omer_Reingold> <p_index> 541.1810 .
+
+
+<Benjamin_Doerr> <instanceOf> <Author> .
+<Benjamin_Doerr> <id> <403815> .
+<Benjamin_Doerr> <pc> 107 .
+<Benjamin_Doerr> <cn> 499 .
+<Benjamin_Doerr> <h_index> 12 .
+<Benjamin_Doerr> <p_index> 199.8667 .
+
+
+<M_Naor> <instanceOf> <Author> .
+<M_Naor> <id> <404044> .
+<M_Naor> <pc> 166 .
+<M_Naor> <cn> 6559 .
+<M_Naor> <h_index> 42 .
+<M_Naor> <p_index> 2659.3262 .
+
+
+<D_Pritikin> <instanceOf> <Author> .
+<D_Pritikin> <id> <407476> .
+<D_Pritikin> <pc> 15 .
+<D_Pritikin> <cn> 31 .
+<D_Pritikin> <h_index> 3 .
+<D_Pritikin> <p_index> 9.6500 .
+
+
+<Jenó_Lehel> <instanceOf> <Author> .
+<Jenó_Lehel> <id> <416829> .
+<Jenó_Lehel> <pc> 39 .
+<Jenó_Lehel> <cn> 34 .
+<Jenó_Lehel> <h_index> 3 .
+<Jenó_Lehel> <p_index> 10.9667 .
+
+
+<B_Oporowski> <instanceOf> <Author> .
+<B_Oporowski> <id> <419204> .
+<B_Oporowski> <pc> 18 .
+<B_Oporowski> <cn> 93 .
+<B_Oporowski> <h_index> 6 .
+<B_Oporowski> <p_index> 27.8095 .
+
+
+<Assaf_Naor> <instanceOf> <Author> .
+<Assaf_Naor> <id> <420279> .
+<Assaf_Naor> <pc> 45 .
+<Assaf_Naor> <cn> 238 .
+<Assaf_Naor> <h_index> 8 .
+<Assaf_Naor> <p_index> 93.9500 .
+
+
+<N_Linial> <instanceOf> <Author> .
+<N_Linial> <id> <420513> .
+<N_Linial> <pc> 3 .
+<N_Linial> <cn> 10 .
+<N_Linial> <h_index> 2 .
+<N_Linial> <p_index> 3.8333 .
+
+
+<Ariel_D_Procaccia> <instanceOf> <Author> .
+<Ariel_D_Procaccia> <id> <423267> .
+<Ariel_D_Procaccia> <pc> 63 .
+<Ariel_D_Procaccia> <cn> 463 .
+<Ariel_D_Procaccia> <h_index> 12 .
+<Ariel_D_Procaccia> <p_index> 170.5083 .
+
+
+<Maike_Buchin> <instanceOf> <Author> .
+<Maike_Buchin> <id> <423371> .
+<Maike_Buchin> <pc> 24 .
+<Maike_Buchin> <cn> 97 .
+<Maike_Buchin> <h_index> 6 .
+<Maike_Buchin> <p_index> 27.6917 .
+
+
+<Micha_Sharir> <instanceOf> <Author> .
+<Micha_Sharir> <id> <426313> .
+<Micha_Sharir> <pc> 361 .
+<Micha_Sharir> <cn> 3048 .
+<Micha_Sharir> <h_index> 24 .
+<Micha_Sharir> <p_index> 1201.9632 .
+
+
+<Jackie_Assa> <instanceOf> <Author> .
+<Jackie_Assa> <id> <428622> .
+<Jackie_Assa> <pc> 5 .
+<Jackie_Assa> <cn> 62 .
+<Jackie_Assa> <h_index> 4 .
+<Jackie_Assa> <p_index> 20.1667 .
+
+
+<Zhuowei_Bao> <instanceOf> <Author> .
+<Zhuowei_Bao> <id> <430458> .
+<Zhuowei_Bao> <pc> 12 .
+<Zhuowei_Bao> <cn> 31 .
+<Zhuowei_Bao> <h_index> 3 .
+<Zhuowei_Bao> <p_index> 7.1238 .
+
+
+<T_J_Ott> <instanceOf> <Author> .
+<T_J_Ott> <id> <446133> .
+<T_J_Ott> <pc> 27 .
+<T_J_Ott> <cn> 458 .
+<T_J_Ott> <h_index> 8 .
+<T_J_Ott> <p_index> 145.2500 .
+
+
+<Prasad_Tetali> <instanceOf> <Author> .
+<Prasad_Tetali> <id> <448241> .
+<Prasad_Tetali> <pc> 54 .
+<Prasad_Tetali> <cn> 304 .
+<Prasad_Tetali> <h_index> 9 .
+<Prasad_Tetali> <p_index> 115.9095 .
+
+
+<E_Cohen> <instanceOf> <Author> .
+<E_Cohen> <id> <458048> .
+<E_Cohen> <pc> 95 .
+<E_Cohen> <cn> 1718 .
+<E_Cohen> <h_index> 16 .
+<E_Cohen> <p_index> 710.7750 .
+
+
+<Uri_Arad> <instanceOf> <Author> .
+<Uri_Arad> <id> <458366> .
+<Uri_Arad> <pc> 1 .
+<Uri_Arad> <cn> 7 .
+<Uri_Arad> <h_index> 1 .
+<Uri_Arad> <p_index> 2.3333 .
+
+
+<Nir_Ailon> <instanceOf> <Author> .
+<Nir_Ailon> <id> <458685> .
+<Nir_Ailon> <pc> 35 .
+<Nir_Ailon> <cn> 347 .
+<Nir_Ailon> <h_index> 10 .
+<Nir_Ailon> <p_index> 152.0833 .
+
+
+<Sihem_Amer-Yahia> <instanceOf> <Author> .
+<Sihem_Amer-Yahia> <id> <459021> .
+<Sihem_Amer-Yahia> <pc> 70 .
+<Sihem_Amer-Yahia> <cn> 829 .
+<Sihem_Amer-Yahia> <h_index> 17 .
+<Sihem_Amer-Yahia> <p_index> 242.6155 .
+
+
+<Dan_Vodislav> <instanceOf> <Author> .
+<Dan_Vodislav> <id> <470276> .
+<Dan_Vodislav> <pc> 16 .
+<Dan_Vodislav> <cn> 79 .
+<Dan_Vodislav> <h_index> 4 .
+<Dan_Vodislav> <p_index> 25.3833 .
+
+
+<Kevin_Buchin> <instanceOf> <Author> .
+<Kevin_Buchin> <id> <470737> .
+<Kevin_Buchin> <pc> 43 .
+<Kevin_Buchin> <cn> 136 .
+<Kevin_Buchin> <h_index> 7 .
+<Kevin_Buchin> <p_index> 39.0083 .
+
+
+<Eric_Blais> <instanceOf> <Author> .
+<Eric_Blais> <id> <471134> .
+<Eric_Blais> <pc> 15 .
+<Eric_Blais> <cn> 54 .
+<Eric_Blais> <h_index> 4 .
+<Eric_Blais> <p_index> 42.0333 .
+
+
+<Zoltan_Furedi> <instanceOf> <Author> .
+<Zoltan_Furedi> <id> <484371> .
+<Zoltan_Furedi> <pc> 83 .
+<Zoltan_Furedi> <cn> 256 .
+<Zoltan_Furedi> <h_index> 8 .
+<Zoltan_Furedi> <p_index> 154.4333 .
+
+
+<Robin_Thomas> <instanceOf> <Author> .
+<Robin_Thomas> <id> <484610> .
+<Robin_Thomas> <pc> 59 .
+<Robin_Thomas> <cn> 647 .
+<Robin_Thomas> <h_index> 13 .
+<Robin_Thomas> <p_index> 243.6667 .
+
+
+<Benny_Chor> <instanceOf> <Author> .
+<Benny_Chor> <id> <492391> .
+<Benny_Chor> <pc> 81 .
+<Benny_Chor> <cn> 1750 .
+<Benny_Chor> <h_index> 19 .
+<Benny_Chor> <p_index> 575.9500 .
+
+
+<Rebecca_N_Wright> <instanceOf> <Author> .
+<Rebecca_N_Wright> <id> <497453> .
+<Rebecca_N_Wright> <pc> 56 .
+<Rebecca_N_Wright> <cn> 473 .
+<Rebecca_N_Wright> <h_index> 12 .
+<Rebecca_N_Wright> <p_index> 167.2667 .
+
+
+<Sergey_Yekhanin> <instanceOf> <Author> .
+<Sergey_Yekhanin> <id> <498856> .
+<Sergey_Yekhanin> <pc> 25 .
+<Sergey_Yekhanin> <cn> 130 .
+<Sergey_Yekhanin> <h_index> 6 .
+<Sergey_Yekhanin> <p_index> 78.6667 .
+
+
+<Neoklis_Polyzotis> <instanceOf> <Author> .
+<Neoklis_Polyzotis> <id> <500412> .
+<Neoklis_Polyzotis> <pc> 65 .
+<Neoklis_Polyzotis> <cn> 529 .
+<Neoklis_Polyzotis> <h_index> 14 .
+<Neoklis_Polyzotis> <p_index> 192.7262 .
+
+
+<Richard_A_Brualdi> <instanceOf> <Author> .
+<Richard_A_Brualdi> <id> <501744> .
+<Richard_A_Brualdi> <pc> 46 .
+<Richard_A_Brualdi> <cn> 170 .
+<Richard_A_Brualdi> <h_index> 6 .
+<Richard_A_Brualdi> <p_index> 62.8333 .
+
+
+<Jehoshua_Bruck> <instanceOf> <Author> .
+<Jehoshua_Bruck> <id> <503628> .
+<Jehoshua_Bruck> <pc> 93 .
+<Jehoshua_Bruck> <cn> 693 .
+<Jehoshua_Bruck> <h_index> 14 .
+<Jehoshua_Bruck> <p_index> 213.5636 .
+
+
+<Dhruv_Mubayi> <instanceOf> <Author> .
+<Dhruv_Mubayi> <id> <512113> .
+<Dhruv_Mubayi> <pc> 62 .
+<Dhruv_Mubayi> <cn> 140 .
+<Dhruv_Mubayi> <h_index> 6 .
+<Dhruv_Mubayi> <p_index> 71.2500 .
+
+
+<Moshe_Tennenholtz> <instanceOf> <Author> .
+<Moshe_Tennenholtz> <id> <512594> .
+<Moshe_Tennenholtz> <pc> 2 .
+<Moshe_Tennenholtz> <cn> 1 .
+<Moshe_Tennenholtz> <h_index> 1 .
+<Moshe_Tennenholtz> <p_index> 0.2500 .
+
+
+<Hao_Huang> <instanceOf> <Author> .
+<Hao_Huang> <id> <513742> .
+<Hao_Huang> <pc> 6 .
+<Hao_Huang> <cn> 17 .
+<Hao_Huang> <h_index> 3 .
+<Hao_Huang> <p_index> 5.0000 .
+
+
+<Vera_Asodi> <instanceOf> <Author> .
+<Vera_Asodi> <id> <515746> .
+<Vera_Asodi> <pc> 6 .
+<Vera_Asodi> <cn> 22 .
+<Vera_Asodi> <h_index> 3 .
+<Vera_Asodi> <p_index> 11.0000 .
+
+
+<Richard_A_Duke> <instanceOf> <Author> .
+<Richard_A_Duke> <id> <517628> .
+<Richard_A_Duke> <pc> 8 .
+<Richard_A_Duke> <cn> 114 .
+<Richard_A_Duke> <h_index> 3 .
+<Richard_A_Duke> <p_index> 28.9000 .
+
+
+<Sagit_Zohar> <instanceOf> <Author> .
+<Sagit_Zohar> <id> <522273> .
+<Sagit_Zohar> <pc> 1 .
+<Sagit_Zohar> <cn> 132 .
+<Sagit_Zohar> <h_index> 1 .
+<Sagit_Zohar> <p_index> 66.0000 .
+
+
+<Sridhar_Rajagopalan> <instanceOf> <Author> .
+<Sridhar_Rajagopalan> <id> <522746> .
+<Sridhar_Rajagopalan> <pc> 2 .
+<Sridhar_Rajagopalan> <cn> 4 .
+<Sridhar_Rajagopalan> <h_index> 1 .
+<Sridhar_Rajagopalan> <p_index> 1.3333 .
+
+
+<Ayal_Zaks> <instanceOf> <Author> .
+<Ayal_Zaks> <id> <535904> .
+<Ayal_Zaks> <pc> 3 .
+<Ayal_Zaks> <cn> 34 .
+<Ayal_Zaks> <h_index> 2 .
+<Ayal_Zaks> <p_index> 12.0000 .
+
+
+<J_Csirik> <instanceOf> <Author> .
+<J_Csirik> <id> <537597> .
+<J_Csirik> <pc> 52 .
+<J_Csirik> <cn> 402 .
+<J_Csirik> <h_index> 11 .
+<J_Csirik> <p_index> 131.7476 .
+
+
+<Gady_Kozma> <instanceOf> <Author> .
+<Gady_Kozma> <id> <538284> .
+<Gady_Kozma> <pc> 6 .
+<Gady_Kozma> <cn> 38 .
+<Gady_Kozma> <h_index> 3 .
+<Gady_Kozma> <p_index> 7.0833 .
+
+
+<Jan_Vondrák> <instanceOf> <Author> .
+<Jan_Vondrák> <id> <538541> .
+<Jan_Vondrák> <pc> 39 .
+<Jan_Vondrák> <cn> 401 .
+<Jan_Vondrák> <h_index> 12 .
+<Jan_Vondrák> <p_index> 187.6667 .
+
+
+<Benny_Sudakov> <instanceOf> <Author> .
+<Benny_Sudakov> <id> <539219> .
+<Benny_Sudakov> <pc> 58 .
+<Benny_Sudakov> <cn> 324 .
+<Benny_Sudakov> <h_index> 10 .
+<Benny_Sudakov> <p_index> 125.7000 .
+
+
+<Saket_Saurabh> <instanceOf> <Author> .
+<Saket_Saurabh> <id> <539454> .
+<Saket_Saurabh> <pc> 106 .
+<Saket_Saurabh> <cn> 648 .
+<Saket_Saurabh> <h_index> 13 .
+<Saket_Saurabh> <p_index> 177.2524 .
+
+
+<Simon_Kasif> <instanceOf> <Author> .
+<Simon_Kasif> <id> <541922> .
+<Simon_Kasif> <pc> 43 .
+<Simon_Kasif> <cn> 209 .
+<Simon_Kasif> <h_index> 6 .
+<Simon_Kasif> <p_index> 87.7167 .
+
+
+<Haim_Kaplan> <instanceOf> <Author> .
+<Haim_Kaplan> <id> <543827> .
+<Haim_Kaplan> <pc> 1 .
+<Haim_Kaplan> <cn> 6 .
+<Haim_Kaplan> <h_index> 1 .
+<Haim_Kaplan> <p_index> 1.2000 .
+
+
+<Yossi_Matias> <instanceOf> <Author> .
+<Yossi_Matias> <id> <544810> .
+<Yossi_Matias> <pc> 101 .
+<Yossi_Matias> <cn> 1912 .
+<Yossi_Matias> <h_index> 21 .
+<Yossi_Matias> <p_index> 662.0365 .
+
+
+<Angela_Bonifati> <instanceOf> <Author> .
+<Angela_Bonifati> <id> <546285> .
+<Angela_Bonifati> <pc> 42 .
+<Angela_Bonifati> <cn> 412 .
+<Angela_Bonifati> <h_index> 11 .
+<Angela_Bonifati> <p_index> 122.2111 .
+
+
+<Donovan_Hare> <instanceOf> <Author> .
+<Donovan_Hare> <id> <549357> .
+<Donovan_Hare> <pc> 9 .
+<Donovan_Hare> <cn> 20 .
+<Donovan_Hare> <h_index> 1 .
+<Donovan_Hare> <p_index> 9.9167 .
+
+
+<Dahlia_Malkhi> <instanceOf> <Author> .
+<Dahlia_Malkhi> <id> <550786> .
+<Dahlia_Malkhi> <pc> 106 .
+<Dahlia_Malkhi> <cn> 1390 .
+<Dahlia_Malkhi> <h_index> 20 .
+<Dahlia_Malkhi> <p_index> 488.6000 .
+
+
+<Theis_Rauhe> <instanceOf> <Author> .
+<Theis_Rauhe> <id> <551408> .
+<Theis_Rauhe> <pc> 25 .
+<Theis_Rauhe> <cn> 399 .
+<Theis_Rauhe> <h_index> 11 .
+<Theis_Rauhe> <p_index> 122.1786 .
+
+
+<Serge_Abiteboul> <instanceOf> <Author> .
+<Serge_Abiteboul> <id> <555493> .
+<Serge_Abiteboul> <pc> 203 .
+<Serge_Abiteboul> <cn> 5670 .
+<Serge_Abiteboul> <h_index> 37 .
+<Serge_Abiteboul> <p_index> 2205.1805 .
+
+
+<Julia_Stoyanovich> <instanceOf> <Author> .
+<Julia_Stoyanovich> <id> <566254> .
+<Julia_Stoyanovich> <pc> 18 .
+<Julia_Stoyanovich> <cn> 60 .
+<Julia_Stoyanovich> <h_index> 5 .
+<Julia_Stoyanovich> <p_index> 15.9167 .
+
+
+<Yury_Makarychev> <instanceOf> <Author> .
+<Yury_Makarychev> <id> <567815> .
+<Yury_Makarychev> <pc> 23 .
+<Yury_Makarychev> <cn> 188 .
+<Yury_Makarychev> <h_index> 6 .
+<Yury_Makarychev> <p_index> 57.5833 .
+
+
+<Konstantin_Makarychev> <instanceOf> <Author> .
+<Konstantin_Makarychev> <id> <567817> .
+<Konstantin_Makarychev> <pc> 33 .
+<Konstantin_Makarychev> <cn> 213 .
+<Konstantin_Makarychev> <h_index> 7 .
+<Konstantin_Makarychev> <p_index> 67.0857 .
+
+
+<Zvi_Galil> <instanceOf> <Author> .
+<Zvi_Galil> <id> <570878> .
+<Zvi_Galil> <pc> 150 .
+<Zvi_Galil> <cn> 1349 .
+<Zvi_Galil> <h_index> 19 .
+<Zvi_Galil> <p_index> 656.4833 .
+
+
+<Radovs_Radoicić> <instanceOf> <Author> .
+<Radovs_Radoicić> <id> <573981> .
+<Radovs_Radoicić> <pc> 15 .
+<Radovs_Radoicić> <cn> 48 .
+<Radovs_Radoicić> <h_index> 5 .
+<Radovs_Radoicić> <p_index> 15.2833 .
+
+
+<Brendan_Hills> <instanceOf> <Author> .
+<Brendan_Hills> <id> <574733> .
+<Brendan_Hills> <pc> 3 .
+<Brendan_Hills> <cn> 20 .
+<Brendan_Hills> <h_index> 0 .
+<Brendan_Hills> <p_index> 4.7857 .
+
+
+<Gábor_Tardos> <instanceOf> <Author> .
+<Gábor_Tardos> <id> <578364> .
+<Gábor_Tardos> <pc> 67 .
+<Gábor_Tardos> <cn> 385 .
+<Gábor_Tardos> <h_index> 10 .
+<Gábor_Tardos> <p_index> 222.1500 .
+
+
+<Uri_Zwick> <instanceOf> <Author> .
+<Uri_Zwick> <id> <582706> .
+<Uri_Zwick> <pc> 126 .
+<Uri_Zwick> <cn> 1932 .
+<Uri_Zwick> <h_index> 22 .
+<Uri_Zwick> <p_index> 996.3833 .
+
+
+<Larry_Stockmeyer> <instanceOf> <Author> .
+<Larry_Stockmeyer> <id> <583314> .
+<Larry_Stockmeyer> <pc> 69 .
+<Larry_Stockmeyer> <cn> 1841 .
+<Larry_Stockmeyer> <h_index> 18 .
+<Larry_Stockmeyer> <p_index> 782.9667 .
+
+
+<Dan_Hefetz> <instanceOf> <Author> .
+<Dan_Hefetz> <id> <584136> .
+<Dan_Hefetz> <pc> 19 .
+<Dan_Hefetz> <cn> 34 .
+<Dan_Hefetz> <h_index> 4 .
+<Dan_Hefetz> <p_index> 14.4167 .
+
+
+<Nimrod_Megiddo> <instanceOf> <Author> .
+<Nimrod_Megiddo> <id> <595767> .
+<Nimrod_Megiddo> <pc> 79 .
+<Nimrod_Megiddo> <cn> 1502 .
+<Nimrod_Megiddo> <h_index> 17 .
+<Nimrod_Megiddo> <p_index> 781.2333 .
+
+
+<Péter_L_Erdös> <instanceOf> <Author> .
+<Péter_L_Erdös> <id> <604797> .
+<Péter_L_Erdös> <pc> 35 .
+<Péter_L_Erdös> <cn> 128 .
+<Péter_L_Erdös> <h_index> 5 .
+<Péter_L_Erdös> <p_index> 36.7500 .
+
+
+<Amotz_Bar-Noy> <instanceOf> <Author> .
+<Amotz_Bar-Noy> <id> <608901> .
+<Amotz_Bar-Noy> <pc> 146 .
+<Amotz_Bar-Noy> <cn> 1678 .
+<Amotz_Bar-Noy> <h_index> 21 .
+<Amotz_Bar-Noy> <p_index> 504.4441 .
+
+
+<Roger_Weber> <instanceOf> <Author> .
+<Roger_Weber> <id> <614584> .
+<Roger_Weber> <pc> 18 .
+<Roger_Weber> <cn> 568 .
+<Roger_Weber> <h_index> 8 .
+<Roger_Weber> <p_index> 180.9167 .
+
+
+<W_Pulleyblank> <instanceOf> <Author> .
+<W_Pulleyblank> <id> <621144> .
+<W_Pulleyblank> <pc> 33 .
+<W_Pulleyblank> <cn> 326 .
+<W_Pulleyblank> <h_index> 9 .
+<W_Pulleyblank> <p_index> 128.6667 .
+
+
+<Sanjeev_Mahajan> <instanceOf> <Author> .
+<Sanjeev_Mahajan> <id> <621371> .
+<Sanjeev_Mahajan> <pc> 8 .
+<Sanjeev_Mahajan> <cn> 63 .
+<Sanjeev_Mahajan> <h_index> 3 .
+<Sanjeev_Mahajan> <p_index> 29.0000 .
+
+
+<Michael_Rys> <instanceOf> <Author> .
+<Michael_Rys> <id> <621733> .
+<Michael_Rys> <pc> 19 .
+<Michael_Rys> <cn> 151 .
+<Michael_Rys> <h_index> 7 .
+<Michael_Rys> <p_index> 64.1727 .
+
+
+<Troy_Lee> <instanceOf> <Author> .
+<Troy_Lee> <id> <623362> .
+<Troy_Lee> <pc> 1 .
+<Troy_Lee> <cn> 0 .
+<Troy_Lee> <h_index> 0 .
+<Troy_Lee> <p_index> 0.0000 .
+
+
+<T_Leighton> <instanceOf> <Author> .
+<T_Leighton> <id> <629459> .
+<T_Leighton> <pc> 113 .
+<T_Leighton> <cn> 1702 .
+<T_Leighton> <h_index> 22 .
+<T_Leighton> <p_index> 667.2667 .
+
+
+<A_M_Frieze> <instanceOf> <Author> .
+<A_M_Frieze> <id> <637016> .
+<A_M_Frieze> <pc> 209 .
+<A_M_Frieze> <cn> 1605 .
+<A_M_Frieze> <h_index> 19 .
+<A_M_Frieze> <p_index> 621.7000 .
+
+
+<Miklós_Ruszinkó> <instanceOf> <Author> .
+<Miklós_Ruszinkó> <id> <638521> .
+<Miklós_Ruszinkó> <pc> 16 .
+<Miklós_Ruszinkó> <cn> 68 .
+<Miklós_Ruszinkó> <h_index> 4 .
+<Miklós_Ruszinkó> <p_index> 40.6000 .
+
+
+<Asaf_Shapira> <instanceOf> <Author> .
+<Asaf_Shapira> <id> <643228> .
+<Asaf_Shapira> <pc> 46 .
+<Asaf_Shapira> <cn> 416 .
+<Asaf_Shapira> <h_index> 12 .
+<Asaf_Shapira> <p_index> 177.9167 .
+
+
+<Michael_Benedikt> <instanceOf> <Author> .
+<Michael_Benedikt> <id> <644552> .
+<Michael_Benedikt> <pc> 76 .
+<Michael_Benedikt> <cn> 831 .
+<Michael_Benedikt> <h_index> 16 .
+<Michael_Benedikt> <p_index> 272.5738 .
+
+
+<Frank_Neven> <instanceOf> <Author> .
+<Frank_Neven> <id> <649210> .
+<Frank_Neven> <pc> 78 .
+<Frank_Neven> <cn> 1188 .
+<Frank_Neven> <h_index> 19 .
+<Frank_Neven> <p_index> 535.9000 .
+
+
+<Tova_Milo> <instanceOf> <Author> .
+<Tova_Milo> <id> <650652> .
+<Tova_Milo> <pc> 132 .
+<Tova_Milo> <cn> 1953 .
+<Tova_Milo> <h_index> 25 .
+<Tova_Milo> <p_index> 658.2421 .
+
+
+<Florin_Dragan> <instanceOf> <Author> .
+<Florin_Dragan> <id> <652588> .
+<Florin_Dragan> <pc> 1 .
+<Florin_Dragan> <cn> 4 .
+<Florin_Dragan> <h_index> 1 .
+<Florin_Dragan> <p_index> 0.4444 .
+
+
+<Vincent_Aguilera> <instanceOf> <Author> .
+<Vincent_Aguilera> <id> <653760> .
+<Vincent_Aguilera> <pc> 2 .
+<Vincent_Aguilera> <cn> 14 .
+<Vincent_Aguilera> <h_index> 0 .
+<Vincent_Aguilera> <p_index> 2.2857 .
+
+
+<Catriel_Beeri> <instanceOf> <Author> .
+<Catriel_Beeri> <id> <657313> .
+<Catriel_Beeri> <pc> 86 .
+<Catriel_Beeri> <cn> 2041 .
+<Catriel_Beeri> <h_index> 23 .
+<Catriel_Beeri> <p_index> 809.1167 .
+
+
+<B_Reed> <instanceOf> <Author> .
+<B_Reed> <id> <658067> .
+<B_Reed> <pc> 117 .
+<B_Reed> <cn> 880 .
+<B_Reed> <h_index> 13 .
+<B_Reed> <p_index> 403.3262 .
+
+
+<Venkatesan_Guruswami> <instanceOf> <Author> .
+<Venkatesan_Guruswami> <id> <658448> .
+<Venkatesan_Guruswami> <pc> 124 .
+<Venkatesan_Guruswami> <cn> 974 .
+<Venkatesan_Guruswami> <h_index> 18 .
+<Venkatesan_Guruswami> <p_index> 375.8167 .
+
+
+<T_Shermer> <instanceOf> <Author> .
+<T_Shermer> <id> <658504> .
+<T_Shermer> <pc> 37 .
+<T_Shermer> <cn> 99 .
+<T_Shermer> <h_index> 6 .
+<T_Shermer> <p_index> 43.4583 .
+
+
+<Moty_Ricklin> <instanceOf> <Author> .
+<Moty_Ricklin> <id> <669930> .
+<Moty_Ricklin> <pc> 6 .
+<Moty_Ricklin> <cn> 43 .
+<Moty_Ricklin> <h_index> 4 .
+<Moty_Ricklin> <p_index> 17.7500 .
+
+
+<Ning_Xie> <instanceOf> <Author> .
+<Ning_Xie> <id> <671752> .
+<Ning_Xie> <pc> 11 .
+<Ning_Xie> <cn> 37 .
+<Ning_Xie> <h_index> 3 .
+<Ning_Xie> <p_index> 10.3333 .
+
+
+<Shmuel_Onn> <instanceOf> <Author> .
+<Shmuel_Onn> <id> <678357> .
+<Shmuel_Onn> <pc> 39 .
+<Shmuel_Onn> <cn> 93 .
+<Shmuel_Onn> <h_index> 5 .
+<Shmuel_Onn> <p_index> 41.8214 .
+
+
+<Rubi_Boim> <instanceOf> <Author> .
+<Rubi_Boim> <id> <678802> .
+<Rubi_Boim> <keyTerm> <Collaborative Filtering> .
+<Rubi_Boim> <pc> 7 .
+<Rubi_Boim> <cn> 16 .
+<Rubi_Boim> <h_index> 2 .
+<Rubi_Boim> <p_index> 4.3333 .
+
+
+<Iman_Hajirasouliha> <instanceOf> <Author> .
+<Iman_Hajirasouliha> <id> <679455> .
+<Iman_Hajirasouliha> <pc> 13 .
+<Iman_Hajirasouliha> <cn> 23 .
+<Iman_Hajirasouliha> <h_index> 2 .
+<Iman_Hajirasouliha> <p_index> 5.4012 .
+
+
+<Paul_Erdös> <instanceOf> <Author> .
+<Paul_Erdös> <id> <679718> .
+<Paul_Erdös> <pc> 58 .
+<Paul_Erdös> <cn> 118 .
+<Paul_Erdös> <h_index> 6 .
+<Paul_Erdös> <p_index> 57.9000 .
+
+
+<Gabriel_Nivasch> <instanceOf> <Author> .
+<Gabriel_Nivasch> <id> <681530> .
+<Gabriel_Nivasch> <pc> 10 .
+<Gabriel_Nivasch> <cn> 52 .
+<Gabriel_Nivasch> <h_index> 4 .
+<Gabriel_Nivasch> <p_index> 38.7000 .
+
+
+<Yehuda_Afek> <instanceOf> <Author> .
+<Yehuda_Afek> <id> <685478> .
+<Yehuda_Afek> <pc> 107 .
+<Yehuda_Afek> <cn> 1083 .
+<Yehuda_Afek> <h_index> 19 .
+<Yehuda_Afek> <p_index> 355.0333 .
+
+
+<Fereydoun_Hormozdiari> <instanceOf> <Author> .
+<Fereydoun_Hormozdiari> <id> <688717> .
+<Fereydoun_Hormozdiari> <pc> 10 .
+<Fereydoun_Hormozdiari> <cn> 14 .
+<Fereydoun_Hormozdiari> <h_index> 2 .
+<Fereydoun_Hormozdiari> <p_index> 2.8179 .
+
+
+<M_Katchalski> <instanceOf> <Author> .
+<M_Katchalski> <id> <689987> .
+<M_Katchalski> <pc> 13 .
+<M_Katchalski> <cn> 57 .
+<M_Katchalski> <h_index> 4 .
+<M_Katchalski> <p_index> 20.1667 .
+
+
+<E_Szemerédi> <instanceOf> <Author> .
+<E_Szemerédi> <id> <693178> .
+<E_Szemerédi> <pc> 5 .
+<E_Szemerédi> <cn> 29 .
+<E_Szemerédi> <h_index> 3 .
+<E_Szemerédi> <p_index> 7.4524 .
+
+
+<Endre_Szemerédi> <instanceOf> <Author> .
+<Endre_Szemerédi> <id> <693179> .
+<Endre_Szemerédi> <pc> 71 .
+<Endre_Szemerédi> <cn> 1015 .
+<Endre_Szemerédi> <h_index> 13 .
+<Endre_Szemerédi> <p_index> 344.5000 .
+
+
+<M_Naor> <instanceOf> <Author> .
+<M_Naor> <id> <697398> .
+<M_Naor> <pc> 8 .
+<M_Naor> <cn> 26 .
+<M_Naor> <h_index> 3 .
+<M_Naor> <p_index> 7.0524 .
+
+
+<H_V_Jagadish> <instanceOf> <Author> .
+<H_V_Jagadish> <id> <699233> .
+<H_V_Jagadish> <pc> 179 .
+<H_V_Jagadish> <cn> 4407 .
+<H_V_Jagadish> <h_index> 36 .
+<H_V_Jagadish> <p_index> 1528.3116 .
+
+
+<Douglas_B_West> <instanceOf> <Author> .
+<Douglas_B_West> <id> <700202> .
+<Douglas_B_West> <pc> 102 .
+<Douglas_B_West> <cn> 237 .
+<Douglas_B_West> <h_index> 7 .
+<Douglas_B_West> <p_index> 91.3000 .
+
+
+<Béla_Bollobás> <instanceOf> <Author> .
+<Béla_Bollobás> <id> <705881> .
+<Béla_Bollobás> <pc> 153 .
+<Béla_Bollobás> <cn> 858 .
+<Béla_Bollobás> <h_index> 15 .
+<Béla_Bollobás> <p_index> 431.4667 .
+
+
+<Shai_Vardi> <instanceOf> <Author> .
+<Shai_Vardi> <id> <707472> .
+<Shai_Vardi> <pc> 2 .
+<Shai_Vardi> <cn> 2 .
+<Shai_Vardi> <h_index> 1 .
+<Shai_Vardi> <p_index> 0.5000 .
+
+
+<Laurent_Mignet> <instanceOf> <Author> .
+<Laurent_Mignet> <id> <715209> .
+<Laurent_Mignet> <pc> 11 .
+<Laurent_Mignet> <cn> 237 .
+<Laurent_Mignet> <h_index> 6 .
+<Laurent_Mignet> <p_index> 60.1968 .
+
+
+<Avi_Wigderson> <instanceOf> <Author> .
+<Avi_Wigderson> <id> <721636> .
+<Avi_Wigderson> <pc> 190 .
+<Avi_Wigderson> <cn> 4402 .
+<Avi_Wigderson> <h_index> 30 .
+<Avi_Wigderson> <p_index> 1599.1333 .
+
+
+<Susan_B_Davidson> <instanceOf> <Author> .
+<Susan_B_Davidson> <id> <722065> .
+<Susan_B_Davidson> <pc> 86 .
+<Susan_B_Davidson> <cn> 1403 .
+<Susan_B_Davidson> <h_index> 20 .
+<Susan_B_Davidson> <p_index> 431.0800 .
+
+
+<S_V_Sevastianov> <instanceOf> <Author> .
+<S_V_Sevastianov> <id> <722667> .
+<S_V_Sevastianov> <pc> 4 .
+<S_V_Sevastianov> <cn> 8 .
+<S_V_Sevastianov> <h_index> 1 .
+<S_V_Sevastianov> <p_index> 3.7000 .
+
+
+<Roy_Meshulam> <instanceOf> <Author> .
+<Roy_Meshulam> <id> <732496> .
+<Roy_Meshulam> <pc> 23 .
+<Roy_Meshulam> <cn> 67 .
+<Roy_Meshulam> <h_index> 6 .
+<Roy_Meshulam> <p_index> 40.6667 .
+
+
+<Stephane_Grumbach> <instanceOf> <Author> .
+<Stephane_Grumbach> <id> <733320> .
+<Stephane_Grumbach> <pc> 58 .
+<Stephane_Grumbach> <cn> 524 .
+<Stephane_Grumbach> <h_index> 15 .
+<Stephane_Grumbach> <p_index> 206.3202 .
+
+
+<Rudolf_Fleischer> <instanceOf> <Author> .
+<Rudolf_Fleischer> <id> <740987> .
+<Rudolf_Fleischer> <pc> 75 .
+<Rudolf_Fleischer> <cn> 414 .
+<Rudolf_Fleischer> <h_index> 7 .
+<Rudolf_Fleischer> <p_index> 94.4748 .
+
+
+<Amit_Weinstein> <instanceOf> <Author> .
+<Amit_Weinstein> <id> <745767> .
+<Amit_Weinstein> <pc> 4 .
+<Amit_Weinstein> <cn> 5 .
+<Amit_Weinstein> <h_index> 1 .
+<Amit_Weinstein> <p_index> 1.1333 .
+
+
+<Steven_Rudich> <instanceOf> <Author> .
+<Steven_Rudich> <id> <757792> .
+<Steven_Rudich> <pc> 35 .
+<Steven_Rudich> <cn> 695 .
+<Steven_Rudich> <h_index> 13 .
+<Steven_Rudich> <p_index> 243.4262 .
+
+
+<Mathias_Schacht> <instanceOf> <Author> .
+<Mathias_Schacht> <id> <765326> .
+<Mathias_Schacht> <pc> 26 .
+<Mathias_Schacht> <cn> 94 .
+<Mathias_Schacht> <h_index> 5 .
+<Mathias_Schacht> <p_index> 35.0833 .
+
+
+<Naftali_Tishby> <instanceOf> <Author> .
+<Naftali_Tishby> <id> <767742> .
+<Naftali_Tishby> <pc> 53 .
+<Naftali_Tishby> <cn> 1357 .
+<Naftali_Tishby> <h_index> 17 .
+<Naftali_Tishby> <p_index> 435.9000 .
+
+
+<Amos_Fiat> <instanceOf> <Author> .
+<Amos_Fiat> <id> <768393> .
+<Amos_Fiat> <pc> 102 .
+<Amos_Fiat> <cn> 3257 .
+<Amos_Fiat> <h_index> 26 .
+<Amos_Fiat> <p_index> 1214.0763 .
+
+
+<V_D_Milman> <instanceOf> <Author> .
+<V_D_Milman> <id> <769170> .
+<V_D_Milman> <pc> 2 .
+<V_D_Milman> <cn> 15 .
+<V_D_Milman> <h_index> 0 .
+<V_D_Milman> <p_index> 5.8333 .
+
+
+<Eli_Berger> <instanceOf> <Author> .
+<Eli_Berger> <id> <769892> .
+<Eli_Berger> <pc> 12 .
+<Eli_Berger> <cn> 50 .
+<Eli_Berger> <h_index> 3 .
+<Eli_Berger> <p_index> 28.6000 .
+
+
+<Dirk_Vertigan> <instanceOf> <Author> .
+<Dirk_Vertigan> <id> <771043> .
+<Dirk_Vertigan> <pc> 19 .
+<Dirk_Vertigan> <cn> 99 .
+<Dirk_Vertigan> <h_index> 6 .
+<Dirk_Vertigan> <p_index> 34.7262 .
+
+
+<David_S_Gunderson> <instanceOf> <Author> .
+<David_S_Gunderson> <id> <778424> .
+<David_S_Gunderson> <pc> 11 .
+<David_S_Gunderson> <cn> 28 .
+<David_S_Gunderson> <h_index> 4 .
+<David_S_Gunderson> <p_index> 8.7167 .
+
+
+<Chris_Faloutsos> <instanceOf> <Author> .
+<Chris_Faloutsos> <id> <779043> .
+<Chris_Faloutsos> <pc> 347 .
+<Chris_Faloutsos> <cn> 9386 .
+<Chris_Faloutsos> <h_index> 50 .
+<Chris_Faloutsos> <p_index> 3384.4156 .
+
+
+<Amélie_Marian> <instanceOf> <Author> .
+<Amélie_Marian> <id> <780461> .
+<Amélie_Marian> <pc> 23 .
+<Amélie_Marian> <cn> 644 .
+<Amélie_Marian> <h_index> 10 .
+<Amélie_Marian> <p_index> 329.1190 .
+
+
+<Jérôme_Baumgarten> <instanceOf> <Author> .
+<Jérôme_Baumgarten> <id> <780660> .
+<Jérôme_Baumgarten> <pc> 2 .
+<Jérôme_Baumgarten> <cn> 8 .
+<Jérôme_Baumgarten> <h_index> 0 .
+<Jérôme_Baumgarten> <p_index> 1.1111 .
+
+
+<Bogdan_Alexe> <instanceOf> <Author> .
+<Bogdan_Alexe> <id> <781207> .
+<Bogdan_Alexe> <pc> 15 .
+<Bogdan_Alexe> <cn> 120 .
+<Bogdan_Alexe> <h_index> 7 .
+<Bogdan_Alexe> <p_index> 34.3028 .
+
+
+<J_Naor> <instanceOf> <Author> .
+<J_Naor> <id> <781289> .
+<J_Naor> <pc> 143 .
+<J_Naor> <cn> 1375 .
+<J_Naor> <h_index> 19 .
+<J_Naor> <p_index> 451.1714 .
+
+
+<Karl_Schnaitter> <instanceOf> <Author> .
+<Karl_Schnaitter> <id> <782471> .
+<Karl_Schnaitter> <pc> 13 .
+<Karl_Schnaitter> <cn> 107 .
+<Karl_Schnaitter> <h_index> 5 .
+<Karl_Schnaitter> <p_index> 37.5833 .
+
+
+<Pierre_Kelsen> <instanceOf> <Author> .
+<Pierre_Kelsen> <id> <790943> .
+<Pierre_Kelsen> <pc> 38 .
+<Pierre_Kelsen> <cn> 85 .
+<Pierre_Kelsen> <h_index> 6 .
+<Pierre_Kelsen> <p_index> 42.4167 .
+
+
+<Tom_Yam> <instanceOf> <Author> .
+<Tom_Yam> <id> <800011> .
+<Tom_Yam> <pc> 2 .
+<Tom_Yam> <cn> 8 .
+<Tom_Yam> <h_index> 0 .
+<Tom_Yam> <p_index> 2.2500 .
+
+
+<Philipp_Zumstein> <instanceOf> <Author> .
+<Philipp_Zumstein> <id> <801195> .
+<Philipp_Zumstein> <pc> 6 .
+<Philipp_Zumstein> <cn> 3 .
+<Philipp_Zumstein> <h_index> 1 .
+<Philipp_Zumstein> <p_index> 0.3750 .
+
+
+<Ladislav_Stacho> <instanceOf> <Author> .
+<Ladislav_Stacho> <id> <811166> .
+<Ladislav_Stacho> <pc> 45 .
+<Ladislav_Stacho> <cn> 79 .
+<Ladislav_Stacho> <h_index> 4 .
+<Ladislav_Stacho> <p_index> 20.9198 .
+
+
+<E_Petrank> <instanceOf> <Author> .
+<E_Petrank> <id> <823909> .
+<E_Petrank> <pc> 77 .
+<E_Petrank> <cn> 841 .
+<E_Petrank> <h_index> 18 .
+<E_Petrank> <p_index> 343.4694 .
+
+
+<Mihai_Budiu> <instanceOf> <Author> .
+<Mihai_Budiu> <id> <825137> .
+<Mihai_Budiu> <pc> 46 .
+<Mihai_Budiu> <cn> 1664 .
+<Mihai_Budiu> <h_index> 16 .
+<Mihai_Budiu> <p_index> 400.8905 .
+
+
+<Noam_Slonim> <instanceOf> <Author> .
+<Noam_Slonim> <id> <827993> .
+<Noam_Slonim> <pc> 12 .
+<Noam_Slonim> <cn> 234 .
+<Noam_Slonim> <h_index> 5 .
+<Noam_Slonim> <p_index> 89.9500 .
+
+
+<Baruch_Awerbuch> <instanceOf> <Author> .
+<Baruch_Awerbuch> <id> <830017> .
+<Baruch_Awerbuch> <pc> 163 .
+<Baruch_Awerbuch> <cn> 2507 .
+<Baruch_Awerbuch> <h_index> 28 .
+<Baruch_Awerbuch> <p_index> 1005.4667 .
+
+
+<Robert_Berke> <instanceOf> <Author> .
+<Robert_Berke> <id> <832488> .
+<Robert_Berke> <pc> 7 .
+<Robert_Berke> <cn> 7 .
+<Robert_Berke> <h_index> 2 .
+<Robert_Berke> <p_index> 2.3750 .
+
+
+<Saswata_Shannigrahi_Shannigrahi> <instanceOf> <Author> .
+<Saswata_Shannigrahi_Shannigrahi> <id> <834196> .
+<Saswata_Shannigrahi_Shannigrahi> <pc> 7 .
+<Saswata_Shannigrahi_Shannigrahi> <cn> 4 .
+<Saswata_Shannigrahi_Shannigrahi> <h_index> 1 .
+<Saswata_Shannigrahi_Shannigrahi> <p_index> 0.8750 .
+
+
+<Stefan_Szeider> <instanceOf> <Author> .
+<Stefan_Szeider> <id> <839078> .
+<Stefan_Szeider> <pc> 67 .
+<Stefan_Szeider> <cn> 432 .
+<Stefan_Szeider> <h_index> 11 .
+<Stefan_Szeider> <p_index> 193.1310 .
+
+
+<Irini_Fundulaki> <instanceOf> <Author> .
+<Irini_Fundulaki> <id> <840170> .
+<Irini_Fundulaki> <keyTerm> <Data Management> .
+<Irini_Fundulaki> <pc> 30 .
+<Irini_Fundulaki> <cn> 198 .
+<Irini_Fundulaki> <h_index> 9 .
+<Irini_Fundulaki> <p_index> 64.9397 .
+
+
+<C_Pomerance> <instanceOf> <Author> .
+<C_Pomerance> <id> <843624> .
+<C_Pomerance> <pc> 18 .
+<C_Pomerance> <cn> 80 .
+<C_Pomerance> <h_index> 6 .
+<C_Pomerance> <p_index> 48.9000 .
+
+
+<Phillip_B_Gibbons> <instanceOf> <Author> .
+<Phillip_B_Gibbons> <id> <849460> .
+<Phillip_B_Gibbons> <pc> 141 .
+<Phillip_B_Gibbons> <cn> 3111 .
+<Phillip_B_Gibbons> <h_index> 32 .
+<Phillip_B_Gibbons> <p_index> 1045.1918 .
+
+
+<Yakov_Kogan> <instanceOf> <Author> .
+<Yakov_Kogan> <id> <850977> .
+<Yakov_Kogan> <pc> 5 .
+<Yakov_Kogan> <cn> 34 .
+<Yakov_Kogan> <h_index> 3 .
+<Yakov_Kogan> <p_index> 5.0333 .
+
+
+<Shai_Ben-David> <instanceOf> <Author> .
+<Shai_Ben-David> <id> <864629> .
+<Shai_Ben-David> <pc> 61 .
+<Shai_Ben-David> <cn> 519 .
+<Shai_Ben-David> <h_index> 10 .
+<Shai_Ben-David> <p_index> 192.1667 .
+
+
+<Sophie_Cluet> <instanceOf> <Author> .
+<Sophie_Cluet> <id> <867986> .
+<Sophie_Cluet> <pc> 32 .
+<Sophie_Cluet> <cn> 735 .
+<Sophie_Cluet> <h_index> 13 .
+<Sophie_Cluet> <p_index> 254.1190 .
+
+
+<Dana_Moshkovitz> <instanceOf> <Author> .
+<Dana_Moshkovitz> <id> <869972> .
+<Dana_Moshkovitz> <pc> 11 .
+<Dana_Moshkovitz> <cn> 93 .
+<Dana_Moshkovitz> <h_index> 5 .
+<Dana_Moshkovitz> <p_index> 36.0833 .
+
+
+<David_Peleg> <instanceOf> <Author> .
+<David_Peleg> <id> <877689> .
+<David_Peleg> <pc> 277 .
+<David_Peleg> <cn> 3304 .
+<David_Peleg> <h_index> 28 .
+<David_Peleg> <p_index> 1549.3940 .
+
+
+<Anders_Yeo> <instanceOf> <Author> .
+<Anders_Yeo> <id> <878385> .
+<Anders_Yeo> <pc> 137 .
+<Anders_Yeo> <cn> 402 .
+<Anders_Yeo> <h_index> 10 .
+<Anders_Yeo> <p_index> 151.2583 .
+
+
+<K_A_Berman> <instanceOf> <Author> .
+<K_A_Berman> <id> <879370> .
+<K_A_Berman> <pc> 32 .
+<K_A_Berman> <cn> 46 .
+<K_A_Berman> <h_index> 4 .
+<K_A_Berman> <p_index> 20.4167 .
+
+
+<Alberto_O_Mendelzon> <instanceOf> <Author> .
+<Alberto_O_Mendelzon> <id> <880142> .
+<Alberto_O_Mendelzon> <pc> 122 .
+<Alberto_O_Mendelzon> <cn> 2747 .
+<Alberto_O_Mendelzon> <h_index> 27 .
+<Alberto_O_Mendelzon> <p_index> 1094.1127 .
+
+
+<IIan_Adler> <instanceOf> <Author> .
+<IIan_Adler> <id> <880346> .
+<IIan_Adler> <pc> 1 .
+<IIan_Adler> <cn> 2 .
+<IIan_Adler> <h_index> 1 .
+<IIan_Adler> <p_index> 0.6667 .
+
+
+<Michael_Molloy> <instanceOf> <Author> .
+<Michael_Molloy> <id> <880452> .
+<Michael_Molloy> <pc> 60 .
+<Michael_Molloy> <cn> 507 .
+<Michael_Molloy> <h_index> 11 .
+<Michael_Molloy> <p_index> 264.9500 .
+
+
+<Nikolai_Vereshchagin> <instanceOf> <Author> .
+<Nikolai_Vereshchagin> <id> <885602> .
+<Nikolai_Vereshchagin> <pc> 47 .
+<Nikolai_Vereshchagin> <cn> 126 .
+<Nikolai_Vereshchagin> <h_index> 6 .
+<Nikolai_Vereshchagin> <p_index> 47.1167 .
+
+
+<N_C_Wormald> <instanceOf> <Author> .
+<N_C_Wormald> <id> <887408> .
+<N_C_Wormald> <pc> 96 .
+<N_C_Wormald> <cn> 409 .
+<N_C_Wormald> <h_index> 11 .
+<N_C_Wormald> <p_index> 172.9500 .
+
+
+<Pini_Mogilevski> <instanceOf> <Author> .
+<Pini_Mogilevski> <id> <890839> .
+<Pini_Mogilevski> <pc> 1 .
+<Pini_Mogilevski> <cn> 12 .
+<Pini_Mogilevski> <h_index> 1 .
+<Pini_Mogilevski> <p_index> 1.2000 .
+
+
+<Zohra_Bellahsene> <instanceOf> <Author> .
+<Zohra_Bellahsene> <id> <890963> .
+<Zohra_Bellahsene> <pc> 53 .
+<Zohra_Bellahsene> <cn> 156 .
+<Zohra_Bellahsene> <h_index> 6 .
+<Zohra_Bellahsene> <p_index> 78.2500 .
+
+
+<Michael_Tarsi> <instanceOf> <Author> .
+<Michael_Tarsi> <id> <909675> .
+<Michael_Tarsi> <pc> 20 .
+<Michael_Tarsi> <cn> 130 .
+<Michael_Tarsi> <h_index> 7 .
+<Michael_Tarsi> <p_index> 65.8833 .
+
+
+<H_Attiya> <instanceOf> <Author> .
+<H_Attiya> <id> <919545> .
+<H_Attiya> <pc> 142 .
+<H_Attiya> <cn> 1655 .
+<H_Attiya> <h_index> 20 .
+<H_Attiya> <p_index> 631.8500 .
+
+
+<Guoli_Ding> <instanceOf> <Author> .
+<Guoli_Ding> <id> <924270> .
+<Guoli_Ding> <pc> 46 .
+<Guoli_Ding> <cn> 120 .
+<Guoli_Ding> <h_index> 6 .
+<Guoli_Ding> <p_index> 39.8762 .
+
+
+<Mikkel_Thorup> <instanceOf> <Author> .
+<Mikkel_Thorup> <id> <932711> .
+<Mikkel_Thorup> <pc> 135 .
+<Mikkel_Thorup> <cn> 2224 .
+<Mikkel_Thorup> <h_index> 25 .
+<Mikkel_Thorup> <p_index> 1162.2500 .
+
+
+<M_Tennenholtz> <instanceOf> <Author> .
+<M_Tennenholtz> <id> <932734> .
+<M_Tennenholtz> <pc> 140 .
+<M_Tennenholtz> <cn> 1298 .
+<M_Tennenholtz> <h_index> 17 .
+<M_Tennenholtz> <p_index> 634.4250 .
+
+
+<M_Voigt> <instanceOf> <Author> .
+<M_Voigt> <id> <938970> .
+<M_Voigt> <pc> 24 .
+<M_Voigt> <cn> 106 .
+<M_Voigt> <h_index> 5 .
+<M_Voigt> <p_index> 73.2500 .
+
+
+<Y_Ravid> <instanceOf> <Author> .
+<Y_Ravid> <id> <948312> .
+<Y_Ravid> <pc> 1 .
+<Y_Ravid> <cn> 12 .
+<Y_Ravid> <h_index> 1 .
+<Y_Ravid> <p_index> 4.0000 .
+
+
+<B_Ballobás> <instanceOf> <Author> .
+<B_Ballobás> <id> <950088> .
+<B_Ballobás> <pc> 1 .
+<B_Ballobás> <cn> 1 .
+<B_Ballobás> <h_index> 1 .
+<B_Ballobás> <p_index> 0.5000 .
+
+
+<Wolfgang_Maass> <instanceOf> <Author> .
+<Wolfgang_Maass> <id> <958903> .
+<Wolfgang_Maass> <pc> 110 .
+<Wolfgang_Maass> <cn> 1305 .
+<Wolfgang_Maass> <h_index> 17 .
+<Wolfgang_Maass> <p_index> 677.7833 .
+
+
+<Oded_Shmueli> <instanceOf> <Author> .
+<Oded_Shmueli> <id> <959682> .
+<Oded_Shmueli> <pc> 76 .
+<Oded_Shmueli> <cn> 874 .
+<Oded_Shmueli> <h_index> 16 .
+<Oded_Shmueli> <p_index> 414.9714 .
+
+
+<Tom_Boham> <instanceOf> <Author> .
+<Tom_Boham> <id> <987949> .
+<Tom_Boham> <pc> 1 .
+<Tom_Boham> <cn> 1 .
+<Tom_Boham> <h_index> 1 .
+<Tom_Boham> <p_index> 0.2500 .
+
+
+<Gadi_Taubenfeld> <instanceOf> <Author> .
+<Gadi_Taubenfeld> <id> <988867> .
+<Gadi_Taubenfeld> <pc> 66 .
+<Gadi_Taubenfeld> <cn> 405 .
+<Gadi_Taubenfeld> <h_index> 11 .
+<Gadi_Taubenfeld> <p_index> 190.7667 .
+
+
+<Mariusz_Hałuszczak> <instanceOf> <Author> .
+<Mariusz_Hałuszczak> <id> <991046> .
+<Mariusz_Hałuszczak> <pc> 4 .
+<Mariusz_Hałuszczak> <cn> 25 .
+<Mariusz_Hałuszczak> <h_index> 2 .
+<Mariusz_Hałuszczak> <p_index> 7.7500 .
+
+
+<S_Khanna> <instanceOf> <Author> .
+<S_Khanna> <id> <991396> .
+<S_Khanna> <pc> 134 .
+<S_Khanna> <cn> 2026 .
+<S_Khanna> <h_index> 26 .
+<S_Khanna> <p_index> 710.3933 .
+
+
+<T_Jiang> <instanceOf> <Author> .
+<T_Jiang> <id> <993643> .
+<T_Jiang> <pc> 189 .
+<T_Jiang> <cn> 1077 .
+<T_Jiang> <h_index> 18 .
+<T_Jiang> <p_index> 374.2310 .
+
+
+<Uri_Stav> <instanceOf> <Author> .
+<Uri_Stav> <id> <994060> .
+<Uri_Stav> <pc> 10 .
+<Uri_Stav> <cn> 21 .
+<Uri_Stav> <h_index> 2 .
+<Uri_Stav> <p_index> 9.3000 .
+
+
+<Văn_H_Vũ> <instanceOf> <Author> .
+<Văn_H_Vũ> <id> <995047> .
+<Văn_H_Vũ> <pc> 2 .
+<Văn_H_Vũ> <cn> 13 .
+<Văn_H_Vũ> <h_index> 1 .
+<Văn_H_Vũ> <p_index> 6.5000 .
+
+
+<Z_Azar> <instanceOf> <Author> .
+<Z_Azar> <id> <1007391> .
+<Z_Azar> <pc> 1 .
+<Z_Azar> <cn> 5 .
+<Z_Azar> <h_index> 1 .
+<Z_Azar> <p_index> 2.5000 .
+
+
+<Anja_Krech> <instanceOf> <Author> .
+<Anja_Krech> <id> <1021763> .
+<Anja_Krech> <pc> 1 .
+<Anja_Krech> <cn> 4 .
+<Anja_Krech> <h_index> 1 .
+<Anja_Krech> <p_index> 1.3333 .
+
+
+<Alejandro_Cornejo> <instanceOf> <Author> .
+<Alejandro_Cornejo> <id> <1023530> .
+<Alejandro_Cornejo> <pc> 17 .
+<Alejandro_Cornejo> <cn> 28 .
+<Alejandro_Cornejo> <h_index> 3 .
+<Alejandro_Cornejo> <p_index> 8.9167 .
+
+
+<R_Faudree> <instanceOf> <Author> .
+<R_Faudree> <id> <1034588> .
+<R_Faudree> <pc> 1 .
+<R_Faudree> <cn> 0 .
+<R_Faudree> <h_index> 0 .
+<R_Faudree> <p_index> 0.0000 .
+
+
+<G_D_Cohen> <instanceOf> <Author> .
+<G_D_Cohen> <id> <1040877> .
+<G_D_Cohen> <pc> 83 .
+<G_D_Cohen> <cn> 146 .
+<G_D_Cohen> <h_index> 6 .
+<G_D_Cohen> <p_index> 45.0524 .
+
+
+<Alexander_Shen> <instanceOf> <Author> .
+<Alexander_Shen> <id> <1044405> .
+<Alexander_Shen> <pc> 39 .
+<Alexander_Shen> <cn> 82 .
+<Alexander_Shen> <h_index> 6 .
+<Alexander_Shen> <p_index> 26.3500 .
+
+
+<Moses_Charikar> <instanceOf> <Author> .
+<Moses_Charikar> <id> <1045395> .
+<Moses_Charikar> <pc> 102 .
+<Moses_Charikar> <cn> 2531 .
+<Moses_Charikar> <h_index> 28 .
+<Moses_Charikar> <p_index> 978.7607 .
+
+
+<Pierangelo_Veltri> <instanceOf> <Author> .
+<Pierangelo_Veltri> <id> <1046060> .
+<Pierangelo_Veltri> <pc> 49 .
+<Pierangelo_Veltri> <cn> 165 .
+<Pierangelo_Veltri> <h_index> 6 .
+<Pierangelo_Veltri> <p_index> 49.8341 .
+
+
+<Sonny_Ben-Shimon> <instanceOf> <Author> .
+<Sonny_Ben-Shimon> <id> <1050395> .
+<Sonny_Ben-Shimon> <pc> 5 .
+<Sonny_Ben-Shimon> <cn> 7 .
+<Sonny_Ben-Shimon> <h_index> 1 .
+<Sonny_Ben-Shimon> <p_index> 2.2500 .
+
+
+<Rina_Panigrahy> <instanceOf> <Author> .
+<Rina_Panigrahy> <id> <1052745> .
+<Rina_Panigrahy> <pc> 66 .
+<Rina_Panigrahy> <cn> 1214 .
+<Rina_Panigrahy> <h_index> 14 .
+<Rina_Panigrahy> <p_index> 300.2437 .
+
+
+<Cosmin_Cremarenco> <instanceOf> <Author> .
+<Cosmin_Cremarenco> <id> <1058272> .
+<Cosmin_Cremarenco> <pc> 2 .
+<Cosmin_Cremarenco> <cn> 6 .
+<Cosmin_Cremarenco> <h_index> 0 .
+<Cosmin_Cremarenco> <p_index> 0.8444 .
+
+
+<Christian_Knauer> <instanceOf> <Author> .
+<Christian_Knauer> <id> <1058915> .
+<Christian_Knauer> <pc> 62 .
+<Christian_Knauer> <cn> 178 .
+<Christian_Knauer> <h_index> 7 .
+<Christian_Knauer> <p_index> 44.8548 .
+
+
+<Simon_N_Litsyn> <instanceOf> <Author> .
+<Simon_N_Litsyn> <id> <1061620> .
+<Simon_N_Litsyn> <pc> 100 .
+<Simon_N_Litsyn> <cn> 287 .
+<Simon_N_Litsyn> <h_index> 9 .
+<Simon_N_Litsyn> <p_index> 110.5500 .
+
+
+<Nicoleta_Preda> <instanceOf> <Author> .
+<Nicoleta_Preda> <id> <1062551> .
+<Nicoleta_Preda> <pc> 12 .
+<Nicoleta_Preda> <cn> 86 .
+<Nicoleta_Preda> <h_index> 4 .
+<Nicoleta_Preda> <p_index> 16.7278 .
+
+
+<Benny_Sudakov> <instanceOf> <Author> .
+<Benny_Sudakov> <id> <1066910> .
+<Benny_Sudakov> <pc> 64 .
+<Benny_Sudakov> <cn> 139 .
+<Benny_Sudakov> <h_index> 6 .
+<Benny_Sudakov> <p_index> 50.3667 .
+
+
+<Z_Miller> <instanceOf> <Author> .
+<Z_Miller> <id> <1076705> .
+<Z_Miller> <pc> 21 .
+<Z_Miller> <cn> 41 .
+<Z_Miller> <h_index> 4 .
+<Z_Miller> <p_index> 12.9000 .
+
+
+<Ohad_Greenshpan> <instanceOf> <Author> .
+<Ohad_Greenshpan> <id> <1077429> .
+<Ohad_Greenshpan> <pc> 14 .
+<Ohad_Greenshpan> <cn> 82 .
+<Ohad_Greenshpan> <h_index> 5 .
+<Ohad_Greenshpan> <p_index> 22.2333 .
+
+
+<Oded_Margalit> <instanceOf> <Author> .
+<Oded_Margalit> <id> <1078250> .
+<Oded_Margalit> <pc> 9 .
+<Oded_Margalit> <cn> 127 .
+<Oded_Margalit> <h_index> 6 .
+<Oded_Margalit> <p_index> 52.3333 .
+
+
+<Yuval_Emek> <instanceOf> <Author> .
+<Yuval_Emek> <id> <1081824> .
+<Yuval_Emek> <pc> 35 .
+<Yuval_Emek> <cn> 150 .
+<Yuval_Emek> <h_index> 7 .
+<Yuval_Emek> <p_index> 42.5333 .
+
+
+<Y_Kohayakawa> <instanceOf> <Author> .
+<Y_Kohayakawa> <id> <1088895> .
+<Y_Kohayakawa> <pc> 52 .
+<Y_Kohayakawa> <cn> 174 .
+<Y_Kohayakawa> <h_index> 8 .
+<Y_Kohayakawa> <p_index> 70.6417 .
+
+
+<Gregory_Gutin> <instanceOf> <Author> .
+<Gregory_Gutin> <id> <1095282> .
+<Gregory_Gutin> <pc> 136 .
+<Gregory_Gutin> <cn> 582 .
+<Gregory_Gutin> <h_index> 11 .
+<Gregory_Gutin> <p_index> 219.3583 .
+
+
+<Stefan_Haar> <instanceOf> <Author> .
+<Stefan_Haar> <id> <1102856> .
+<Stefan_Haar> <pc> 33 .
+<Stefan_Haar> <cn> 137 .
+<Stefan_Haar> <h_index> 6 .
+<Stefan_Haar> <p_index> 44.3333 .
+
+
+<Divesh_Srivastava> <instanceOf> <Author> .
+<Divesh_Srivastava> <id> <1102894> .
+<Divesh_Srivastava> <pc> 199 .
+<Divesh_Srivastava> <cn> 3534 .
+<Divesh_Srivastava> <h_index> 31 .
+<Divesh_Srivastava> <p_index> 955.4444 .
+
+
+<Anne-Marie_Vercoustre> <instanceOf> <Author> .
+<Anne-Marie_Vercoustre> <id> <1103775> .
+<Anne-Marie_Vercoustre> <pc> 23 .
+<Anne-Marie_Vercoustre> <cn> 120 .
+<Anne-Marie_Vercoustre> <h_index> 6 .
+<Anne-Marie_Vercoustre> <p_index> 32.2552 .
+
+
+<E_Bachmat> <instanceOf> <Author> .
+<E_Bachmat> <id> <1105883> .
+<E_Bachmat> <pc> 27 .
+<E_Bachmat> <cn> 61 .
+<E_Bachmat> <h_index> 4 .
+<E_Bachmat> <p_index> 25.0333 .
+
+
+<Ilan_Newman> <instanceOf> <Author> .
+<Ilan_Newman> <id> <1116866> .
+<Ilan_Newman> <pc> 84 .
+<Ilan_Newman> <cn> 714 .
+<Ilan_Newman> <h_index> 14 .
+<Ilan_Newman> <p_index> 277.9619 .
+
+
+<Sudeepa_Roy> <instanceOf> <Author> .
+<Sudeepa_Roy> <id> <1123696> .
+<Sudeepa_Roy> <pc> 11 .
+<Sudeepa_Roy> <cn> 31 .
+<Sudeepa_Roy> <h_index> 4 .
+<Sudeepa_Roy> <p_index> 7.2833 .
+
+
+<I_Krasikov> <instanceOf> <Author> .
+<I_Krasikov> <id> <1127389> .
+<I_Krasikov> <pc> 24 .
+<I_Krasikov> <cn> 42 .
+<I_Krasikov> <h_index> 4 .
+<I_Krasikov> <p_index> 26.7500 .
+
+
+<Simon_Kamenkovich> <instanceOf> <Author> .
+<Simon_Kamenkovich> <id> <1137565> .
+<Simon_Kamenkovich> <pc> 3 .
+<Simon_Kamenkovich> <cn> 72 .
+<Simon_Kamenkovich> <h_index> 0 .
+<Simon_Kamenkovich> <p_index> 18.0000 .
+
+
+<Mark_R_Tuttle> <instanceOf> <Author> .
+<Mark_R_Tuttle> <id> <1139763> .
+<Mark_R_Tuttle> <pc> 41 .
+<Mark_R_Tuttle> <cn> 636 .
+<Mark_R_Tuttle> <h_index> 12 .
+<Mark_R_Tuttle> <p_index> 266.0619 .
+
+
+<Adi_Eyal> <instanceOf> <Author> .
+<Adi_Eyal> <id> <1141016> .
+<Adi_Eyal> <pc> 2 .
+<Adi_Eyal> <cn> 28 .
+<Adi_Eyal> <h_index> 0 .
+<Adi_Eyal> <p_index> 5.6667 .
+
+
+<Michal_Koucký> <instanceOf> <Author> .
+<Michal_Koucký> <id> <1155593> .
+<Michal_Koucký> <pc> 34 .
+<Michal_Koucký> <cn> 162 .
+<Michal_Koucký> <h_index> 6 .
+<Michal_Koucký> <p_index> 62.3167 .
+
+
+<András_Gyárfás> <instanceOf> <Author> .
+<András_Gyárfás> <id> <1171041> .
+<András_Gyárfás> <pc> 53 .
+<András_Gyárfás> <cn> 105 .
+<András_Gyárfás> <h_index> 5 .
+<András_Gyárfás> <p_index> 32.7000 .
+
+
+<S_Safra> <instanceOf> <Author> .
+<S_Safra> <id> <1175552> .
+<S_Safra> <pc> 29 .
+<S_Safra> <cn> 1175 .
+<S_Safra> <h_index> 18 .
+<S_Safra> <p_index> 448.8167 .
+
+
+<Sühleyman_Cenk_Sahinalp> <instanceOf> <Author> .
+<Sühleyman_Cenk_Sahinalp> <id> <1181141> .
+<Sühleyman_Cenk_Sahinalp> <pc> 33 .
+<Sühleyman_Cenk_Sahinalp> <cn> 212 .
+<Sühleyman_Cenk_Sahinalp> <h_index> 7 .
+<Sühleyman_Cenk_Sahinalp> <p_index> 78.3833 .
+
+
+<P_Frankl> <instanceOf> <Author> .
+<P_Frankl> <id> <1182142> .
+<P_Frankl> <pc> 14 .
+<P_Frankl> <cn> 49 .
+<P_Frankl> <h_index> 5 .
+<P_Frankl> <p_index> 35.0000 .
+
+
+<Tal_Yadid> <instanceOf> <Author> .
+<Tal_Yadid> <id> <1184301> .
+<Tal_Yadid> <pc> 1 .
+<Tal_Yadid> <cn> 28 .
+<Tal_Yadid> <h_index> 1 .
+<Tal_Yadid> <p_index> 7.0000 .
+
+
+<R_Rubinfeld> <instanceOf> <Author> .
+<R_Rubinfeld> <id> <1194717> .
+<R_Rubinfeld> <pc> 97 .
+<R_Rubinfeld> <cn> 1496 .
+<R_Rubinfeld> <h_index> 20 .
+<R_Rubinfeld> <p_index> 488.7810 .
+
+
+<Michal_Feldman> <instanceOf> <Author> .
+<Michal_Feldman> <id> <1198492> .
+<Michal_Feldman> <pc> 50 .
+<Michal_Feldman> <cn> 451 .
+<Michal_Feldman> <h_index> 9 .
+<Michal_Feldman> <p_index> 137.3750 .
+
+
+<Ehud_Friedgut> <instanceOf> <Author> .
+<Ehud_Friedgut> <id> <1207470> .
+<Ehud_Friedgut> <pc> 16 .
+<Ehud_Friedgut> <cn> 128 .
+<Ehud_Friedgut> <h_index> 6 .
+<Ehud_Friedgut> <p_index> 65.6500 .
+
+
+<P_M_Winkler> <instanceOf> <Author> .
+<P_M_Winkler> <id> <1210156> .
+<P_M_Winkler> <pc> 41 .
+<P_M_Winkler> <cn> 351 .
+<P_M_Winkler> <h_index> 10 .
+<P_M_Winkler> <p_index> 152.8333 .
+
+
+<Amin_Coja-Oghlan> <instanceOf> <Author> .
+<Amin_Coja-Oghlan> <id> <1210979> .
+<Amin_Coja-Oghlan> <pc> 54 .
+<Amin_Coja-Oghlan> <cn> 152 .
+<Amin_Coja-Oghlan> <h_index> 6 .
+<Amin_Coja-Oghlan> <p_index> 92.2167 .
+
+
+<A_Ruciński> <instanceOf> <Author> .
+<A_Ruciński> <id> <1217822> .
+<A_Ruciński> <pc> 61 .
+<A_Ruciński> <cn> 144 .
+<A_Ruciński> <h_index> 7 .
+<A_Ruciński> <p_index> 52.0833 .
+
+
+<Omar_Benjelloun> <instanceOf> <Author> .
+<Omar_Benjelloun> <id> <1220376> .
+<Omar_Benjelloun> <pc> 18 .
+<Omar_Benjelloun> <cn> 642 .
+<Omar_Benjelloun> <h_index> 10 .
+<Omar_Benjelloun> <p_index> 144.9262 .
+
+
+<Toshiya_Itoh> <instanceOf> <Author> .
+<Toshiya_Itoh> <id> <1222686> .
+<Toshiya_Itoh> <pc> 6 .
+<Toshiya_Itoh> <cn> 20 .
+<Toshiya_Itoh> <h_index> 3 .
+<Toshiya_Itoh> <p_index> 5.8333 .
+
+
+<Richard_Beigel> <instanceOf> <Author> .
+<Richard_Beigel> <id> <1222835> .
+<Richard_Beigel> <pc> 86 .
+<Richard_Beigel> <cn> 584 .
+<Richard_Beigel> <h_index> 14 .
+<Richard_Beigel> <p_index> 298.8500 .
+
+
+<Frédéric_Hubert> <instanceOf> <Author> .
+<Frédéric_Hubert> <id> <1225555> .
+<Frédéric_Hubert> <pc> 2 .
+<Frédéric_Hubert> <cn> 5 .
+<Frédéric_Hubert> <h_index> 1 .
+<Frédéric_Hubert> <p_index> 0.4857 .
+
+
+<Hiêp_Hàn> <instanceOf> <Author> .
+<Hiêp_Hàn> <id> <1226209> .
+<Hiêp_Hàn> <pc> 2 .
+<Hiêp_Hàn> <cn> 1 .
+<Hiêp_Hàn> <h_index> 1 .
+<Hiêp_Hàn> <p_index> 0.1667 .
+
+
+<C_J_H_Mcdiarmid> <instanceOf> <Author> .
+<C_J_H_Mcdiarmid> <id> <1250261> .
+<C_J_H_Mcdiarmid> <pc> 64 .
+<C_J_H_Mcdiarmid> <cn> 310 .
+<C_J_H_Mcdiarmid> <h_index> 8 .
+<C_J_H_Mcdiarmid> <p_index> 163.4500 .
+
+
+<Bettina_Speckmann> <instanceOf> <Author> .
+<Bettina_Speckmann> <id> <1250916> .
+<Bettina_Speckmann> <pc> 67 .
+<Bettina_Speckmann> <cn> 250 .
+<Bettina_Speckmann> <h_index> 9 .
+<Bettina_Speckmann> <p_index> 83.5262 .
+
+
+<Bernhard_Haeupler> <instanceOf> <Author> .
+<Bernhard_Haeupler> <id> <1259910> .
+<Bernhard_Haeupler> <pc> 20 .
+<Bernhard_Haeupler> <cn> 54 .
+<Bernhard_Haeupler> <h_index> 5 .
+<Bernhard_Haeupler> <p_index> 23.1167 .
+
+
+<Jacques_Verstraëte> <instanceOf> <Author> .
+<Jacques_Verstraëte> <id> <1261172> .
+<Jacques_Verstraëte> <pc> 26 .
+<Jacques_Verstraëte> <cn> 50 .
+<Jacques_Verstraëte> <h_index> 4 .
+<Jacques_Verstraëte> <p_index> 27.2500 .
+
+
+<Alex_Scott> <instanceOf> <Author> .
+<Alex_Scott> <id> <1265126> .
+<Alex_Scott> <pc> 39 .
+<Alex_Scott> <cn> 86 .
+<Alex_Scott> <h_index> 6 .
+<Alex_Scott> <p_index> 42.5667 .
+
+
+<Omar_Benjellourn> <instanceOf> <Author> .
+<Omar_Benjellourn> <id> <1265672> .
+<Omar_Benjellourn> <pc> 1 .
+<Omar_Benjellourn> <cn> 40 .
+<Omar_Benjellourn> <h_index> 1 .
+<Omar_Benjellourn> <p_index> 8.0000 .
+
+
+<Maria_Gradinariu_Potop-Butucaru> <instanceOf> <Author> .
+<Maria_Gradinariu_Potop-Butucaru> <id> <1266946> .
+<Maria_Gradinariu_Potop-Butucaru> <pc> 36 .
+<Maria_Gradinariu_Potop-Butucaru> <cn> 68 .
+<Maria_Gradinariu_Potop-Butucaru> <h_index> 5 .
+<Maria_Gradinariu_Potop-Butucaru> <p_index> 21.6667 .
+
+
+<C_G_Moreira> <instanceOf> <Author> .
+<C_G_Moreira> <id> <1270920> .
+<C_G_Moreira> <pc> 4 .
+<C_G_Moreira> <cn> 3 .
+<C_G_Moreira> <h_index> 1 .
+<C_G_Moreira> <p_index> 0.7000 .
+
+
+<Sébastien_Ailleret> <instanceOf> <Author> .
+<Sébastien_Ailleret> <id> <1271390> .
+<Sébastien_Ailleret> <pc> 1 .
+<Sébastien_Ailleret> <cn> 4 .
+<Sébastien_Ailleret> <h_index> 1 .
+<Sébastien_Ailleret> <p_index> 0.2857 .
+
+
+<Arnaud_Sahuguet> <instanceOf> <Author> .
+<Arnaud_Sahuguet> <id> <1272617> .
+<Arnaud_Sahuguet> <pc> 17 .
+<Arnaud_Sahuguet> <cn> 223 .
+<Arnaud_Sahuguet> <h_index> 8 .
+<Arnaud_Sahuguet> <p_index> 114.0400 .
+
+
+<Assaf_Sagi> <instanceOf> <Author> .
+<Assaf_Sagi> <id> <1274706> .
+<Assaf_Sagi> <pc> 2 .
+<Assaf_Sagi> <cn> 3 .
+<Assaf_Sagi> <h_index> 1 .
+<Assaf_Sagi> <p_index> 1.0000 .
+
+
+<Oliver_Riordan> <instanceOf> <Author> .
+<Oliver_Riordan> <id> <1277961> .
+<Oliver_Riordan> <pc> 41 .
+<Oliver_Riordan> <cn> 275 .
+<Oliver_Riordan> <h_index> 8 .
+<Oliver_Riordan> <p_index> 106.0833 .
+
+
+<H_Tracy_Hall> <instanceOf> <Author> .
+<H_Tracy_Hall> <id> <1292849> .
+<H_Tracy_Hall> <pc> 1 .
+<H_Tracy_Hall> <cn> 0 .
+<H_Tracy_Hall> <h_index> 0 .
+<H_Tracy_Hall> <p_index> 0.0000 .
+
+
+<B_Aronov> <instanceOf> <Author> .
+<B_Aronov> <id> <1297467> .
+<B_Aronov> <pc> 113 .
+<B_Aronov> <cn> 448 .
+<B_Aronov> <h_index> 12 .
+<B_Aronov> <p_index> 158.0143 .
+
+
+<G_Woeginger> <instanceOf> <Author> .
+<G_Woeginger> <id> <1297829> .
+<G_Woeginger> <pc> 256 .
+<G_Woeginger> <cn> 1545 .
+<G_Woeginger> <h_index> 21 .
+<G_Woeginger> <p_index> 800.7393 .
+
+
+<Sébastien_Tixeuil> <instanceOf> <Author> .
+<Sébastien_Tixeuil> <id> <1300314> .
+<Sébastien_Tixeuil> <pc> 110 .
+<Sébastien_Tixeuil> <cn> 311 .
+<Sébastien_Tixeuil> <h_index> 9 .
+<Sébastien_Tixeuil> <p_index> 116.2500 .
+
+
+<Y_Azar> <instanceOf> <Author> .
+<Y_Azar> <id> <1300541> .
+<Y_Azar> <pc> 3 .
+<Y_Azar> <cn> 13 .
+<Y_Azar> <h_index> 1 .
+<Y_Azar> <p_index> 4.5000 .
+
+
+<Daniel_Lokshtanov> <instanceOf> <Author> .
+<Daniel_Lokshtanov> <id> <1304630> .
+<Daniel_Lokshtanov> <pc> 80 .
+<Daniel_Lokshtanov> <cn> 457 .
+<Daniel_Lokshtanov> <h_index> 10 .
+<Daniel_Lokshtanov> <p_index> 124.2810 .
+
+
+<Kevin_Matulef> <instanceOf> <Author> .
+<Kevin_Matulef> <id> <1306700> .
+<Kevin_Matulef> <pc> 13 .
+<Kevin_Matulef> <cn> 91 .
+<Kevin_Matulef> <h_index> 5 .
+<Kevin_Matulef> <p_index> 18.2690 .
+
+
+<Erik_D_Demaine> <instanceOf> <Author> .
+<Erik_D_Demaine> <id> <1312980> .
+<Erik_D_Demaine> <pc> 252 .
+<Erik_D_Demaine> <cn> 1918 .
+<Erik_D_Demaine> <h_index> 23 .
+<Erik_D_Demaine> <p_index> 588.0922 .
+
+
+<Niv_Buchbinder> <instanceOf> <Author> .
+<Niv_Buchbinder> <id> <1315719> .
+<Niv_Buchbinder> <pc> 36 .
+<Niv_Buchbinder> <cn> 248 .
+<Niv_Buchbinder> <h_index> 9 .
+<Niv_Buchbinder> <p_index> 89.2167 .
+
+
+<Ron_Holzman> <instanceOf> <Author> .
+<Ron_Holzman> <id> <1320017> .
+<Ron_Holzman> <pc> 21 .
+<Ron_Holzman> <cn> 37 .
+<Ron_Holzman> <h_index> 4 .
+<Ron_Holzman> <p_index> 18.6667 .
+
+
+<Grégory_Cobena> <instanceOf> <Author> .
+<Grégory_Cobena> <id> <1320666> .
+<Grégory_Cobena> <pc> 6 .
+<Grégory_Cobena> <cn> 285 .
+<Grégory_Cobena> <h_index> 5 .
+<Grégory_Cobena> <p_index> 72.1778 .
+
+
+<Shai_Gutner> <instanceOf> <Author> .
+<Shai_Gutner> <id> <1327902> .
+<Shai_Gutner> <pc> 12 .
+<Shai_Gutner> <cn> 29 .
+<Shai_Gutner> <h_index> 4 .
+<Shai_Gutner> <p_index> 16.5000 .
+
+
+<W_Fernandez_de_la_Vega> <instanceOf> <Author> .
+<W_Fernandez_de_la_Vega> <id> <1328142> .
+<W_Fernandez_de_la_Vega> <pc> 21 .
+<W_Fernandez_de_la_Vega> <cn> 149 .
+<W_Fernandez_de_la_Vega> <h_index> 6 .
+<W_Fernandez_de_la_Vega> <p_index> 48.5000 .
+
+
+<Bojan_Mohar> <instanceOf> <Author> .
+<Bojan_Mohar> <id> <1328600> .
+<Bojan_Mohar> <pc> 122 .
+<Bojan_Mohar> <cn> 438 .
+<Bojan_Mohar> <h_index> 10 .
+<Bojan_Mohar> <p_index> 237.5333 .
+
+
+<P_K_Agarwal> <instanceOf> <Author> .
+<P_K_Agarwal> <id> <1330689> .
+<P_K_Agarwal> <pc> 267 .
+<P_K_Agarwal> <cn> 2542 .
+<P_K_Agarwal> <h_index> 23 .
+<P_K_Agarwal> <p_index> 945.0667 .
+
+
+<Vojtěch_Rödl> <instanceOf> <Author> .
+<Vojtěch_Rödl> <id> <1334710> .
+<Vojtěch_Rödl> <pc> 116 .
+<Vojtěch_Rödl> <cn> 562 .
+<Vojtěch_Rödl> <h_index> 11 .
+<Vojtěch_Rödl> <p_index> 210.8333 .
+
+
+<Amit_Agarwal> <instanceOf> <Author> .
+<Amit_Agarwal> <id> <1337877> .
+<Amit_Agarwal> <pc> 37 .
+<Amit_Agarwal> <cn> 583 .
+<Amit_Agarwal> <h_index> 13 .
+<Amit_Agarwal> <p_index> 142.3167 .
+
+
+<Gil_Kalai> <instanceOf> <Author> .
+<Gil_Kalai> <id> <1339091> .
+<Gil_Kalai> <pc> 19 .
+<Gil_Kalai> <cn> 218 .
+<Gil_Kalai> <h_index> 6 .
+<Gil_Kalai> <p_index> 133.9167 .
+
+
+<Mihai_B�?doiu> <instanceOf> <Author> .
+<Mihai_B�?doiu> <id> <1346838> .
+<Mihai_B�?doiu> <pc> 6 .
+<Mihai_B�?doiu> <cn> 69 .
+<Mihai_B�?doiu> <h_index> 5 .
+<Mihai_B�?doiu> <p_index> 21.9833 .
+
+
+<Julien_P_Stern> <instanceOf> <Author> .
+<Julien_P_Stern> <id> <1350220> .
+<Julien_P_Stern> <pc> 10 .
+<Julien_P_Stern> <cn> 56 .
+<Julien_P_Stern> <h_index> 4 .
+<Julien_P_Stern> <p_index> 39.2000 .
+
+
+<F_R_Chung> <instanceOf> <Author> .
+<F_R_Chung> <id> <1358797> .
+<F_R_Chung> <pc> 96 .
+<F_R_Chung> <cn> 945 .
+<F_R_Chung> <h_index> 16 .
+<F_R_Chung> <p_index> 344.5429 .
+
+
+<Mohammad_Taghi_Hajiaghayi> <instanceOf> <Author> .
+<Mohammad_Taghi_Hajiaghayi> <id> <1368902> .
+<Mohammad_Taghi_Hajiaghayi> <pc> 117 .
+<Mohammad_Taghi_Hajiaghayi> <cn> 1231 .
+<Mohammad_Taghi_Hajiaghayi> <h_index> 20 .
+<Mohammad_Taghi_Hajiaghayi> <p_index> 411.2167 .
+
+
+<Péter_Csorba> <instanceOf> <Author> .
+<Péter_Csorba> <id> <1370029> .
+<Péter_Csorba> <pc> 8 .
+<Péter_Csorba> <cn> 16 .
+<Péter_Csorba> <h_index> 3 .
+<Péter_Csorba> <p_index> 7.6250 .
+
+
+<L_Rónyai> <instanceOf> <Author> .
+<L_Rónyai> <id> <1370441> .
+<L_Rónyai> <pc> 37 .
+<L_Rónyai> <cn> 105 .
+<L_Rónyai> <h_index> 5 .
+<L_Rónyai> <p_index> 53.6667 .
+
+
+<P_Pudlak> <instanceOf> <Author> .
+<P_Pudlak> <id> <1371665> .
+<P_Pudlak> <pc> 67 .
+<P_Pudlak> <cn> 513 .
+<P_Pudlak> <h_index> 14 .
+<P_Pudlak> <p_index> 210.1833 .
+
+
+<J_Spencer> <instanceOf> <Author> .
+<J_Spencer> <id> <1373001> .
+<J_Spencer> <pc> 67 .
+<J_Spencer> <cn> 396 .
+<J_Spencer> <h_index> 10 .
+<J_Spencer> <p_index> 207.4929 .
+
+
+<Madhu_Sudan> <instanceOf> <Author> .
+<Madhu_Sudan> <id> <1373204> .
+<Madhu_Sudan> <pc> 125 .
+<Madhu_Sudan> <cn> 3163 .
+<Madhu_Sudan> <h_index> 29 .
+<Madhu_Sudan> <p_index> 1134.4833 .
+
+
+<Val_Tannen> <instanceOf> <Author> .
+<Val_Tannen> <id> <1374661> .
+<Val_Tannen> <pc> 51 .
+<Val_Tannen> <cn> 890 .
+<Val_Tannen> <h_index> 18 .
+<Val_Tannen> <p_index> 297.4083 .
+
+
+<Anastasios_Sidiropoulos> <instanceOf> <Author> .
+<Anastasios_Sidiropoulos> <id> <1381432> .
+<Anastasios_Sidiropoulos> <pc> 29 .
+<Anastasios_Sidiropoulos> <cn> 165 .
+<Anastasios_Sidiropoulos> <h_index> 7 .
+<Anastasios_Sidiropoulos> <p_index> 48.3238 .
+
+
+<Eran_Balan> <instanceOf> <Author> .
+<Eran_Balan> <id> <1384732> .
+<Eran_Balan> <pc> 1 .
+<Eran_Balan> <cn> 0 .
+<Eran_Balan> <h_index> 0 .
+<Eran_Balan> <p_index> 0.0000 .
+
+
+<I_lgor> <instanceOf> <Author> .
+<I_lgor> <id> <1385078> .
+<I_lgor> <pc> 1 .
+<I_lgor> <cn> 7 .
+<I_lgor> <h_index> 1 .
+<I_lgor> <p_index> 3.5000 .
+
+
+<D_Zuckerman> <instanceOf> <Author> .
+<D_Zuckerman> <id> <1385599> .
+<D_Zuckerman> <pc> 67 .
+<D_Zuckerman> <cn> 885 .
+<D_Zuckerman> <h_index> 16 .
+<D_Zuckerman> <p_index> 472.3611 .
+
+
+<Tali_Kaufman> <instanceOf> <Author> .
+<Tali_Kaufman> <id> <1388008> .
+<Tali_Kaufman> <pc> 37 .
+<Tali_Kaufman> <cn> 282 .
+<Tali_Kaufman> <h_index> 11 .
+<Tali_Kaufman> <p_index> 102.9000 .
+
+
+<Emmanuel_Waller> <instanceOf> <Author> .
+<Emmanuel_Waller> <id> <1389310> .
+<Emmanuel_Waller> <pc> 14 .
+<Emmanuel_Waller> <cn> 63 .
+<Emmanuel_Waller> <h_index> 5 .
+<Emmanuel_Waller> <p_index> 19.4167 .
+
+
+<Carsten_Lund> <instanceOf> <Author> .
+<Carsten_Lund> <id> <1401276> .
+<Carsten_Lund> <pc> 62 .
+<Carsten_Lund> <cn> 1912 .
+<Carsten_Lund> <h_index> 21 .
+<Carsten_Lund> <p_index> 579.9929 .
+
+
+<Ravi_B_Boppana> <instanceOf> <Author> .
+<Ravi_B_Boppana> <id> <1401979> .
+<Ravi_B_Boppana> <pc> 21 .
+<Ravi_B_Boppana> <cn> 364 .
+<Ravi_B_Boppana> <h_index> 6 .
+<Ravi_B_Boppana> <p_index> 198.3333 .
+
+
+<Pierre_Senellart> <instanceOf> <Author> .
+<Pierre_Senellart> <id> <1402775> .
+<Pierre_Senellart> <pc> 45 .
+<Pierre_Senellart> <cn> 328 .
+<Pierre_Senellart> <h_index> 10 .
+<Pierre_Senellart> <p_index> 108.6176 .
+
+
+<Anat_Rapoport> <instanceOf> <Author> .
+<Anat_Rapoport> <id> <1406524> .
+<Anat_Rapoport> <pc> 1 .
+<Anat_Rapoport> <cn> 1 .
+<Anat_Rapoport> <h_index> 1 .
+<Anat_Rapoport> <p_index> 0.2500 .
+
+
+<Fred_Dang_Ngoc> <instanceOf> <Author> .
+<Fred_Dang_Ngoc> <id> <1411485> .
+<Fred_Dang_Ngoc> <pc> 3 .
+<Fred_Dang_Ngoc> <cn> 45 .
+<Fred_Dang_Ngoc> <h_index> 0 .
+<Fred_Dang_Ngoc> <p_index> 8.8667 .
+
+
+<Daniel_Deutch> <instanceOf> <Author> .
+<Daniel_Deutch> <id> <1422945> .
+<Daniel_Deutch> <pc> 27 .
+<Daniel_Deutch> <cn> 94 .
+<Daniel_Deutch> <h_index> 6 .
+<Daniel_Deutch> <p_index> 34.3833 .
+
+
+<Richard_M_Karp> <instanceOf> <Author> .
+<Richard_M_Karp> <id> <1428458> .
+<Richard_M_Karp> <pc> 170 .
+<Richard_M_Karp> <cn> 5254 .
+<Richard_M_Karp> <h_index> 30 .
+<Richard_M_Karp> <p_index> 1557.2083 .
+
+
+<Bruno_Tessier> <instanceOf> <Author> .
+<Bruno_Tessier> <id> <1452611> .
+<Bruno_Tessier> <pc> 1 .
+<Bruno_Tessier> <cn> 4 .
+<Bruno_Tessier> <h_index> 1 .
+<Bruno_Tessier> <p_index> 0.2857 .
+
+
+<Yael_Amsterdamer> <instanceOf> <Author> .
+<Yael_Amsterdamer> <id> <1455616> .
+<Yael_Amsterdamer> <pc> 8 .
+<Yael_Amsterdamer> <cn> 32 .
+<Yael_Amsterdamer> <h_index> 4 .
+<Yael_Amsterdamer> <p_index> 7.8833 .
+
+
+<Boris_Kostenko> <instanceOf> <Author> .
+<Boris_Kostenko> <id> <1460998> .
+<Boris_Kostenko> <pc> 2 .
+<Boris_Kostenko> <cn> 6 .
+<Boris_Kostenko> <h_index> 0 .
+<Boris_Kostenko> <p_index> 1.5000 .
+
+
+<Paul_Seymour> <instanceOf> <Author> .
+<Paul_Seymour> <id> <1464882> .
+<Paul_Seymour> <pc> 1 .
+<Paul_Seymour> <cn> 0 .
+<Paul_Seymour> <h_index> 0 .
+<Paul_Seymour> <p_index> 0.0000 .
+
+
+<V_Rödl> <instanceOf> <Author> .
+<V_Rödl> <id> <1469673> .
+<V_Rödl> <pc> 61 .
+<V_Rödl> <cn> 117 .
+<V_Rödl> <h_index> 5 .
+<V_Rödl> <p_index> 40.1667 .
+
+
+<Paul_Erdős> <instanceOf> <Author> .
+<Paul_Erdős> <id> <1471003> .
+<Paul_Erdős> <pc> 2 .
+<Paul_Erdős> <cn> 0 .
+<Paul_Erdős> <h_index> 0 .
+<Paul_Erdős> <p_index> 0.0000 .
+
+
+<C_Mauduit> <instanceOf> <Author> .
+<C_Mauduit> <id> <1481448> .
+<C_Mauduit> <pc> 7 .
+<C_Mauduit> <cn> 10 .
+<C_Mauduit> <h_index> 2 .
+<C_Mauduit> <p_index> 4.5333 .
+
+
+<Pawel_Pralat> <instanceOf> <Author> .
+<Pawel_Pralat> <id> <1484665> .
+<Pawel_Pralat> <pc> 26 .
+<Pawel_Pralat> <cn> 44 .
+<Pawel_Pralat> <h_index> 4 .
+<Pawel_Pralat> <p_index> 15.5333 .
+
+
+<Zvi_Lotker> <instanceOf> <Author> .
+<Zvi_Lotker> <id> <1491762> .
+<Zvi_Lotker> <pc> 70 .
+<Zvi_Lotker> <cn> 413 .
+<Zvi_Lotker> <h_index> 12 .
+<Zvi_Lotker> <p_index> 111.8595 .
+
+
+<S_Suri> <instanceOf> <Author> .
+<S_Suri> <id> <1496206> .
+<S_Suri> <pc> 181 .
+<S_Suri> <cn> 2047 .
+<S_Suri> <h_index> 24 .
+<S_Suri> <p_index> 746.7524 .
+
+
+<Paula_Ta-Shma> <instanceOf> <Author> .
+<Paula_Ta-Shma> <id> <1498188> .
+<Paula_Ta-Shma> <pc> 8 .
+<Paula_Ta-Shma> <cn> 25 .
+<Paula_Ta-Shma> <h_index> 3 .
+<Paula_Ta-Shma> <p_index> 6.7944 .
+
+
+<Tibor_Szabo´> <instanceOf> <Author> .
+<Tibor_Szabo´> <id> <1498330> .
+<Tibor_Szabo´> <pc> 1 .
+<Tibor_Szabo´> <cn> 4 .
+<Tibor_Szabo´> <h_index> 1 .
+<Tibor_Szabo´> <p_index> 1.3333 .
+
+
+<A_Itai> <instanceOf> <Author> .
+<A_Itai> <id> <1501352> .
+<A_Itai> <pc> 59 .
+<A_Itai> <cn> 1035 .
+<A_Itai> <h_index> 18 .
+<A_Itai> <p_index> 413.8333 .
+
+
+<Oded_Goldreich> <instanceOf> <Author> .
+<Oded_Goldreich> <id> <1504142> .
+<Oded_Goldreich> <pc> 242 .
+<Oded_Goldreich> <cn> 7668 .
+<Oded_Goldreich> <h_index> 40 .
+<Oded_Goldreich> <p_index> 3378.8762 .
+
+
+<Arthur_L_Liestman> <instanceOf> <Author> .
+<Arthur_L_Liestman> <id> <1506452> .
+<Arthur_L_Liestman> <pc> 34 .
+<Arthur_L_Liestman> <cn> 131 .
+<Arthur_L_Liestman> <h_index> 6 .
+<Arthur_L_Liestman> <p_index> 61.5833 .
+
+
+<Dana_Ron> <instanceOf> <Author> .
+<Dana_Ron> <id> <1513227> .
+<Dana_Ron> <pc> 107 .
+<Dana_Ron> <cn> 1603 .
+<Dana_Ron> <h_index> 24 .
+<Dana_Ron> <p_index> 591.0167 .
+
+
+<A_K_Dewdney> <instanceOf> <Author> .
+<A_K_Dewdney> <id> <1522315> .
+<A_K_Dewdney> <pc> 17 .
+<A_K_Dewdney> <cn> 44 .
+<A_K_Dewdney> <h_index> 3 .
+<A_K_Dewdney> <p_index> 30.8333 .
+
+
+<Slava_Novgorodov> <instanceOf> <Author> .
+<Slava_Novgorodov> <id> <1522375> .
+<Slava_Novgorodov> <pc> 5 .
+<Slava_Novgorodov> <cn> 15 .
+<Slava_Novgorodov> <h_index> 2 .
+<Slava_Novgorodov> <p_index> 4.1667 .
+
+
+<L_Wong> <instanceOf> <Author> .
+<L_Wong> <id> <1523282> .
+<L_Wong> <pc> 97 .
+<L_Wong> <cn> 931 .
+<L_Wong> <h_index> 17 .
+<L_Wong> <p_index> 353.3524 .
+
+
+<Yossi_Azar> <instanceOf> <Author> .
+<Yossi_Azar> <id> <1523621> .
+<Yossi_Azar> <pc> 130 .
+<Yossi_Azar> <cn> 1694 .
+<Yossi_Azar> <h_index> 23 .
+<Yossi_Azar> <p_index> 534.7833 .
+
+
+<Ido_Ben-Eliezer> <instanceOf> <Author> .
+<Ido_Ben-Eliezer> <id> <1530339> .
+<Ido_Ben-Eliezer> <pc> 9 .
+<Ido_Ben-Eliezer> <cn> 14 .
+<Ido_Ben-Eliezer> <h_index> 2 .
+<Ido_Ben-Eliezer> <p_index> 3.8333 .
+
+
+<A_Andoni> <instanceOf> <Author> .
+<A_Andoni> <id> <1534684> .
+<A_Andoni> <pc> 33 .
+<A_Andoni> <cn> 347 .
+<A_Andoni> <h_index> 9 .
+<A_Andoni> <p_index> 150.7667 .
+
+
+<Dan_Suciu> <instanceOf> <Author> .
+<Dan_Suciu> <id> <1535661> .
+<Dan_Suciu> <pc> 179 .
+<Dan_Suciu> <cn> 5044 .
+<Dan_Suciu> <h_index> 40 .
+<Dan_Suciu> <p_index> 1864.4881 .
+
+
+<Peter_Bro_Miltersen> <instanceOf> <Author> .
+<Peter_Bro_Miltersen> <id> <1539852> .
+<Peter_Bro_Miltersen> <pc> 71 .
+<Peter_Bro_Miltersen> <cn> 532 .
+<Peter_Bro_Miltersen> <h_index> 14 .
+<Peter_Bro_Miltersen> <p_index> 239.4000 .
+
+
+<D_Vista> <instanceOf> <Author> .
+<D_Vista> <id> <1550370> .
+<D_Vista> <pc> 12 .
+<D_Vista> <cn> 60 .
+<D_Vista> <h_index> 3 .
+<D_Vista> <p_index> 14.7952 .
+
+
+<Seannie_Dar> <instanceOf> <Author> .
+<Seannie_Dar> <id> <1553933> .
+<Seannie_Dar> <pc> 2 .
+<Seannie_Dar> <cn> 43 .
+<Seannie_Dar> <h_index> 0 .
+<Seannie_Dar> <p_index> 10.7500 .
+
+
+<Ankur_Moitra> <instanceOf> <Author> .
+<Ankur_Moitra> <id> <1556516> .
+<Ankur_Moitra> <pc> 16 .
+<Ankur_Moitra> <cn> 68 .
+<Ankur_Moitra> <h_index> 5 .
+<Ankur_Moitra> <p_index> 33.1667 .
+
+
+<Y_Caro> <instanceOf> <Author> .
+<Y_Caro> <id> <1566036> .
+<Y_Caro> <pc> 44 .
+<Y_Caro> <cn> 74 .
+<Y_Caro> <h_index> 4 .
+<Y_Caro> <p_index> 42.1667 .
+
+
+<H_Ramesh> <instanceOf> <Author> .
+<H_Ramesh> <id> <1574884> .
+<H_Ramesh> <pc> 11 .
+<H_Ramesh> <cn> 117 .
+<H_Ramesh> <h_index> 7 .
+<H_Ramesh> <p_index> 54.5000 .
+
+
+<Tal_Sterenzy> <instanceOf> <Author> .
+<Tal_Sterenzy> <id> <1575606> .
+<Tal_Sterenzy> <pc> 1 .
+<Tal_Sterenzy> <cn> 0 .
+<Tal_Sterenzy> <h_index> 0 .
+<Tal_Sterenzy> <p_index> 0.0000 .
+
+
+<Zoë_Abrams> <instanceOf> <Author> .
+<Zoë_Abrams> <id> <1578330> .
+<Zoë_Abrams> <pc> 12 .
+<Zoë_Abrams> <cn> 160 .
+<Zoë_Abrams> <h_index> 6 .
+<Zoë_Abrams> <p_index> 64.7000 .
+
+
+<Keith_E_Mellinger> <instanceOf> <Author> .
+<Keith_E_Mellinger> <id> <1586097> .
+<Keith_E_Mellinger> <pc> 13 .
+<Keith_E_Mellinger> <cn> 20 .
+<Keith_E_Mellinger> <h_index> 3 .
+<Keith_E_Mellinger> <p_index> 10.0000 .
+
+
+<Sheldon_M_Ross> <instanceOf> <Author> .
+<Sheldon_M_Ross> <id> <1588612> .
+<Sheldon_M_Ross> <pc> 2 .
+<Sheldon_M_Ross> <cn> 95 .
+<Sheldon_M_Ross> <h_index> 0 .
+<Sheldon_M_Ross> <p_index> 93.6667 .
+
+
+<A_V_Kostochka> <instanceOf> <Author> .
+<A_V_Kostochka> <id> <1590051> .
+<A_V_Kostochka> <pc> 103 .
+<A_V_Kostochka> <cn> 332 .
+<A_V_Kostochka> <h_index> 10 .
+<A_V_Kostochka> <p_index> 140.3667 .
+
+
+<Daniel_Cohen-Or> <instanceOf> <Author> .
+<Daniel_Cohen-Or> <id> <1600566> .
+<Daniel_Cohen-Or> <pc> 144 .
+<Daniel_Cohen-Or> <cn> 3041 .
+<Daniel_Cohen-Or> <h_index> 30 .
+<Daniel_Cohen-Or> <p_index> 818.6988 .
+
+
+<Wang-Chiew_Tan> <instanceOf> <Author> .
+<Wang-Chiew_Tan> <id> <1604200> .
+<Wang-Chiew_Tan> <pc> 1 .
+<Wang-Chiew_Tan> <cn> 5 .
+<Wang-Chiew_Tan> <h_index> 1 .
+<Wang-Chiew_Tan> <p_index> 0.8333 .
+
+
+<Mehmet_Serkan_Apaydin> <instanceOf> <Author> .
+<Mehmet_Serkan_Apaydin> <id> <1607631> .
+<Mehmet_Serkan_Apaydin> <pc> 7 .
+<Mehmet_Serkan_Apaydin> <cn> 24 .
+<Mehmet_Serkan_Apaydin> <h_index> 3 .
+<Mehmet_Serkan_Apaydin> <p_index> 5.2167 .
+
+
+<L_A_Székely> <instanceOf> <Author> .
+<L_A_Székely> <id> <1613321> .
+<L_A_Székely> <pc> 51 .
+<L_A_Székely> <cn> 208 .
+<L_A_Székely> <h_index> 6 .
+<L_A_Székely> <p_index> 93.5833 .
+
+
+<M_Dietzfelbinger> <instanceOf> <Author> .
+<M_Dietzfelbinger> <id> <1614665> .
+<M_Dietzfelbinger> <pc> 65 .
+<M_Dietzfelbinger> <cn> 468 .
+<M_Dietzfelbinger> <h_index> 11 .
+<M_Dietzfelbinger> <p_index> 193.5524 .
+
+
+<D_Van_Gucht> <instanceOf> <Author> .
+<D_Van_Gucht> <id> <1617517> .
+<D_Van_Gucht> <pc> 98 .
+<D_Van_Gucht> <cn> 735 .
+<D_Van_Gucht> <h_index> 15 .
+<D_Van_Gucht> <p_index> 248.1667 .
+
+
+<Phillip_Gnassi_Bradford> <instanceOf> <Author> .
+<Phillip_Gnassi_Bradford> <id> <1617612> .
+<Phillip_Gnassi_Bradford> <pc> 33 .
+<Phillip_Gnassi_Bradford> <cn> 39 .
+<Phillip_Gnassi_Bradford> <h_index> 3 .
+<Phillip_Gnassi_Bradford> <p_index> 15.0000 .
+
+
+<Maria_Gradinariu> <instanceOf> <Author> .
+<Maria_Gradinariu> <id> <1619182> .
+<Maria_Gradinariu> <pc> 29 .
+<Maria_Gradinariu> <cn> 201 .
+<Maria_Gradinariu> <h_index> 8 .
+<Maria_Gradinariu> <p_index> 60.7667 .
+
+
+<R_Yuster> <instanceOf> <Author> .
+<R_Yuster> <id> <1619793> .
+<R_Yuster> <pc> 92 .
+<R_Yuster> <cn> 562 .
+<R_Yuster> <h_index> 10 .
+<R_Yuster> <p_index> 230.3000 .
+
+
+<H_V_Jagadish> <instanceOf> <Author> .
+<H_V_Jagadish> <id> <1620738> .
+<H_V_Jagadish> <pc> 1 .
+<H_V_Jagadish> <cn> 26 .
+<H_V_Jagadish> <h_index> 1 .
+<H_V_Jagadish> <p_index> 5.2000 .
+
+
+<E_Welzl> <instanceOf> <Author> .
+<E_Welzl> <id> <1622258> .
+<E_Welzl> <pc> 81 .
+<E_Welzl> <cn> 693 .
+<E_Welzl> <h_index> 14 .
+<E_Welzl> <p_index> 223.2060 .
+
+
+<Laks_V_S_Lakshmanan> <instanceOf> <Author> .
+<Laks_V_S_Lakshmanan> <id> <1625882> .
+<Laks_V_S_Lakshmanan> <pc> 117 .
+<Laks_V_S_Lakshmanan> <cn> 2564 .
+<Laks_V_S_Lakshmanan> <h_index> 27 .
+<Laks_V_S_Lakshmanan> <p_index> 772.9610 .
+
+
+<Bernd_Amann> <instanceOf> <Author> .
+<Bernd_Amann> <id> <1626913> .
+<Bernd_Amann> <pc> 26 .
+<Bernd_Amann> <cn> 197 .
+<Bernd_Amann> <h_index> 7 .
+<Bernd_Amann> <p_index> 56.0635 .
+
+
+<L_Fortnow> <instanceOf> <Author> .
+<L_Fortnow> <id> <1627682> .
+<L_Fortnow> <pc> 175 .
+<L_Fortnow> <cn> 1288 .
+<L_Fortnow> <h_index> 16 .
+<L_Fortnow> <p_index> 498.9381 .
+
+
+<Victor_Vianu> <instanceOf> <Author> .
+<Victor_Vianu> <id> <1627819> .
+<Victor_Vianu> <pc> 126 .
+<Victor_Vianu> <cn> 3033 .
+<Victor_Vianu> <h_index> 26 .
+<Victor_Vianu> <p_index> 1196.0167 .
+
+
+<Christoph_Koch> <instanceOf> <Author> .
+<Christoph_Koch> <id> <1628807> .
+<Christoph_Koch> <pc> 80 .
+<Christoph_Koch> <cn> 1365 .
+<Christoph_Koch> <h_index> 23 .
+<Christoph_Koch> <p_index> 519.9667 .
+
+
+<Dmitry_N_Kozlov> <instanceOf> <Author> .
+<Dmitry_N_Kozlov> <id> <1629427> .
+<Dmitry_N_Kozlov> <pc> 10 .
+<Dmitry_N_Kozlov> <cn> 15 .
+<Dmitry_N_Kozlov> <h_index> 2 .
+<Dmitry_N_Kozlov> <p_index> 12.0000 .
+
+
+<J_C_Mamou> <instanceOf> <Author> .
+<J_C_Mamou> <id> <1630111> .
+<J_C_Mamou> <pc> 4 .
+<J_C_Mamou> <cn> 14 .
+<J_C_Mamou> <h_index> 3 .
+<J_C_Mamou> <p_index> 3.7857 .
+
+
+<L_O_Libkin> <instanceOf> <Author> .
+<L_O_Libkin> <id> <1630843> .
+<L_O_Libkin> <pc> 145 .
+<L_O_Libkin> <cn> 1910 .
+<L_O_Libkin> <h_index> 23 .
+<L_O_Libkin> <p_index> 932.6333 .
+
+
+<U_Fiege> <instanceOf> <Author> .
+<U_Fiege> <id> <1631192> .
+<U_Fiege> <pc> 148 .
+<U_Fiege> <cn> 3182 .
+<U_Fiege> <h_index> 29 .
+<U_Fiege> <p_index> 1798.4750 .
+
+
+<Tibor_Szabó> <instanceOf> <Author> .
+<Tibor_Szabó> <id> <1632370> .
+<Tibor_Szabó> <pc> 42 .
+<Tibor_Szabó> <cn> 120 .
+<Tibor_Szabó> <h_index> 6 .
+<Tibor_Szabó> <p_index> 45.7500 .
+
+
+<Anat_Eyal> <instanceOf> <Author> .
+<Anat_Eyal> <id> <1636800> .
+<Anat_Eyal> <pc> 8 .
+<Anat_Eyal> <cn> 126 .
+<Anat_Eyal> <h_index> 7 .
+<Anat_Eyal> <p_index> 33.1000 .
+
+
+<Santosh_Vempala> <instanceOf> <Author> .
+<Santosh_Vempala> <id> <1642225> .
+<Santosh_Vempala> <pc> 112 .
+<Santosh_Vempala> <cn> 1612 .
+<Santosh_Vempala> <h_index> 21 .
+<Santosh_Vempala> <p_index> 591.2452 .
+
+
+<H_A_Kierstead> <instanceOf> <Author> .
+<H_A_Kierstead> <id> <1642406> .
+<H_A_Kierstead> <pc> 47 .
+<H_A_Kierstead> <cn> 230 .
+<H_A_Kierstead> <h_index> 9 .
+<H_A_Kierstead> <p_index> 153.2333 .
+
+
+<Martin_Wahlen> <instanceOf> <Author> .
+<Martin_Wahlen> <id> <1643278> .
+<Martin_Wahlen> <pc> 10 .
+<Martin_Wahlen> <cn> 12 .
+<Martin_Wahlen> <h_index> 2 .
+<Martin_Wahlen> <p_index> 5.1667 .
+
+
+<Eran_Halperin> <instanceOf> <Author> .
+<Eran_Halperin> <id> <1644019> .
+<Eran_Halperin> <pc> 53 .
+<Eran_Halperin> <cn> 527 .
+<Eran_Halperin> <h_index> 11 .
+<Eran_Halperin> <p_index> 235.6786 .
+
+
+<Wojciech_Samotij> <instanceOf> <Author> .
+<Wojciech_Samotij> <id> <1644833> .
+<Wojciech_Samotij> <pc> 7 .
+<Wojciech_Samotij> <cn> 12 .
+<Wojciech_Samotij> <h_index> 2 .
+<Wojciech_Samotij> <p_index> 4.5000 .
+
+
+<Shakhar_Smorodinsky> <instanceOf> <Author> .
+<Shakhar_Smorodinsky> <id> <1646148> .
+<Shakhar_Smorodinsky> <pc> 37 .
+<Shakhar_Smorodinsky> <cn> 221 .
+<Shakhar_Smorodinsky> <h_index> 9 .
+<Shakhar_Smorodinsky> <p_index> 78.4899 .
+
+
+<Cåssio_Souza_Santos> <instanceOf> <Author> .
+<Cåssio_Souza_Santos> <id> <1649012> .
+<Cåssio_Souza_Santos> <pc> 7 .
+<Cåssio_Souza_Santos> <cn> 38 .
+<Cåssio_Souza_Santos> <h_index> 4 .
+<Cåssio_Souza_Santos> <p_index> 14.9524 .
+
+
+<Eliana_Frigerio> <instanceOf> <Author> .
+<Eliana_Frigerio> <id> <1650652> .
+<Eliana_Frigerio> <pc> 1 .
+<Eliana_Frigerio> <cn> 0 .
+<Eliana_Frigerio> <h_index> 0 .
+<Eliana_Frigerio> <p_index> 0.0000 .
+
+
+<Noga_Alon> <instanceOf> <Author> .
+<Noga_Alon> <id> <1653815> .
+<Noga_Alon> <pc> 334 .
+<Noga_Alon> <cn> 3660 .
+<Noga_Alon> <h_index> 28 .
+<Noga_Alon> <p_index> 1368.5583 .
+
+
+<József_Balogh> <instanceOf> <Author> .
+<József_Balogh> <id> <1654155> .
+<József_Balogh> <pc> 57 .
+<József_Balogh> <cn> 274 .
+<József_Balogh> <h_index> 7 .
+<József_Balogh> <p_index> 95.9000 .
+
+
+<B_L_Shader> <instanceOf> <Author> .
+<B_L_Shader> <id> <1660709> .
+<B_L_Shader> <pc> 19 .
+<B_L_Shader> <cn> 7 .
+<B_L_Shader> <h_index> 2 .
+<B_L_Shader> <p_index> 2.5000 .
+
+
+<R_L_Graham> <instanceOf> <Author> .
+<R_L_Graham> <id> <1660934> .
+<R_L_Graham> <pc> 96 .
+<R_L_Graham> <cn> 1100 .
+<R_L_Graham> <h_index> 12 .
+<R_L_Graham> <p_index> 383.4667 .
+
+
+<Graham_Brightwell> <instanceOf> <Author> .
+<Graham_Brightwell> <id> <1664700> .
+<Graham_Brightwell> <pc> 43 .
+<Graham_Brightwell> <cn> 160 .
+<Graham_Brightwell> <h_index> 7 .
+<Graham_Brightwell> <p_index> 74.2857 .
+
+
+<M_R_Capalbo> <instanceOf> <Author> .
+<M_R_Capalbo> <id> <1667231> .
+<M_R_Capalbo> <pc> 14 .
+<M_R_Capalbo> <cn> 98 .
+<M_R_Capalbo> <h_index> 5 .
+<M_R_Capalbo> <p_index> 33.6667 .
+
+
+<Nathan_Linial> <instanceOf> <Author> .
+<Nathan_Linial> <id> <1671018> .
+<Nathan_Linial> <pc> 83 .
+<Nathan_Linial> <cn> 968 .
+<Nathan_Linial> <h_index> 13 .
+<Nathan_Linial> <p_index> 456.4500 .
+
+
+<N_Linial> <instanceOf> <Author> .
+<N_Linial> <id> <1671020> .
+<N_Linial> <pc> 3 .
+<N_Linial> <cn> 56 .
+<N_Linial> <h_index> 2 .
+<N_Linial> <p_index> 14.0000 .
+
+
+<Nicolò_Cesa-Bianchi> <instanceOf> <Author> .
+<Nicolò_Cesa-Bianchi> <id> <1673424> .
+<Nicolò_Cesa-Bianchi> <pc> 64 .
+<Nicolò_Cesa-Bianchi> <cn> 1209 .
+<Nicolò_Cesa-Bianchi> <h_index> 15 .
+<Nicolò_Cesa-Bianchi> <p_index> 402.5500 .
+
+
+<J_S_Naor> <instanceOf> <Author> .
+<J_S_Naor> <id> <1678395> .
+<J_S_Naor> <pc> 4 .
+<J_S_Naor> <cn> 23 .
+<J_S_Naor> <h_index> 3 .
+<J_S_Naor> <p_index> 9.1000 .
+
+
+<Shlomi_Dolev> <instanceOf> <Author> .
+<Shlomi_Dolev> <id> <1679017> .
+<Shlomi_Dolev> <pc> 193 .
+<Shlomi_Dolev> <cn> 1294 .
+<Shlomi_Dolev> <h_index> 16 .
+<Shlomi_Dolev> <p_index> 699.1595 .
+
+
+<Oren_Nechushtan> <instanceOf> <Author> .
+<Oren_Nechushtan> <id> <1681561> .
+<Oren_Nechushtan> <pc> 4 .
+<Oren_Nechushtan> <cn> 32 .
+<Oren_Nechushtan> <h_index> 2 .
+<Oren_Nechushtan> <p_index> 7.5000 .
+
+
+<Bogdan_Cautis> <instanceOf> <Author> .
+<Bogdan_Cautis> <id> <1690218> .
+<Bogdan_Cautis> <pc> 20 .
+<Bogdan_Cautis> <cn> 95 .
+<Bogdan_Cautis> <h_index> 5 .
+<Bogdan_Cautis> <p_index> 24.0119 .
+
+
+<Mauricio_Karchmer> <instanceOf> <Author> .
+<Mauricio_Karchmer> <id> <1693422> .
+<Mauricio_Karchmer> <pc> 10 .
+<Mauricio_Karchmer> <cn> 102 .
+<Mauricio_Karchmer> <h_index> 6 .
+<Mauricio_Karchmer> <p_index> 46.9833 .
+
+
+<Uzi_Vishkin> <instanceOf> <Author> .
+<Uzi_Vishkin> <id> <1700630> .
+<Uzi_Vishkin> <pc> 164 .
+<Uzi_Vishkin> <cn> 1516 .
+<Uzi_Vishkin> <h_index> 23 .
+<Uzi_Vishkin> <p_index> 754.7833 .
+
+

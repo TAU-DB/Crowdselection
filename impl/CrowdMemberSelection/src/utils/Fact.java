@@ -31,6 +31,11 @@ public class Fact implements SemanticUnit{
 		return object;
 	}
 
+	public Fact copy() {
+		Fact ans = new Fact(subject.copy(),property.copy(),object.copy());
+		return ans;
+	}
+
 	
 
 }

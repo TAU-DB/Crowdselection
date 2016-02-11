@@ -3,9 +3,14 @@ package utils;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 import org.apache.jena.ext.com.google.common.collect.Multimap;
 import org.apache.jena.query.Query;
@@ -21,15 +26,20 @@ public class QueryGenerator {
 	private Parser parser;
 	private RDF rdf;
 	private Multimap<Term, Term> ontologyGraph;
-	private Map<String, Double> simProfiles ;
-	private Map<String, Double> simTran ;
+	//private Map<String, Double> simProfiles ;
+	//private Map<String, Double> simTran ;
+	private List<User> users;
+	private FactSetWithSupport currentUserTranOrig = new FactSetWithSupport();
+	
 	
 	public QueryGenerator(Parser p, RDF r, Multimap<Term, Term> ontologyGraph){
 		parser = p;
 		rdf = r;
 		this.ontologyGraph = ontologyGraph;
-		simProfiles =  new HashMap <String, Double>();
-		simTran =  new HashMap <String, Double>();
+		users = new ArrayList<User>();
+		//simProfiles =  new HashMap <String, Double>();
+		//simProfilesDiverse =  new HashMap <Double, String>();
+		//simTran =  new HashMap <String, Double>();
 	}
 	
 	public Parser getParser(){
@@ -38,7 +48,7 @@ public class QueryGenerator {
 	
 	public ArrayList<User> executeQuery()
 	{
-		ArrayList<User> users = new ArrayList<User>();
+		
 		
 		String user = parser.getUserName();
 		String ontologyQuery = parser.getQueryToExecute();
@@ -52,15 +62,15 @@ public class QueryGenerator {
 		
 		
 		
-		ArrayList<SemanticUnit> usersToCompare = executeSimilarityStatments(user,ontologyQueryResult, similarityStatments);
+		executeSimilarityStatments(user,ontologyQueryResult, similarityStatments);
 		System.out.println("Results after similarity statements ");
-		for(SemanticUnit u: usersToCompare)
-				System.out.println(((Term)u).toSrting());
+		for(User u: users)
+				System.out.println(((Term)u.getUser()).toSrting());
 		
-		usersToCompare = removeSelf(usersToCompare, user);
-		users = executeFilters(usersToCompare,filters);
+		removeSelf(user);
+		executeFilters(filters);
 		
-		return users;
+		return (ArrayList<User>) users;
 		
 	}
 	/**
@@ -69,83 +79,112 @@ public class QueryGenerator {
 	 * @param user
 	 * @return remove the current user from the list
 	 */
-    private ArrayList<SemanticUnit> removeSelf(ArrayList<SemanticUnit> usersToCompare, String user) {
-    	ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-    	for(SemanticUnit u: usersToCompare){
-    		if (!((Term)u).toSrting().equals(user))
-    			ans.add(u);
+    private void removeSelf( String user) {
+ 
+    	for(User u: users){
+    		if (((Term)u.getUser()).toSrting().equals(user)){
+    			users.remove(u);
+    			break;
+    		}
+    			
+    		
     	}
-    	return ans;
 	}
 
-	private ArrayList<User> executeFilters(ArrayList<SemanticUnit> usersToCompare, ArrayList<Filter> filters) {
+	private void executeFilters(ArrayList<Filter> filters) {
     	for(Filter filter: filters)
     	{
     		//System.out.println(filter.toString());
     		if(filter instanceof FilterLimit)
     		{
-    			usersToCompare = executeLimitFilter(filter, usersToCompare);
+    			executeLimitFilter(filter);
     			
     		}
     		//System.out.println(filter.toString());
     		else if(filter instanceof FilterOrder)
     		{
-    			usersToCompare = executeOrderFilter(filter, usersToCompare);
+    			executeOrderFilter(filter);
     			
     		}
     	
     	}
     	
-		return CreateUsersList(usersToCompare);
+	
 	}
 
-	private ArrayList<User> CreateUsersList(ArrayList<SemanticUnit> usersToCompare) {
-		ArrayList<User> users = new ArrayList<User>();
-		for(SemanticUnit u: usersToCompare)
-		{
-			double simProfile = 0;
-			if(simProfiles.containsKey(((Term)u).toSrting()))
-				simProfile = simProfiles.get(((Term)u).toSrting());
-			double simTransaction = 0;
-			if(simTran.containsKey(((Term)u).toSrting()))
-				simTransaction = simTran.get(((Term)u).toSrting());
-		
-			users.add(new User(((Term)u),simProfile, simTransaction));
-			
-		}
-		
-		return users;
-	}
 
-	private ArrayList<SemanticUnit> executeOrderFilter(Filter filter, ArrayList<SemanticUnit> usersToCompare) {
-		ArrayList<SemanticUnit> users = new ArrayList<SemanticUnit>();
+	@SuppressWarnings("unchecked")
+	private void executeOrderFilter(Filter filter) {
+		//ArrayList<SemanticUnit> users = new ArrayList<SemanticUnit>();
 		if(((FilterOrder)filter).getBy().equals("ProfileSim"))
 		{
-			//TODO
+		
+		
+			Collections.sort(users, new Comparator<Object>(){
+				@Override
+				public int compare(Object o1, Object o2) {
+					double temp = ((User)o1).getProfileSim() - ((User)o2).getProfileSim();
+					if(temp<0)
+						return 1;
+					else if(temp>0)
+						return -1;
+					else
+						return 0;
+					
+				}});
+		}
+		
+		else if(((FilterOrder)filter).getBy().equals("HistorySim"))
+		{
+			
+			Collections.sort(users, new Comparator<Object>(){
+				@Override
+				public int compare(Object o1, Object o2) {
+					double temp = ((User)o1).getTranSim() - ((User)o2).getTranSim();
+					if(temp<0)
+						return 1;
+					else if(temp>0)
+						return -1;
+					else
+						return 0;
+					
+				}});
+		}
+		
+		else if(((FilterOrder)filter).getBy().equals("QuerySim"))
+		{
+			
+			Collections.sort(users, new Comparator<Object>(){
+				@Override
+				public int compare(Object o1, Object o2) {
+					double temp = ((User)o1).getQuerySim() - ((User)o2).getQuerySim();
+					if(temp<0)
+						return 1;
+					else if(temp>0)
+						return -1;
+					else
+						return 0;
+					
+				}});
 		}
 	
-		return users;
+	
 	}
 
-	private ArrayList<SemanticUnit> executeLimitFilter(Filter filter, ArrayList<SemanticUnit> usersToCompare) {
-		ArrayList<SemanticUnit> users = new ArrayList<SemanticUnit>();
+	private void executeLimitFilter(Filter filter) {
+	
 		int limit = ((FilterLimit) filter).getLimit();
-		if(limit <= usersToCompare.size())
+		if(limit <= users.size())
 		{
+			ArrayList<User> temp = new ArrayList<User>();
 			for (int i =0; i<limit; i++)
 			{
-				users.add(((Term)usersToCompare.get(i)));
-			}
-		}
-		else
-		{
-			for (int i =0; i<usersToCompare.size(); i++)
-			{
-				users.add(((Term)usersToCompare.get(i)));
-			}
 			
+				temp.add((users.get(i)));
+			}
+			users= temp;
 		}
-		return users;
+	
 	}
 
 	/**
@@ -155,10 +194,10 @@ public class QueryGenerator {
      * @param similarityStatments
      * @return all the users passed the similarity threshold
      */
-	private ArrayList<SemanticUnit> executeSimilarityStatments(String user, ArrayList<SemanticUnit> usersToCompare, ArrayList<SimilarityStatment> similarityStatments) {
-		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-		ArrayList<SemanticUnit> similarProfile = null;
-		ArrayList<SemanticUnit> similarTran = null;
+	private void executeSimilarityStatments(String user, ArrayList<SemanticUnit> usersToCompare, ArrayList<SimilarityStatment> similarityStatments) {
+		//ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
+		//ArrayList<SemanticUnit> similarProfile = null;
+		//ArrayList<SemanticUnit> similarTran = null;
 		//Set<SemanticUnit> similarQueryTran = new HashSet<SemanticUnit>();
 		
 		
@@ -169,38 +208,125 @@ public class QueryGenerator {
 			//compare profiles
 			if(s.getSrc().startsWith("profile"))
 			{
-				similarProfile = new ArrayList<SemanticUnit>();
+				//similarProfile = new ArrayList<SemanticUnit>();
 				FactSet currentUserProfile = getUserProfile(user);
 				//System.out.println(currentUserProfile.toSrting());
-				similarProfile = executeProfilesSimilarity(currentUserProfile, usersToCompare,s);
+				executeProfilesSimilarity(currentUserProfile, usersToCompare,s);
 			
 			}
 			//compare transactions
-			else if(s.getDest().contains("tran"))
+			else if(s.getDest().contains(user))
 			{
-				similarTran = new ArrayList<SemanticUnit>();
-				FactSetWithSupport currentUserTran = getUserTransaction(user);
-				//System.out.println(currentUserProfile.toSrting());
-				similarTran = executeTransSimilarity(currentUserTran, usersToCompare,s);
+				
+				//FactSetWithSupport currentUserTran = new FactSetWithSupport();
+				currentUserTranOrig = getUserTransaction(user);
+				
+				executeTransSimilarity(currentUserTranOrig, usersToCompare,s);
 			
 			}
 			//compare specific transaction
 			else
 			{
-				//similarQueryTran = 
+				
+				executeQuerySimilarity(usersToCompare,s);
+				
 			}
 		}
-		if(similarProfile != null && similarTran != null)
-			ans = UsersSet(similarProfile, similarTran);
-		else if (similarProfile != null)
-			ans = similarProfile;
-		else if (similarTran != null)
-			ans = similarTran;
-		else
-			ans = usersToCompare;
-		return ans;
+
 	}
 	
+	private void executeQuerySimilarity(ArrayList<SemanticUnit> usersToCompare, SimilarityStatment s) {
+		FactSetWithSupport userTrans = new FactSetWithSupport();
+	
+		
+    	for(SemanticUnit u: usersToCompare)
+    	{
+    		FactSetWithSupport queryTran = new FactSetWithSupport();
+    		
+    		FactSetWithSupport factsSupport = getFactSupport(s, u);
+    		for(FactWithSupport f: factsSupport)
+    			queryTran.add(f);
+    	
+    		
+    		userTrans = new FactSetWithSupport();
+    		userTrans = getUserTransaction(((Term)u).toSrting());
+    		
+    		//System.out.println("*****User tran*********");
+    		//System.out.println(userTrans.toSrting());
+    		//System.out.println("*****Query*********");
+    		//System.out.println(queryTran.toSrting());
+    		
+    		double similarity = Similarity.getSimilarityWithSupport(queryTran, userTrans, ontologyGraph);
+    		boolean result = false;
+    		switch(s.getOp())
+    		{
+    	    	case(">"):
+    	    		result = similarity > s.getTH();
+    	    		break;
+    	    	case("<"):
+    	    		result = similarity < s.getTH();
+    	    		break;
+    	    	case(">="):
+    	    		result = similarity >= s.getTH();
+    	    		break;
+    	    	case("<="):
+    	    		result = similarity <= s.getTH();
+    	    		break;
+    	    }
+    		//System.out.println(((FactSet)userProfile).toSrting());
+    		//System.out.println(similarity);
+    		if(result){
+    			User user = new User();
+    			boolean flag = false;
+    			for(User uu: users){
+    				if(uu.getUser().toSrting().equals(((Term)u).toSrting())){
+    					user = uu;
+    					flag = true;
+    				}
+    				
+    			}
+    			user.setQuerySim(similarity);
+    			if(!flag){
+    				user.setUser((Term)u);
+    				users.add(user);
+    			}
+    				
+    	
+    			
+    		}
+    			
+    	}
+		
+	}
+
+	private FactSetWithSupport getFactSupport(SimilarityStatment s, SemanticUnit u) {
+		FactSetWithSupport facts = new FactSetWithSupport();
+		String str = s.getDest();
+		str = str.replace("{", "");
+		str = str.replace("}", "");
+		str = str.replace("<http://a.org/ontology/", "");
+		str = str.replace(">", "");
+		
+		String [] factss = str.split("\\.");
+		for(int i = 0; i<factss.length-1 ; i++)
+		{
+			Scanner ss = new Scanner(factss[i]);
+			ss.next();
+			String sub = ((Term)u).toSrting();
+			String pro = ss.next();
+		
+			String obj = ss.next();
+		
+
+			Fact f = new Fact(new Term(sub), new Term(pro), new Term(obj));
+			FactWithSupport x = new FactWithSupport(1,f);
+			facts.add(x);
+			ss.close();
+		}
+		return facts;
+	}
+
+
 	/**
 	 * 
 	 * @param similarProfile
@@ -229,12 +355,28 @@ public class QueryGenerator {
 	 * @param s - the similarity statement
 	 * @return
 	 */
-	private ArrayList<SemanticUnit> executeTransSimilarity(FactSetWithSupport currentUserTran, ArrayList<SemanticUnit> usersToCompare, SimilarityStatment s) {
-		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-    	for(SemanticUnit user: usersToCompare)
+	private void executeTransSimilarity(FactSetWithSupport currentUserTran, ArrayList<SemanticUnit> usersToCompare, SimilarityStatment s) {
+	
+		//FactSetWithSupport CUT = copyUserTran(currentUserTran);
+	
+
+		FactSetWithSupport userTrans = new FactSetWithSupport();
+	
+    	for(SemanticUnit u: usersToCompare)
     	{
-    		FactSetWithSupport userTransaction = getUserTransaction(((Term)user).toSrting());
-    		double similarity = Similarity.getSimilarityWithSupport(currentUserTran, userTransaction, ontologyGraph);
+    	
+    		
+    		userTrans = new FactSetWithSupport();
+    		userTrans = getUserTransaction(((Term)u).toSrting());
+    		
+    		/*System.out.println("Current user");
+    		System.out.println(currentUserTran.toSrting());
+    		
+    		System.out.println("user");
+    		System.out.println(userTrans.toSrting());*/
+
+    		
+    		double similarity = Similarity.getSimilarityWithSupport(currentUserTran, userTrans, ontologyGraph);
     		boolean result = false;
     		switch(s.getOp())
     		{
@@ -254,50 +396,86 @@ public class QueryGenerator {
     		//System.out.println(((FactSet)userProfile).toSrting());
     		//System.out.println(similarity);
     		if(result){
-    			ans.add(user);
-    			simTran.put(((Term)user).toSrting(), similarity);
+    			User user = new User();
+    			boolean flag = false;
+    			for(User uu: users){
+    				if(uu.getUser().toSrting().equals(((Term)u).toSrting())){
+    					user = uu;
+    					flag = true;
+    				}
+    				
+    			}
+    			user.setTranSim(similarity);
+    			if(!flag){
+    				user.setUser((Term)u);
+    				users.add(user);
+    			}
+    				
+    	
+    			
     		}
     			
     	}
-		return ans;
+	
 	}
 
+	
+
+	
 	/**
 	 * 
 	 * @param user
 	 * @return all the transactions related to the user
 	 */
 	private FactSetWithSupport getUserTransaction(String user) {
-		String query = "SELECT ?x ?val {  ?tran <http://a.org/transactions/By> <http://a.org/transactions/" + user + ">  ."+
-	                    "?tran <http://a.org/transactions/WithSupport> ?val ."+
-						"?tran <http://a.org/transactions/hasFact> ?x . }";
-		ArrayList<SemanticUnit> ans = executeTransactionQuery(query);
+		
+		String query = "SELECT ?x ?val {  ?tran <http://a.org/ontology/By> <http://a.org/ontology/" + user + ">  ."+
+	                    "?tran <http://a.org/ontology/WithSupport> ?val ."+
+						"?tran <http://a.org/ontology/hasFact> ?x . }";
+		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
+	
+		ans = executeTransactionQuery(query);
+	
 		FactSetWithSupport factSet = new FactSetWithSupport();
+
 		
 		Iterator<SemanticUnit> iter = ans.iterator();
 
 		while(iter.hasNext())
 		{
+
 			Term support = (Term) iter.next();
-			double sup = Double.parseDouble(support.toSrting());
+			String s = support.toSrting();
+			if(s.equals("")){
+				s = "1";
+			}
+			//else if(s.startsWith("1"))
+				//s = "1.0";
+			else if(support.toSrting().length()>0)
+				s = "0."+support.toSrting().substring(1);
+			double sup = Double.parseDouble(s);
 	
 			Term fact = (Term) iter.next();
 			ArrayList<SemanticUnit> factCompoment = getFactCompoments(fact);
 			//for(SemanticUnit u: factCompoment)
-			Fact f = new Fact((Term)factCompoment.get(0),(Term)factCompoment.get(1),(Term)factCompoment.get(2));
-			//System.out.println(f.toSrting());
-			FactWithSupport factSupport = new FactWithSupport(sup,f);
-			factSet.add(factSupport);
+			if(factCompoment.size()>=3){
+				Fact f = new Fact((Term)factCompoment.get(0),(Term)factCompoment.get(1),(Term)factCompoment.get(2));
+				//System.out.println(f.toSrting());
+				FactWithSupport factSupport = new FactWithSupport(sup,f);
+				factSet.add(factSupport);
+			}
 		}
+		
 		return factSet;
 	}
 
 	private ArrayList<SemanticUnit> getFactCompoments(Term fact) {
 		String f = fact.toSrting();
-		String query = "SELECT ?x ?y ?z {  <http://a.org/transactions/"+f+"> <http://a.org/transactions/hasSubject> ?x  ."+
-                "<http://a.org/transactions/"+f+"> <http://a.org/transactions/hasProperty> ?y  ."+
-				"<http://a.org/transactions/"+f+"> <http://a.org/transactions/hasObject> ?z  . }";
-		ArrayList<SemanticUnit> ans = executeTransactionQuery(query);
+		String query = "SELECT ?x ?y ?z {  <http://a.org/ontology/"+f+"> <http://a.org/ontology/hasSubject> ?x  ."+
+                "<http://a.org/ontology/"+f+"> <http://a.org/ontology/hasProperty> ?y  ."+
+				"<http://a.org/ontology/"+f+"> <http://a.org/ontology/hasObject> ?z  . }";
+		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
+		ans = executeTransactionQuery(query);
 		return ans;
 	}
 
@@ -308,11 +486,16 @@ public class QueryGenerator {
 	 * @param s - similarity statement to execute
 	 * @return
 	 */
-    private ArrayList<SemanticUnit> executeProfilesSimilarity(	FactSet currentUserProfile, ArrayList<SemanticUnit> usersToCompare,SimilarityStatment s) {
-    	ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
+    private void executeProfilesSimilarity(	FactSet currentUserProfile, ArrayList<SemanticUnit> usersToCompare,SimilarityStatment s) {
+    	//ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
     	for(SemanticUnit user: usersToCompare)
     	{
     		FactSet userProfile = getUserProfile(((Term)user).toSrting());
+    		//System.out.println("Current:");
+    		//System.out.println(currentUserProfile.toSrting());
+    		//System.out.println("user:");
+    		//System.out.println(userProfile.toSrting());
+    		
     		double similarity = Similarity.getSimilarityWithoutSupport(currentUserProfile, userProfile, ontologyGraph);
     		boolean result = false;
     		switch(s.getOp())
@@ -333,13 +516,26 @@ public class QueryGenerator {
     		//System.out.println(((FactSet)userProfile).toSrting());
     		//System.out.println(similarity);
     		if(result){
-    			ans.add(user);
-    			simProfiles.put(((Term)user).toSrting(), similarity);
+    			User u = new User();
+    			boolean flag = false;
+    			for(User uu: users){
+    				if(uu.getUser().toSrting().equals(((Term)user).toSrting())){
+    					u = uu;
+    					flag = true;
+    				}
+    				
+    			}
+    			u.setProfileSim(similarity);
+    			if(!flag){
+    				u.setUser((Term)user);
+    				users.add(u);
+    			}
+    				
+    	
     			
     		}
     			
     	}
-		return ans;
 	}
 
 	/**
@@ -348,7 +544,9 @@ public class QueryGenerator {
      * @return the user profile (as a fact set)
      */
 	private FactSet getUserProfile(String user) {
-		String query = "SELECT ?x ?y {  <http://a.org/users/" + user + "> ?x ?y . }";
+		
+		//String query = "SELECT ?x ?y {  <http://a.org/users/" + user + "> ?x ?y . }";
+		String query = "SELECT ?x ?y {  <http://a.org/ontology/" + user + "> ?x ?y . }";
 		ArrayList<SemanticUnit> ans = executeProfileQuery(query);
 		FactSet factSet = new FactSet();
 		
@@ -366,7 +564,8 @@ public class QueryGenerator {
 
 	private ArrayList<SemanticUnit> executeTransactionQuery(String profileQuery) {
 		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-        Model transactions = rdf.getTransactionsModel();
+      //  Model transactions = rdf.getTransactionsModel();
+		Model transactions = rdf.getOntologyModel();
 			
 			String queryString = profileQuery;
          
@@ -390,9 +589,11 @@ public class QueryGenerator {
 					result = result.replace(")", "");
 					result = result.replace("http", "");
 					result = result.replace("org", "");
-					result = result.replace("transactions", "");
+					result = result.replace("ontology", "");
 					result = result.replaceAll("[\\/\\.\\:]","");
 					String [] words = result.split(" ");
+					if(isAttribute(result))
+						continue;
 					for (int i = 0; i<words.length; i++){
 						if (words[i].equals(""))
 							continue;
@@ -416,7 +617,8 @@ public class QueryGenerator {
 
 	private ArrayList<SemanticUnit> executeProfileQuery(String profileQuery) {
 		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-        Model profiles = rdf.getProfilesModel();
+       // Model profiles = rdf.getProfilesModel();
+		Model profiles = rdf.getOntologyModel();
 			
 			String queryString = profileQuery;
          
@@ -440,8 +642,11 @@ public class QueryGenerator {
 					result = result.replace(")", "");
 					result = result.replace("http", "");
 					result = result.replace("org", "");
-					result = result.replace("users", "");
+					//result = result.replace("users", "");
+					result = result.replace("ontology", "");
 					result = result.replaceAll("[\\/\\.\\:]","");
+					if(isAttribute(result))
+						continue;
 					String [] words = result.split(" ");
 					for (int i = 0; i<words.length; i++){
 						if (words[i].equals(""))
@@ -449,7 +654,11 @@ public class QueryGenerator {
 						else if (words[i].contains("?"))
 							continue;
 						else {
-							Term t = new Term(words[i].substring(1));
+							Term t; 
+							if(words[i].startsWith("a"))
+								t = new Term(words[i].substring(1));
+							else
+								t = new Term(words[i]);
 							ans.add(t);
 						}
 					}
@@ -457,6 +666,12 @@ public class QueryGenerator {
 				}
 		return ans;
 	}
+	}
+
+	private boolean isAttribute(String result) {
+		if(/*result.contains("h_index")||*/result.contains("p_index")||result.contains("pc ")||result.contains("cn ")||result.contains("id ")||result.contains("year"))
+			return true;
+		return false;
 	}
 
 	private ArrayList<SemanticUnit> executeOntologyQuery(String ontologyQuery) {

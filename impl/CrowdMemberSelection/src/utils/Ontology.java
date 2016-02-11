@@ -12,6 +12,7 @@ import org.apache.jena.ext.com.google.common.collect.ArrayListMultimap;
 import org.apache.jena.ext.com.google.common.collect.Multimap;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
@@ -30,7 +31,9 @@ public class Ontology {
 		
 		terms = new HashSet<Term>();
 		Model tran = ModelFactory.createDefaultModel();
-		tran.read(new FileInputStream("Ontology.ttl"),null,"TTL");
+	
+		//tran.read(new FileInputStream("Ontology.ttl"),null,"TTL");
+		tran.read(new FileInputStream("Aminer-data.ttl"),null,"TTL");
 		StmtIterator iter = tran.listStatements();
 
 		// print out the predicate, subject and object of each statement
@@ -38,6 +41,22 @@ public class Ontology {
 		{
 		    Statement stmt      = iter.nextStatement();  // get next statement
 		    Resource  subject   = stmt.getSubject();     // get the subject
+		    Property p = stmt.getPredicate();
+		    
+		    String s = p.getLocalName();
+		    if(s.equals("id")||s.equals("h_index")||s.equals("p_index")||s.equals("pc")||s.equals("cn")){
+		    	continue;
+		    }
+		    if(s.equals("by")||s.equals("WithSupport")||s.equals("hasFact")){
+		    	continue;
+		    }
+		    if(s.equals("hasSubject")||s.equals("hasProperty")||s.equals("hasObject")){
+		    	continue;
+		    }
+		    if(s.equals("year")||s.equals("hasProperty")||s.equals("hasObject")){
+		    	continue;
+		    }
+		    
 		   // Property  predicate = stmt.getPredicate();   // get the predicate
 		    RDFNode   object    = stmt.getObject();      // get the object
 		    
@@ -144,6 +163,8 @@ public class Ontology {
 	
 	public static FactSet getFactsIntersection(FactSetWithSupport x,FactSetWithSupport y) 
 	{
+		int s1 = x.getFactsWithSupport().size();
+		int s2 = y.getFactsWithSupport().size();
 		FactSet ans = new FactSet();
 		for(FactWithSupport f1: x)
 		{
