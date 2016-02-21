@@ -1,0 +1,22 @@
+String query = "ASSIGN BY Andomar to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/accept_rate> $ar . " +
+			"     FILTER ( $ar > 8 ) ."+
+			"      } "+
+			"FROM tran($u) WHERE{" +
+			"     $u <http://a.org/ontology/answeredOn> <http://a.org/ontology/sql> WITH SUPPORT > 0.001 . " +
+			"     $u <http://a.org/ontology/answer> $answer WITH SUPPORT > 0 . " +
+			"      } "+
+			"FROM ontology WHERE{" +
+			"     $answer <http://a.org/ontology/isAnswerTo> $q . " +
+			"     $answer <http://a.org/ontology/score> $val . " +
+			"     FILTER ( $val > 1 ) ."+
+			"      } "+
+			"SIMILAR profile($u) TO { $u <http://a.org/ontology/gold> 100 . } "+
+			"WITH SIMILARITY > 0 "+
+			"SIMILAR profile($u) TO profile(Andomar) "+
+			"WITH SIMILARITY > 0 "+
+			"SIMILAR tran($u) TO tran(Andomar) "+
+			"WITH SIMILARITY > 0 "+
+			"ORDERED BY AVGSim "+
+			"LIMIT 5 ";

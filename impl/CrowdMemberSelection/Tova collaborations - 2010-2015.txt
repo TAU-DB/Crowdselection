@@ -1,0 +1,27 @@
+Debmalya_Panigrahi 1
+Volker_Markl 1
+Yael_Grossman 2
+Ilia_Lotosh 2
+Zhuowei_Bao 2
+Sihem_Amer-Yahia 1
+Neoklis_Polyzotis 3
+Haim_Kaplan 4
+Serge_Abiteboul 3
+Julia_Stoyanovich 3
+Michael_Benedikt 1
+Rubi_Boim 6
+Susan_B_Davidson 6
+Tom_Yam 1
+Ohad_Greenshpan 4
+Sudeepa_Roy 3
+Val_Tannen 4
+Eran_Balan 1
+Pierre_Senellart 4
+Daniel_Deutch 16
+Yael_Amsterdamer 7
+Boris_Kostenko 2
+Slava_Novgorodov 5
+Tal_Sterenzy 1
+Wang-Chiew_Tan 1
+Christoph_Koch 1
+
