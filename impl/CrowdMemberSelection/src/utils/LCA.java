@@ -21,24 +21,12 @@ import org.apache.jena.ext.com.google.common.collect.Multimap;
  */
 public class LCA {
 	
-
+	public static Map<Term, Set<Term>> bfsCache = new HashMap<Term, Set<Term>>();
 	public static void main(String[] args) throws IOException {
 		
 		Ontology.buildOntologyGraph();
 		Multimap<Term, Term> ontologyGraph = Ontology.getGraph();
-		Term t1 = Ontology.getTerm("Sport");
-		Term t2 = Ontology.getTerm("Surfing");
-		boolean ans = isMoreGeneralThan(t1,t2,ontologyGraph);
-		System.out.println(ans);
 		
-		/*Fact f1 = new Fact(new Term("Bill"),new Term("livesIn"), new Term("Sydney"));
-		Fact f2 = new Fact(new Term("Carol"),new Term("livesIn"), new Term("Sydney"));*/
-		Fact f1 = new Fact(Ontology.getTerm("Bill"),Ontology.getTerm("livesIn"), Ontology.getTerm("Sydney"));
-		Fact f2 = new Fact(Ontology.getTerm("Bill"),Ontology.getTerm("livesIn"), Ontology.getTerm("Place"));
-		
-		boolean ans1 = isMoreGeneralThan(f2,f1,ontologyGraph);
-		System.out.println(ans1);
-
 		}
 
 	/**
@@ -51,9 +39,12 @@ public class LCA {
 		
 		x = Ontology.getTerm(((Term)x).toSrting());
 		//System.out.println(((Term)x).toSrting());
+		
+		Set<Term> visit = new LinkedHashSet<Term>();
 	    Queue<Term> queue = new LinkedList<Term>();
 	    Set<Term> result = new LinkedHashSet<Term>();
 	    queue.add((Term)x);
+	    visit.add((Term)x);
 	    while(!queue.isEmpty()) {
 	    	Term current = queue.remove();
 	    	current = Ontology.getTerm(current.toSrting());
@@ -61,12 +52,24 @@ public class LCA {
 	        result.add(current);
 	        if(Ontology.getValues(current) != null)
 	           for(Term s: Ontology.getValues(current)) {
-	        	  
-	                queue.add(s);
+	        	    if(!result.contains(s) && !contains(queue, s)){
+	        	    	if(!visit.contains(s)){
+	        	    		queue.add(s);
+	        	    		visit.add(s);
+	        	    	}
+	        	    	
+	        	    }
 	            }
 	    }
 	    return result;
 	}
+	private static boolean contains(Queue<Term> queue, Term s) {
+		for(Term t: queue)
+			if(t.toSrting().equals(s.toSrting()))
+				return true;
+		return false;
+	}
+
 	/**
 	 * 
 	 * @param x - the first node
@@ -77,8 +80,24 @@ public class LCA {
 
 	public static ArrayList<SemanticUnit> getLCAs(Term x, Term y, Multimap<Term, Term> ontologyGraph) {
 		
-		Set<Term> list1 = BFS(ontologyGraph, (Term) x);      
-		Set<Term> list2 = BFS(ontologyGraph, (Term) y);
+		Set<Term> list1 = null;
+		if(bfsCache.containsKey(x))
+			list1 = bfsCache.get(x);
+		else
+		{
+			list1 = BFS(ontologyGraph, (Term) x); 
+			bfsCache.put(x, list1);
+		}
+		
+		Set<Term> list2 = null;
+		if(bfsCache.containsKey(y))
+			list2 = bfsCache.get(y);
+		else
+		{
+			list2 = BFS(ontologyGraph, (Term) y); 
+			bfsCache.put(y, list2);
+		}
+	
 		ArrayList<SemanticUnit> ans = mergeLCA(list1, list2);
 		return ans;
 	}
@@ -91,49 +110,104 @@ public class LCA {
 	 */
 
 	public static ArrayList<SemanticUnit> getLCAs(Fact x, Fact y, Multimap<Term, Term> ontologyGraph) {
+		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
 		
+		Set<Term> listSubject1 = null;
+		if(bfsCache.containsKey((Term) x.getSubject()))
+			listSubject1 = bfsCache.get((Term) x.getSubject());
+		else
+		{
+			listSubject1 = BFS(ontologyGraph, (Term) x.getSubject()); 
+			bfsCache.put((Term) x.getSubject(), listSubject1);
+		}
+		
+		Set<Term> listSubject2 = null;
+		if(bfsCache.containsKey( (Term) y.getSubject()))
+			listSubject2 = bfsCache.get( (Term) y.getSubject());
+		else
+		{
+			listSubject2 = BFS(ontologyGraph,  (Term) y.getSubject()); 
+			bfsCache.put( (Term) y.getSubject(), listSubject2);
+		}
 	
-		Set<Term> listSubject1 = BFS(ontologyGraph, (Term) x.getSubject()); 
-		Set<Term> listSubject2 = BFS(ontologyGraph, (Term) y.getSubject());
+		//Set<Term> listSubject1 = BFS(ontologyGraph, (Term) x.getSubject()); 
+	//	Set<Term> listSubject2 = BFS(ontologyGraph, (Term) y.getSubject());
 		
-		
-		Set<Term> listProperty1 = BFS(ontologyGraph, (Term) x.getProperty());
-		
-		
-		Set<Term> listProperty2 = BFS(ontologyGraph, (Term) y.getProperty());
-		
-		
-		Set<Term> listObject1 = BFS(ontologyGraph, (Term) x.getObject());
-	
-		
-		Set<Term> listObject2 = BFS(ontologyGraph, (Term) y.getObject());
-		
-        //get all subject LCA
+	      //get all subject LCA
 		ArrayList <SemanticUnit> subjects = mergeLCA(listSubject1, listSubject2);
 		
-		//get all property LCA
-		ArrayList <SemanticUnit> properties = mergeLCA(listProperty1, listProperty2);
 		
+		if(subjects.size()>0){
+			
+			Set<Term> listProperty1 = null;
+			if(bfsCache.containsKey((Term) x.getProperty()))
+				listProperty1 = bfsCache.get((Term) x.getProperty());
+			else
+			{
+				listProperty1 = BFS(ontologyGraph, (Term) x.getProperty()); 
+				bfsCache.put((Term) x.getProperty(), listProperty1);
+			}
+			
+			Set<Term> listProperty2 = null;
+			if(bfsCache.containsKey( (Term) y.getProperty()))
+				listProperty2 = bfsCache.get( (Term) y.getProperty());
+			else
+			{
+				listProperty2 = BFS(ontologyGraph, (Term) y.getProperty()); 
+				bfsCache.put( (Term) y.getProperty(), listProperty2);
+			}
+		
+			//get all property LCA
+			ArrayList <SemanticUnit> properties = mergeLCA(listProperty1, listProperty2);
+		//	for(SemanticUnit u: properties)
+			//	System.out.println(((Term)u).toSrting());
+			
+			if(properties.size()>0){
+		        
+				Set<Term> listObject1 = null;
+				if(bfsCache.containsKey((Term) x.getObject()))
+					listObject1  = bfsCache.get((Term) x.getObject());
+				else
+				{
+					listObject1  = BFS(ontologyGraph, (Term) x.getObject()); 
+					bfsCache.put((Term) x.getObject(), listObject1 );
+				}
+				
+				Set<Term> listObject2 = null;
+				if(bfsCache.containsKey( (Term) y.getObject()))
+					listObject2 = bfsCache.get( (Term) y.getObject());
+				else
+				{
+					listObject2 = BFS(ontologyGraph, (Term) y.getObject()); 
+					bfsCache.put( (Term) y.getObject(), listObject2);
+				}
 	
-		//get all object LCA
-		ArrayList <SemanticUnit> objects = mergeLCA(listObject1, listObject2);
+				//get all object LCA
+				ArrayList <SemanticUnit> objects = mergeLCA(listObject1, listObject2);
+				//for(SemanticUnit u: objects)
+					//System.out.println(((Term)u).toSrting());
 		
-		
-		ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
-		if(subjects.size()>0 && properties.size()>0 && objects.size()>0)
-			ans = factLCA(subjects, properties, objects);
-	
-	    ans = removeRedundantFacts(ans, ontologyGraph);
-	    
+				if(objects.size()>0){
+					ans = factLCA(subjects, properties, objects);
+					
+					ans = removeRedundantFacts(ans, ontologyGraph);
+				}
+			}
+		}
 		
 		return ans;
 	}
 	
-	private static ArrayList<SemanticUnit> removeRedundantFacts(ArrayList<SemanticUnit> ans,Multimap<Term, Term> ontologyGraph) {
+
+
+	public static ArrayList<SemanticUnit> removeRedundantFacts(ArrayList<SemanticUnit> ans,Multimap<Term, Term> ontologyGraph) {
 		
 		Iterator<SemanticUnit> iter = ans.iterator();
+		//System.out.println();
+		//System.out.println(ans.size());
 		while(iter.hasNext())
 		{
+			//System.out.println(ans.size());
 			Iterator<SemanticUnit> iter2 = ans.iterator();
 			Fact f = (Fact) iter.next();
 			boolean flag = false;
@@ -163,7 +237,14 @@ public class LCA {
 	}
 
 	private static boolean isMoreGeneralThan(Term t1, Term t2, Multimap<Term, Term> ontologyGraph) {
-	    Set<Term> s = BFS(ontologyGraph,t2);
+		Set<Term> s = null;
+		if(bfsCache.containsKey(t2))
+			s = bfsCache.get(t2);
+		else{
+			s = BFS(ontologyGraph,t2);
+			bfsCache.put(t2, s);
+		}
+	
 	    t1 = Ontology.getTerm(t1.toSrting());
 		return s.contains(t1);
 	}
@@ -183,15 +264,40 @@ public class LCA {
 		{
 			for(Fact fact2: y)
 			{
+				
+			//	if(fact1.getObject().toSrting().equals("Web_Services_Description_Language") && fact2.getObject().toSrting().equals("Linked_data")){
+				//	System.out.println(fact1.toSrting());
+					//System.out.println(fact2.toSrting());
+				//}
 				ArrayList<SemanticUnit> temp = getLCAs(fact1,fact2,ontologyGraph);
 
 				if(temp.size()>0)
 					ans.addAll(temp);
 			}
 		}
+		ans = removeDuplicates(ans);
 		return ans;
 	}
-    /**
+    private static ArrayList<SemanticUnit> removeDuplicates( ArrayList<SemanticUnit> ans) {
+    	ArrayList<SemanticUnit> a = new ArrayList<SemanticUnit>();
+    	for(SemanticUnit u: ans){
+    		if(!contains(a,u))
+    			a.add(u);
+    	}
+		return a;
+	}
+
+	private static boolean contains(ArrayList<SemanticUnit> a, SemanticUnit u) {
+		Fact f2 = (Fact)u;
+		for(SemanticUnit uu: a){
+			Fact f1 = (Fact)uu;
+			if(Ontology.equalsFact(f1,f2))
+				return true;
+		}
+		return false;
+	}
+
+	/**
      * 
      * @param subjects
      * @param properties

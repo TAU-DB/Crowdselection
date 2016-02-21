@@ -75,6 +75,7 @@ public class RDF {
 	{
 		//ontology.read(new FileInputStream("ontology.ttl"),null,"TTL");
 		ontology.read(new FileInputStream("Aminer-data.ttl"),null,"TTL");
+		//ontology.read(new FileInputStream("SO data.ttl"),null,"TTL");
 	} 
 	catch (FileNotFoundException e) 
 	{

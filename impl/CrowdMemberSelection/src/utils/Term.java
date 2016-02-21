@@ -22,6 +22,12 @@ public class Term implements SemanticUnit{
 	}
 
 
+	public void set(String temp) {
+		this.term = temp;
+		
+	}
+
+
 	
 
 }

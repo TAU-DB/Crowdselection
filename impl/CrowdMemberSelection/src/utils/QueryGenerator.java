@@ -26,8 +26,7 @@ public class QueryGenerator {
 	private Parser parser;
 	private RDF rdf;
 	private Multimap<Term, Term> ontologyGraph;
-	//private Map<String, Double> simProfiles ;
-	//private Map<String, Double> simTran ;
+
 	private List<User> users;
 	private FactSetWithSupport currentUserTranOrig = new FactSetWithSupport();
 	
@@ -37,9 +36,7 @@ public class QueryGenerator {
 		rdf = r;
 		this.ontologyGraph = ontologyGraph;
 		users = new ArrayList<User>();
-		//simProfiles =  new HashMap <String, Double>();
-		//simProfilesDiverse =  new HashMap <Double, String>();
-		//simTran =  new HashMap <String, Double>();
+		
 	}
 	
 	public Parser getParser(){
@@ -167,6 +164,29 @@ public class QueryGenerator {
 					
 				}});
 		}
+		
+		else if(((FilterOrder)filter).getBy().equals("AVGSim"))
+		{
+			
+			
+			Collections.sort(users, new Comparator<Object>(){
+				@Override
+				public int compare(Object o1, Object o2) {
+					double s1 = (((User)o1).getProfileSim()+((User)o1).getTranSim())/2.0;
+					((User)o1).setAVG(s1);
+					double s2 = (((User)o2).getProfileSim()+((User)o2).getTranSim())/2.0;
+					((User)o2).setAVG(s2);
+					
+					double temp = s1 - s2;
+					if(temp<0)
+						return 1;
+					else if(temp>0)
+						return -1;
+					else
+						return 0;
+					
+				}});
+		}
 	
 	
 	}
@@ -208,10 +228,17 @@ public class QueryGenerator {
 			//compare profiles
 			if(s.getSrc().startsWith("profile"))
 			{
-				//similarProfile = new ArrayList<SemanticUnit>();
-				FactSet currentUserProfile = getUserProfile(user);
-				//System.out.println(currentUserProfile.toSrting());
-				executeProfilesSimilarity(currentUserProfile, usersToCompare,s);
+				if(s.getDest().contains("{"))
+				{
+					executeProfilesSimilarity(usersToCompare,s);
+				}
+				else
+				{
+					//similarProfile = new ArrayList<SemanticUnit>();
+					FactSet currentUserProfile = getUserProfile(user);
+					//System.out.println(currentUserProfile.toSrting());
+					executeProfilesSimilarity(currentUserProfile, usersToCompare,s);
+				}
 			
 			}
 			//compare transactions
@@ -251,12 +278,12 @@ public class QueryGenerator {
     		userTrans = new FactSetWithSupport();
     		userTrans = getUserTransaction(((Term)u).toSrting());
     		
-    		//System.out.println("*****User tran*********");
-    		//System.out.println(userTrans.toSrting());
-    		//System.out.println("*****Query*********");
-    		//System.out.println(queryTran.toSrting());
-    		
-    		double similarity = Similarity.getSimilarityWithSupport(queryTran, userTrans, ontologyGraph);
+    		/*System.out.println("*****User tran*********");
+    		System.out.println(userTrans.toSrting());
+    		System.out.println("*****Query*********");
+    		System.out.println(queryTran.toSrting());*/
+    	
+    		double similarity = Similarity.getSimilarityWithSupportNoUser(queryTran, userTrans, ontologyGraph);
     		boolean result = false;
     		switch(s.getOp())
     		{
@@ -321,6 +348,33 @@ public class QueryGenerator {
 			Fact f = new Fact(new Term(sub), new Term(pro), new Term(obj));
 			FactWithSupport x = new FactWithSupport(1,f);
 			facts.add(x);
+			ss.close();
+		}
+		return facts;
+	}
+	
+	private FactSet getFact(SimilarityStatment s, SemanticUnit u) {
+		FactSet facts = new FactSet();
+		String str = s.getDest();
+		str = str.replace("{", "");
+		str = str.replace("}", "");
+		str = str.replace("<http://a.org/ontology/", "");
+		str = str.replace(">", "");
+		
+		String [] factss = str.split("\\.");
+		for(int i = 0; i<factss.length-1 ; i++)
+		{
+			Scanner ss = new Scanner(factss[i]);
+			ss.next();
+			String sub = ((Term)u).toSrting();
+			String pro = ss.next();
+		
+			String obj = ss.next();
+		
+
+			Fact f = new Fact(new Term(sub), new Term(pro), new Term(obj));
+		
+			facts.add(f);
 			ss.close();
 		}
 		return facts;
@@ -445,24 +499,26 @@ public class QueryGenerator {
 		{
 
 			Term support = (Term) iter.next();
+			Term fact = (Term) iter.next();
+			
+			//System.out.println(support.toSrting()+" "+fact.toSrting());
 			String s = support.toSrting();
-			if(s.equals("")){
-				s = "1";
-			}
-			//else if(s.startsWith("1"))
-				//s = "1.0";
-			else if(support.toSrting().length()>0)
-				s = "0."+support.toSrting().substring(1);
+		
 			double sup = Double.parseDouble(s);
 	
-			Term fact = (Term) iter.next();
+		
 			ArrayList<SemanticUnit> factCompoment = getFactCompoments(fact);
-			//for(SemanticUnit u: factCompoment)
 			if(factCompoment.size()>=3){
 				Fact f = new Fact((Term)factCompoment.get(0),(Term)factCompoment.get(1),(Term)factCompoment.get(2));
-				//System.out.println(f.toSrting());
-				FactWithSupport factSupport = new FactWithSupport(sup,f);
-				factSet.add(factSupport);
+			//	if(f.getSubject().toSrting().contains("Serge")/*&&f.getProperty().toSrting().equals("publishedAt")*/)
+				//	System.out.println(f.toSrting());
+				boolean flag = true;
+			    if(!f.getSubject().toSrting().equals(user) && !f.getObject().toSrting().equals(user))
+			    	flag = false;
+			    if(flag){
+			    	FactWithSupport factSupport = new FactWithSupport(sup,f);
+			    	factSet.add(factSupport);
+			    }
 			}
 		}
 		
@@ -537,6 +593,71 @@ public class QueryGenerator {
     			
     	}
 	}
+    
+    /**
+	 * 
+	 * @param currentUserProfile - as a fact-set
+	 * @param usersToCompare - list of potentials users
+	 * @param s - similarity statement to execute
+	 * @return
+	 */
+    private void executeProfilesSimilarity(	ArrayList<SemanticUnit> usersToCompare,SimilarityStatment s) {
+    	//ArrayList<SemanticUnit> ans = new ArrayList<SemanticUnit>();
+    	for(SemanticUnit user: usersToCompare)
+    	{
+    		FactSet userProfile = getUserProfile(((Term)user).toSrting());
+    	
+    	    FactSet queryTran = new FactSet();
+    		
+    		FactSet facts = getFact(s, user);
+    		for(Fact f: facts)
+    			queryTran.add(f);
+    		//System.out.println("Current:");
+    		//System.out.println(currentUserProfile.toSrting());
+    		//System.out.println("user:");
+    		//System.out.println(userProfile.toSrting());
+    		
+    		double similarity = Similarity.getSimilarityWithoutSupport(queryTran, userProfile, ontologyGraph);
+    		boolean result = false;
+    		switch(s.getOp())
+    		{
+    	    	case(">"):
+    	    		result = similarity > s.getTH();
+    	    		break;
+    	    	case("<"):
+    	    		result = similarity < s.getTH();
+    	    		break;
+    	    	case(">="):
+    	    		result = similarity >= s.getTH();
+    	    		break;
+    	    	case("<="):
+    	    		result = similarity <= s.getTH();
+    	    		break;
+    	    }
+    		//System.out.println(((FactSet)userProfile).toSrting());
+    		//System.out.println(similarity);
+    		if(result){
+    			User u = new User();
+    			boolean flag = false;
+    			for(User uu: users){
+    				if(uu.getUser().toSrting().equals(((Term)user).toSrting())){
+    					u = uu;
+    					flag = true;
+    				}
+    				
+    			}
+    			u.setQuerySim(similarity);
+    			if(!flag){
+    				u.setUser((Term)user);
+    				users.add(u);
+    			}
+    				
+    	
+    			
+    		}
+    			
+    	}
+	}
 
 	/**
      * 
@@ -582,15 +703,13 @@ public class QueryGenerator {
 				while(results.hasNext()) {
 					QuerySolution re =  results.next();
 					String result = re.toString();
-					result = result.replace("<", "");
+					
 					result = result.replace(">", "");
-					result = result.replace("=", "");
+					result = result.replace("<http://a.org/ontology/", "");
 					result = result.replace("(", "");
 					result = result.replace(")", "");
-					result = result.replace("http", "");
-					result = result.replace("org", "");
-					result = result.replace("ontology", "");
-					result = result.replaceAll("[\\/\\.\\:]","");
+					result = result.replace("=", "");
+				
 					String [] words = result.split(" ");
 					if(isAttribute(result))
 						continue;
@@ -599,16 +718,12 @@ public class QueryGenerator {
 							continue;
 						else if (words[i].contains("?"))
 							continue;
-						else if (words[i].contains("0"))
+						else 
 						{
 							Term t = new Term(words[i]);
 							ans.add(t);
 						}
-						else 
-						{
-							Term t = new Term(words[i].substring(1));
-							ans.add(t);
-						}
+					
 					}
 				}
 		return ans;
@@ -640,11 +755,12 @@ public class QueryGenerator {
 					result = result.replace("=", "");
 					result = result.replace("(", "");
 					result = result.replace(")", "");
-					result = result.replace("http", "");
-					result = result.replace("org", "");
+					result = result.replace("http://a.org/ontology/", "");
+					//result = result.replace("http", "");
+					//result = result.replace("org", "");
 					//result = result.replace("users", "");
-					result = result.replace("ontology", "");
-					result = result.replaceAll("[\\/\\.\\:]","");
+					//result = result.replace("ontology", "");
+					//result = result.replaceAll("[\\/\\.\\:]","");
 					if(isAttribute(result))
 						continue;
 					String [] words = result.split(" ");
@@ -655,9 +771,9 @@ public class QueryGenerator {
 							continue;
 						else {
 							Term t; 
-							if(words[i].startsWith("a"))
-								t = new Term(words[i].substring(1));
-							else
+						//	if(words[i].startsWith("a"))
+							//	t = new Term(words[i].substring(1));
+						//	else
 								t = new Term(words[i]);
 							ans.add(t);
 						}
@@ -669,7 +785,7 @@ public class QueryGenerator {
 	}
 
 	private boolean isAttribute(String result) {
-		if(/*result.contains("h_index")||*/result.contains("p_index")||result.contains("pc ")||result.contains("cn ")||result.contains("id ")||result.contains("year"))
+		if(/*result.contains("h_index")||*/result.contains("p_index")/*||result.contains("pc ")*/||result.contains("cn ")||result.contains("id ")||result.contains("year"))
 			return true;
 		return false;
 	}
@@ -679,6 +795,9 @@ public class QueryGenerator {
            Model ontology = rdf.getOntologyModel();
 			
 			String queryString = ontologyQuery;
+			
+			//DEBUG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+         //  String queryString = "SELECT ?u WHERE {      ?u <http://a.org/ontology/keyTerm> ?term  .            {?term <http://a.org/ontology/instanceof> <http://a.org/ontology/Information_retrieval>} UNION {?term <http://a.org/ontology/instanceof> <http://a.org/ontology/Data_management>} .}";
             
 	//		generate Query obj from queryString
 			Query query = QueryFactory.create(queryString);

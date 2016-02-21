@@ -36,6 +36,14 @@ public class Fact implements SemanticUnit{
 		return ans;
 	}
 
+	public boolean equal(Fact other){
+		boolean ans = true;
+		ans = ans && this.subject.toSrting().equals(other.subject.toSrting());
+		ans = ans && this.object.toSrting().equals(other.object.toSrting());
+		ans = ans && this.property.toSrting().equals(other.property.toSrting());
+		return ans;
+	}
+
 	
 
 }

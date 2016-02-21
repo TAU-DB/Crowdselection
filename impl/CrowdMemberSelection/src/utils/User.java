@@ -6,6 +6,7 @@ public class User {
 	private double profileSim;
 	private double tranSim;
 	private double querySim;
+	private double AVGSim;
 	
 	public User(Term t, double pro, double tran, double query){
 		user = t;
@@ -44,7 +45,8 @@ public class User {
 	}
 	
 	public String toString(){
-		return user.toSrting() + " profile similarity: "+profileSim + " tarnsaction similarity: "+ tranSim + " query similarity: "+ querySim;
+		return user.toSrting() + " profile similarity: "+profileSim + " tarnsaction similarity: "+ tranSim + 
+				" query similarity: "+ querySim +" AVG similarity: "+ AVGSim;
 	}
 
 	public double getQuerySim() {
@@ -55,6 +57,11 @@ public class User {
 	public void setQuerySim(double sim) {
 		
 		this.querySim = sim;
+	}
+
+	public void setAVG(double s1) {
+		this.AVGSim = s1;
+		
 	}
 
 }

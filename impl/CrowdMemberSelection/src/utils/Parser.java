@@ -320,12 +320,21 @@ public class Parser {
 	public void parseUserName() {
 		//get the first line
 		int i = query.indexOf("FROM");
-		userName = query.substring(0, i);
-		//drop ASSIGN BY 
-		userName = userName.substring(10);
-		String [] words = userName.split(" ");
-		//the user name is the first word
-		userName = words[0];
+		if(i == -1){
+			
+			String l = query.substring(10,query.length());
+			String [] words = l.split(" ");
+			userName = words[0];
+			
+		}
+		else{
+			userName = query.substring(0, i);
+			//drop ASSIGN BY 
+			userName = userName.substring(10);
+			String [] words = userName.split(" ");
+			//the user name is the first word
+			userName = words[0];
+		}
 	
 	}
 	
@@ -348,9 +357,8 @@ public class Parser {
 						"      }"+ 
 				        "SIMILAR profile($u) TO profile(Ann) "+
 						"WITH SIMILARITY >= 0.75 "+
-						"SIMILAR tran($u) TO tran(Ann) "+
-						"WITH SIMILARITY >= 0.75 "+
-						"WITH SIMILARITY  >= 0 " +
+						"SIMILAR profile($u) TO {$u <http://a.org/ontology/h_index> 90 . }"+
+						"WITH SIMILARITY > 0 "+
 						"LIMIT 1 ";
 				
 		      

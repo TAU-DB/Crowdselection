@@ -107,5 +107,27 @@ String query = "ASSIGN BY Tova_Milo to $u" +
 			"WITH SIMILARITY >= 0.5 "+
 			"ORDERED BY HistorySim "+
 			"LIMIT 5 ";
+			
+			
+String query = "ASSIGN BY Tova_Milo to $u" +
+			"FROM profile($u) WHERE{" +
+			"     $u <http://a.org/ontology/keyTerm> $term  ." +
+			//"     $u <http://a.org/ontology/affiliation> $uni  ." +
+			"	  $u <http://a.org/ontology/h_index> $h ."+
+			"     FILTER ( $h > 8 ) ."+
+			"     $u <http://a.org/ontology/pc> $pc ."+
+			"     FILTER ( $pc > 15 ) . "+
+			"      } "+
+			"FROM ontology WHERE{" +
+			"     $term <http://a.org/ontology/instanceof> <http://a.org/ontology/Data_management> ." +
+			//"     $uni <http://a.org/ontology/in> <http://a.org/ontology/US> ." +
+			"      } "+
+			"SIMILAR tran($u) TO {$u <http://a.org/ontology/publishedAt> <http://a.org/ontology/VLDB> . "+
+			"$u <http://a.org/ontology/publishedAt> <http://a.org/ontology/SIGMOD> . } "+
+			"WITH SIMILARITY > 0 "+
+			//"SIMILAR profile($u) TO profile(Tova_Milo) "+
+			//"WITH SIMILARITY > 0.5 "+
+			"ORDERED BY QuerySim "+
+			"LIMIT 5 ";
 		
 		

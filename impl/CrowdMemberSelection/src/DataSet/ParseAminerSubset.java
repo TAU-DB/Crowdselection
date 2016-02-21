@@ -9,15 +9,24 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 public class ParseAminerSubset {
-
+	
+	
+	public static Map<String, Integer> nameToPC = new HashMap<String,Integer>();
+	
+	public static Map<String, String> nameToId = new HashMap<String,String>();
+	public static Map<String, Integer> nameToNum = new HashMap<String,Integer>();
+	public static Map<Integer,String> numToName = new HashMap<Integer, String>();
+	public static int[][] collaborationMatrix;
 	public static ArrayList<String> countryCode = new ArrayList<String>();
 	public static ArrayList<String> affiliation = new ArrayList<String>();
 	public static Map<String, String> affiliationToCountry = new HashMap<String,String>();
@@ -25,6 +34,8 @@ public class ParseAminerSubset {
 	public static ArrayList<String> Ids = new ArrayList<String>();
 	public static ArrayList<String> names = new ArrayList<String>();
 	public static Map<String, String> authors = new HashMap<String,String>();
+	
+	public static Map<Integer, Integer> publicationCount = new HashMap<Integer, Integer>();
 	
 	public static Map<String, String> GoodNamesId = new HashMap<String,String>();
 	public static Map<String, String> papers = new HashMap<String,String>();
@@ -39,7 +50,8 @@ public class ParseAminerSubset {
 	public static double IEEECounter = 0;
 	public static double ICDTCounter = 0;
 	public static double SODACounter = 0;
-	private static ArrayList<Author> authorsPC = new ArrayList();
+	private static ArrayList<Author> authorsPC = new ArrayList<Author>();
+	private static ArrayList<Integer> h_index = new ArrayList<Integer>();
 	
 	
 	public static void getNeighbors(String ID)
@@ -64,6 +76,9 @@ public class ParseAminerSubset {
 	         while((line = br.readLine()) != null)
 	         {
 	        	 if(line.contains(ID)){
+	        		 //Jagadish
+	        		 if(line.contains("1620738"))
+	        			 continue;
 	        		 line = line.substring(1);
 	        		// System.out.println(line); 
 	        		 Scanner s = new Scanner(line);
@@ -162,20 +177,18 @@ public class ParseAminerSubset {
 
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			bw = new BufferedWriter(fw);
-			String content = "@base <http://a.org/author/> .\n\n";
-			//bw.write(content);
+		
 
 			StringBuilder author = new StringBuilder();
 			line = br.readLine();
 			author.append(line);
-			int authorCounter = 0;
+			
  	         // reads to the end of the stream 
  	         while((line = br.readLine()) != null)
  	         {
  	        	 if(line.contains("#index"))
  	        	 {
- 	        		 //System.out.println(author.toString());
- 	        		// authorCounter ++;
+ 	        		
  	        		 if(inNeighbors(line)){
  	        			addNewAuthor(file,author.toString(),bw);
  	 	        		 author.delete(0, author.length());
@@ -194,11 +207,7 @@ public class ParseAminerSubset {
  	        		 author.append(line);
  	        	 }
  	         }
- 	         //start with the first 50 lines
- 	        /* for (int i = 0; i < 500 ; i++) {
- 	        	 line = br.readLine();
- 	             System.out.println(line);
- 	          }*/
+ 	        
  	      
  	      
  	         }
@@ -273,6 +282,8 @@ public class ParseAminerSubset {
 	    	String name = lines[2];
 	    	
 	    	name = name.substring(1);
+	    	if(name.contains("Suciu"))
+	    		System.out.println(name); 
 	    	
 	    	String goodName = name;
 	    
@@ -282,24 +293,28 @@ public class ParseAminerSubset {
 	    		name = name.substring(1);
 	    		
 	    	}
+	    	
+	    	if(!nameToPC.containsKey(name))
+	    		return;
 	    	names.add(name);
+	    	//nameToPC.put(name,0);
 	    	
 	    	
 	    	id = id.replace("index ", "");
 	    	int x;
-	    /*	if(id.contains("1690218"))
-	    		x= 9;*/
+	  
 	    	GoodNamesId.put(goodName,id);
 	    	authors.put(id, name);
+	    	nameToId.put(name,id);
 	    	
 	    	int idd = Integer.parseInt(id);
 	    
 	    	
 	    	StringBuilder author = new StringBuilder();
-	    	author.append("<"+name+"> <instanceOf> <Author> .\n");
+	    	author.append("<"+name+"> <instanceof> <Author> .\n");
 	    	author.append("<"+name+"> <id> <"+idd+"> .\n");
 	    	
-	    	//String pc = lines[4];
+	    
 	    	String pc = "pc 0";
 	    	int i = 0;
 	    	int j = 0;
@@ -316,20 +331,16 @@ public class ParseAminerSubset {
 	    	Author a = new Author(name, id);
 	    	authorsPC.add(a);
 	    	
-	    		//System.out.println(pc);
-	    		int publishCount;
+	    	int publishCount;
 	    		
 	    	
-	    		//if(pc.contains("Institute of Automation")||pc.contains("Passau") )
-	    		//if (Pattern.matches("[a-zA-Z]+", pc) == false && pc.length() > 1) 
-	    			//publishCount = 0;
-	    		//else
-	    			publishCount = Integer.parseInt(pc);
-		    	collaborations.put(id, publishCount);
+	    		
+	    	publishCount = Integer.parseInt(pc);
+		    collaborations.put(id, publishCount);
 	    
 	    
 	    	
-	    	//String cn = lines[5];
+	 
 	    	String cn = "cn 0";
 	    	for(i = j; i<lines.length;i++){
 	    		if(lines[i].startsWith("cn")){
@@ -352,6 +363,9 @@ public class ParseAminerSubset {
 	    	}
 	    	j=i;
 	    	hi = hi.replace("hi ", "");
+	    	
+	    	int hIndex = Integer.parseInt(hi);
+	    	h_index.add(hIndex);
 	    	
 	    	//String pi = lines[7];
 	    	String pi = "pi 0";
@@ -442,8 +456,7 @@ public class ParseAminerSubset {
 
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			bw = new BufferedWriter(fw);
-			String content = "@base <http://a.org/author/> .\n\n";
-			//bw.write(content);
+		
 
 		
 			line = br.readLine();
@@ -453,7 +466,7 @@ public class ParseAminerSubset {
  	         {
  	        	 if(line.contains("#") && relevantCollaboration(line))
  	        	 {
- 	        		//System.out.println(line);
+ 	        		
  	        		 parseCollaboration(line,bw);
  	        		
  	        	 }
@@ -552,10 +565,7 @@ public class ParseAminerSubset {
 	if(publicationCount1 != 0)
 		 s1 = count/publicationCount1;
 	
-	if(name1.startsWith("Tova")||name2.startsWith("Tova")){
-		int x = 3;
-		x++;
-	}
+
 	int publicationCount2 = collaborations.get(id2);
 	double s2 = 0;
 	if(publicationCount2 != 0)
@@ -569,12 +579,12 @@ public class ParseAminerSubset {
 	s.append("\t<By> <"+name1+"> ;\n");
 	s.append("\t<WithSupport> "+s1+" ;\n");
 	int factNum = globalNum;
-	s.append("\t<hasFact> <fact"+globalNum+"> .\n");
+	s.append("\t<hasFact> <fact"+factNum+"> .\n");
 	globalNum++;
+
 	
 	String str = s.toString();
 	bw.write(str);
-	//System.out.println(s.toString());
 	
 	//tran2
 	StringBuilder ss = new StringBuilder();
@@ -584,6 +594,7 @@ public class ParseAminerSubset {
 	ss.append("\t<By> <"+name2+"> ;\n");
 	ss.append("\t<WithSupport> "+s2+" ;\n");
 	ss.append("\t<hasFact> <fact"+factNum+"> .\n");
+
 	
 	str = ss.toString();
 	bw.write(str);
@@ -599,7 +610,7 @@ public class ParseAminerSubset {
 	
 	str = sss.toString();
 	bw.write(str);
-	//System.out.println(sss.toString());
+
 
 	}
 
@@ -613,7 +624,7 @@ public class ParseAminerSubset {
 		Scanner s = new Scanner(line);
 		String Id1 = s.next();
 		String Id2 = s.next();
-		String collabNum = s.next();
+		s.close();
 		if(isNeighbore(Id1) && isNeighbore(Id2))
 			return true;
 		
@@ -648,11 +659,9 @@ public class ParseAminerSubset {
 
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());
 			bw = new BufferedWriter(fw);
-			String content = "@base <http://a.org/author/> .\n\n";
-			//bw.write(content);
 			
 			
-			ArrayList<String> confrences = new ArrayList();
+			ArrayList<String> confrences = new ArrayList<String>();
 			confrences.add("SIGMOD");
 			confrences.add("VLDB");
 			confrences.add("IEEE");
@@ -663,7 +672,7 @@ public class ParseAminerSubset {
 			
 			for(String confrence: confrences){
 				s= new StringBuilder();
-				s.append("<"+confrence+"> <instanceOf> <Confrence> .\n");
+				s.append("<"+confrence+"> <instanceof> <Confrence> .\n");
 				bw.write(s.toString());
 			}
 
@@ -831,11 +840,13 @@ public class ParseAminerSubset {
 	    		
 	    	}
     		if(contains(names, name))
-    			relevantAuthors.add(name);
+    			if(nameToPC.containsKey(name))
+    				relevantAuthors.add(name);
     	}
     	
     	if(relevantAuthors.size() == 0)
     		return;
+    	addCollaborations(relevantAuthors);
     	
     
     	papers.put(id, title);
@@ -850,6 +861,29 @@ public class ParseAminerSubset {
     	
 	}
 	
+	private static void addCollaborations(ArrayList<String> relevantAuthors)
+	{
+		for(String name: relevantAuthors)
+		{
+			for(String otherName: relevantAuthors)
+			{
+				if(!name.equals(otherName))
+				{
+					int i = getNum(name);
+					int j = getNum(otherName);
+					collaborationMatrix[i][j] = collaborationMatrix[i][j]+1;
+					//collaborationMatrix[j][i] = collaborationMatrix[j][i]+1;
+				}
+			}
+		}
+		
+	}
+
+	private static int getNum(String name) {
+		return nameToNum.get(name);
+	
+	}
+
 	/**
 	 * build transaction for given author
 	 * @param id
@@ -893,10 +927,6 @@ public class ParseAminerSubset {
 			str = s.toString();
 			bw.write(str);
 			
-
-			
-			str = s.toString();
-			bw.write(str);
 			
 		}
 		//System.out.println(s.toString());
@@ -904,13 +934,6 @@ public class ParseAminerSubset {
 		StringBuilder sss = new StringBuilder();
 		//fact - wrote
 		
-		/**sss.append("\n<fact");
-		sss.append(factNum+">\n");
-		sss.append("\t<hasSubject> <"+title+"> ;\n");
-		sss.append("\t<hasProperty> <instanceof> ;\n");
-		sss.append("\t<hasObject> <Paper> .\n");
-		String str = sss.toString();
-		bw.write(str);*/
 		
 		//fact - venue
 		sss = new StringBuilder();
@@ -921,7 +944,7 @@ public class ParseAminerSubset {
 		//fact - isA paper
 		sss = new StringBuilder();
 		sss.append("\n<"+title+"> ");
-		sss.append("<instanceOf> <Paper> .\n");
+		sss.append("<instanceof> <Paper> .\n");
 		str = sss.toString();
 		bw.write(str);
 		
@@ -996,11 +1019,7 @@ public class ParseAminerSubset {
 			double PCcount = collaborations.get(a.Id);
 			
 			
-			//int x;
-			//if(a.name.contains("Baruch_Awerbuch"))
-				//x = 8;
-			//SIGMOD
-			//double SIGMOD = a.SIGMOD/PCcount;
+	
 			double SIGMOD = Math.pow(a.SIGMOD, 3)/SIGMODCounter;
 			if (Double.isNaN(SIGMOD))
 				SIGMOD = 0;
@@ -1022,7 +1041,8 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <SIGMOD> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
 			
 			//VLDB
 			//double VLDB = a.VLDB/PCcount;
@@ -1046,7 +1066,8 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <VLDB> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
 			
 			//PODS
 			//double PODS = a.PODS/PCcount;
@@ -1070,7 +1091,8 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <PODS> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
 			
 			//IEEE
 			//double IEEE = a.IEEE/PCcount;
@@ -1094,7 +1116,8 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <IEEE> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
 			
 			//ICDT
 			//double ICDT = a.ICDT/PCcount;
@@ -1118,7 +1141,8 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <ICDT> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
 			
 			//SODA
 			//double SODA = a.SIGMOD/PCcount;
@@ -1141,7 +1165,25 @@ public class ParseAminerSubset {
 			s.append("\t<hasObject> <SODA> .\n");
 			globalNum++;
 			str = s.toString();
-			bw.write(str);}
+			bw.write(str);
+			}
+			
+			
+		/*	s = new StringBuilder();
+			s.append("<tran"+globalNum+">\n");
+
+			globalNum++;
+			s.append("\t<By> <"+a.name+"> ;\n");
+			s.append("\t<WithSupport> "+1.0+" ;\n");
+			s.append("\t<hasFact> <fact"+globalNum+"> .\n");
+			
+			s.append("<fact"+globalNum+">\n");
+			s.append("\t<hasSubject> <"+a.name+"> ;\n");
+			s.append("\t<hasProperty> <publishedAt> ;\n");
+			s.append("\t<hasObject> <Confrence> .\n");
+			globalNum++;
+			str = s.toString();
+			bw.write(str);*/
 		}
 		
 	
@@ -1161,10 +1203,12 @@ public class ParseAminerSubset {
 
 		  FileWriter fw = new FileWriter(file.getAbsoluteFile());
 		  bw = new BufferedWriter(fw);
-	
-		  for(String name: names){
+		  
+		  
+		  Collection<String> n = nameToPC.keySet();
+		  for(String name: n){
 			String s = name;
-			//s = s.replaceAll("_", " ");
+			s = s.replaceAll("_", " ");
 			s = s+",";
 			bw.write(s);
 		  }
@@ -1241,7 +1285,9 @@ public class ParseAminerSubset {
 
  	      try{
  	         // open input stream test.txt for reading purpose.
- 	         is = new FileInputStream("aminer_crawling_output.tsv");
+ 	        // is = new FileInputStream("aminer_crawling_output_dbpedia_terms.tsv");
+ 	    	 is = new FileInputStream("aminer_crawling_output_dbpedia_terms_bottom_up_1300_users.tsv");
+ 	    	
  	         
  	         // create new input stream reader
  	         isr = new InputStreamReader(is);
@@ -1336,8 +1382,10 @@ public class ParseAminerSubset {
 			
 			while(s.hasNext()){
 				String term = s.next();
-				if(contains(ketTerms,term))
-					keyterms.add(term);
+				term = term.replace("http://dbpedia.org/resource/", "");
+				
+				//if(contains(ketTerms,term))
+				keyterms.add(term);
 			}
 			}
 		  s.close();
@@ -1370,7 +1418,8 @@ public class ParseAminerSubset {
 
 	      try{
 	         // open input stream test.txt for reading purpose.
-	         is = new FileInputStream("aminer_crawling_output.tsv");
+	       //  is = new FileInputStream("aminer_crawling_output.tsv");
+	    	  is = new FileInputStream("aminer_crawling_output_dbpedia_terms_bottom_up_1300_users.tsv");
 	         
 	         // create new input stream reader
 	         isr = new InputStreamReader(is);
@@ -1522,6 +1571,30 @@ public class ParseAminerSubset {
  						SODACounter++;
  					}
  	        	 }
+ 	        	 
+ 	        	 if(line.contains("#@"))
+ 	        	 {
+ 	        		 line = line.replace("#@", "");
+ 	        		 Scanner s = new Scanner(line);
+ 	        		 s.useDelimiter(";");
+ 	        		 while(s.hasNext())
+ 	        		 {
+ 	        		
+ 	        			 String name = s.next();
+ 	        			 name = name.replace(" ", "_");
+ 	        			
+ 	        			 if(nameToPC.containsKey(name)){
+ 	        				 int val = nameToPC.get(name);
+ 	        				 nameToPC.replace(name, val, val+1);
+ 	        			 }
+ 	        			
+ 	        			 
+ 	        		 }
+ 	        		 
+ 	        		 
+ 	        		 s.close();
+ 	        		
+ 	        	 }
  	   
  	         }
  	      
@@ -1561,74 +1634,372 @@ public class ParseAminerSubset {
 	}
 		
 	}
+	
+	
+	private static void profilesPreProcessing() {
+		 InputStream is = null; 
+	     InputStreamReader isr = null;
+	     BufferedReader br = null;
 
-	public static void main(String [] args)
-	{
-		papersPreProcessing();
-		String Tova = "650652";
-		String Noga = "1653815";
+	      try{
+	         // open input stream test.txt for reading purpose.
+	         is = new FileInputStream("AMiner-Author.txt");
+	         
+	         // create new input stream reader
+	         isr = new InputStreamReader(is);
+	         
+	         // create new buffered reader
+	         br = new BufferedReader(isr);
+	      
+	         String line;
+	       
+	         // reads to the end of the stream 
+	         while((line = br.readLine()) != null)
+	         {
+	        	 if(line.contains("#index"))
+ 	        	 {
+ 	        		 if(inNeighbors(line))
+ 	        		 {
+ 	        			 String name = br.readLine();
+ 	        			 name = name.replace("#n", "");
+ 	        			 name = name.substring(1);
+ 	        			 name = name.replace(" ", "_");
+ 	        			 nameToPC.put(name, 0);
+ 	        		 }
+ 	        	 }
+	   
+ 	        }
+	      
+	         }
+	      catch(Exception e){
+	             e.printStackTrace();
+	         }
+	      finally{
+	          // releases resources associated with the streams	
+	  
+	            if(is!=null){
+					try {
+						is.close();
+					}
+	            	catch (IOException e) {
+						e.printStackTrace();
+					}
+	            }
+	            if(isr!=null){
+					try {
+						isr.close();
+					} 
+	            	catch (IOException e) {
+						e.printStackTrace();
+					}
+	            }
+	            if(br!=null){
+					try {
+						br.close();
+					} 
+	            	catch (IOException e) {
+						e.printStackTrace();
+					}
+	         }
 		
-		getNeighbors(Tova);
-		getNeighbors(Noga);
-		Ids.add(Tova);
-		Ids.add(Noga);
-		buildKeyTermsSet();
-		//for (String s: ketTerms)
-			//System.out.println(s);
-		buildNeighborsProfiles();
 		
-		/*Iterator<String> iter = collaborations.keySet().iterator();
-		while(iter.hasNext()){
-			String author = iter.next();
-			int count = collaborations.get(author);
-			System.out.println(author +" pc: "+ count);
-		}*/
+	}
 		
-		
-		buildCollaborationTran();
-		buildPapersTran();
-		
-		buildProfiles();
-		
-		
-		try {
-			buildPublicationVenueTran();
-		} 
-		catch (IOException e) {
-			e.printStackTrace();
+	}
+	
+	private static void buildNameTonum() {
+		int i = 0;
+		for(String name: names)
+		{
+			nameToNum.put(name, i);
+			numToName.put(i,name);
+			i++;
 		}
-		//try {
-			//outputName();
-		//}
-		//catch (IOException e) {
+		
+	}
+	
+
+	private static void buildUpdatedCollaborationTran() {
+ 	     BufferedWriter bw = null; 
+
+ 	      try{
+ 	         
+ 	        File file = new File("Aminer-collaborations.ttl");
+
+			// if file doesnt exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			bw = new BufferedWriter(fw);
 			
-			//e.printStackTrace();
-		//}*/
+			for(int i = 0; i<Ids.size(); i++)
+			{
+				for(int j = i+1; j<Ids.size(); j++)
+				{
+					String name1 = numToName.get(i);
+					String name2 = numToName.get(j);
+					int count = collaborationMatrix[i][j];
+					if(count > 1)
+						count = count +1 -1;
+					if(count > 0)
+					{
+						addCollaboration(bw, name1, name2, count);
+					}
+					
+					
+				}
+			}
+		
+ 	    
+ 	      
+ 	         }
+ 	      catch(Exception e){
+ 	             e.printStackTrace();
+ 	         }
+ 	      finally{
+ 	          // releases resources associated with the streams	
+ 	    	 if(bw !=null)
+				try {
+					bw.close();
+				} 
+ 	    	 catch (IOException e1)
+ 	    	 {
+					e1.printStackTrace();
+			 }
+ 	  
+ 	      }
+		
+	}
+
+	private static void addCollaboration(BufferedWriter bw, String name1,
+			String name2, int count) throws IOException {
+		String id1 = nameToId.get(name1);
+		String id2 = nameToId.get(name2);
+		
+		//calculate the support
+		double publicationCount1 = collaborations.get(id1);
+		double s1 = 0;
+		if(publicationCount1 != 0)
+			 s1 = count/publicationCount1;
+		
+
+		double publicationCount2 = collaborations.get(id2);
+		double s2 = 0;
+		if(publicationCount2 != 0)
+			s2 = count/publicationCount2;
+		
+		//tran1
+		StringBuilder s = new StringBuilder();
+		s.append("\n<tran");
+		s.append(globalNum+">\n");
+		globalNum++;
+		s.append("\t<By> <"+name1+"> ;\n");
+		s.append("\t<WithSupport> "+s1+" ;\n");
+		int factNum = globalNum;
+		s.append("\t<hasFact> <fact"+factNum+"> .\n");
+		globalNum++;
+
+
+		String str = s.toString();
+		bw.write(str);
+
+		//tran2
+		StringBuilder ss = new StringBuilder();
+		ss.append("\n<tran");
+		ss.append(globalNum+">\n");
+		globalNum++;
+		ss.append("\t<By> <"+name2+"> ;\n");
+		ss.append("\t<WithSupport> "+s2+" ;\n");
+		ss.append("\t<hasFact> <fact"+factNum+"> .\n");
+
+
+		str = ss.toString();
+		bw.write(str);
+		//System.out.println(ss.toString());
+
+		//fact
+		StringBuilder sss = new StringBuilder();
+		sss.append("\n<fact");
+		sss.append(factNum+">\n");
+		sss.append("\t<hasSubject> <"+name1+"> ;\n");
+		sss.append("\t<hasProperty> <collaborate> ;\n");
+		sss.append("\t<hasObject> <"+name2+"> .\n");
+
+		str = sss.toString();
+		bw.write(str);
+	}
+	
+	
+	
+	
+
+
+	private static Map<Integer, Integer> getHistogram(Collection<Integer> values) {
+		HashMap<Integer, Integer> ans = new HashMap<Integer, Integer>();
+		for(Integer val: values)
+		{
+			if(ans.containsKey(val)){
+				int count = ans.get(val);
+				ans.replace(val, count, ++count);
+			}
+			else{
+				ans.put(val, 1);
+			}
+		}
 		
 		
-		//buildCountryOntology();
-		System.out.println(Ids.size());
+		return ans;
 	}
 
 
 
 
 
-	
-
-
-
-
-
-
-
 
 
 	
 
+	public static void main(String [] args)
+	{
+		
+		String Tova = "650652";
+		String Noga = "1653815";
+		String Serge = "555493";
+		String Catriel_Beeri = "657313";
+		String Susan = "722065";
+		String Jag = "699233";
+		String Suciu = "1535661";
+		String a = "37571";
+		String b = "779043";
+		String c = "830017";
+		String d = "92762";
+		String e = "99694";
+		String f = "115649";
+		String g = "188450";
+		String aa = "305565";
+		String aaa = "325849";
+		String aaaa = "	1700221";
+		String bb = "1541372";
+		String bbb = "1489598";
+		String bbbb = "1447553";
+		
+		
+		getNeighbors(Tova);
+		getNeighbors(Noga);
+		getNeighbors(Serge);
+		getNeighbors(Catriel_Beeri);
+		getNeighbors(Susan);
+		getNeighbors(Jag);
+		getNeighbors(Suciu);
+		getNeighbors(a);
+		getNeighbors(aa);
+		getNeighbors(aaa);
+		getNeighbors(aaaa);
+		getNeighbors(b);
+		getNeighbors(bb);
+		getNeighbors(bbb);
+		getNeighbors(bbbb);
+		getNeighbors(c);
+		getNeighbors(d);
+		getNeighbors(e);
+		getNeighbors(f);
+		getNeighbors(g);
+		
+		addNewId(Tova);
+		addNewId(Noga);
+		addNewId(Serge);
+		addNewId(Catriel_Beeri);
+		addNewId(Susan);
+		addNewId(Jag);
+		addNewId(Suciu);
+		addNewId(a);
+		addNewId(aa);
+		addNewId(aaa);
+		addNewId(aaaa);
+		addNewId(b);
+		addNewId(bb);
+		addNewId(bbb);
+		addNewId(bbbb);
+		addNewId(c);
+		addNewId(d);
+		addNewId(e);
+		addNewId(f);
+		addNewId(g);
+		
+		profilesPreProcessing();
 	
-
-	
+		papersPreProcessing();
+		
+		Collection<String> i = nameToPC.keySet();
+		ArrayList<String> remove = new ArrayList<String>();
+		for(String key: i)
+		{
+			int val = nameToPC.get(key);
+			if(val < 5)
+			{
+				//nameToPC.remove(key);
+				remove.add(key);
+			}
+		}
+		
+		for(String s: remove)
+			nameToPC.remove(s);
+		
+			
+		
+		
+		
+		collaborationMatrix = new int[Ids.size()][Ids.size()];
+	//	buildKeyTermsSet();
+		buildNeighborsProfiles();
+		buildNameTonum();
+		
+		
+		//buildCollaborationTran();
+		//
+		buildPapersTran();
+		/*for(int i = 0; i<Ids.size(); i++)
+			for(int j = i+1; i<Ids.size(); i++)
+				System.out.println(collaborationMatrix[i][j]);*/
+		
+		buildUpdatedCollaborationTran();
+		
+		buildProfiles();
+		
+		
+		try 
+		{
+			buildPublicationVenueTran();
+		} 
+		catch (IOException ex) 
+		{
+			ex.printStackTrace();
+		}
+		
+		/*Map<Integer, Integer> PC = getHistogram(collaborations.values());
+		for(Integer in: PC.keySet()){
+			System.out.println(in+"\t"+PC.get(in));
+		}*/
+		
+		Map<Integer, Integer> h = getHistogram(h_index);
+		for(Integer in: h.keySet()){
+			System.out.println(in+"\t"+h.get(in));
+		}
+	    try {
+			outputName();
+		}
+		catch (IOException ex) {
+			
+			ex.printStackTrace();
+		}
+		
+		
+		//buildCountryOntology();
+		//System.out.println(Ids.size());
+		//System.out.println(nameToPC.size());
+	}
 
 	
 	
